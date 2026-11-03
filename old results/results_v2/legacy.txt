@@ -1,0 +1,3 @@
+FAIL	json-benchmark [setup failed]
+?   	json-benchmark/cmd/report	[no test files]
+FAIL

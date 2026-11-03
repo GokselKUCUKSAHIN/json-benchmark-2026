@@ -1,0 +1,13 @@
+suite go1.23 bin=/Users/gokselkucuksahin/go/go1.23.5/bin/go
+go version go1.23.5 darwin/arm64
+suite go1.27 bin=/Users/gokselkucuksahin/go/go1.27.3/bin/go
+go version go1.27.3 darwin/arm64
+darwin
+arm64
+
+v8.0
+GOMAXPROCS=1
+COUNT=3
+BENCHTIME=200ms
+BENCH_SCALE=default
+Apple M1 Pro

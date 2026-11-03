@@ -1,0 +1,588 @@
+goos: darwin
+goarch: arm64
+pkg: json-benchmark
+cpu: Apple M1 Pro
+BenchmarkMarshalConcrete/flat/8mb/encoding-json-v2/default-safe         	      10	  22386267 ns/op	 463.98 MB/s	  10386890 output-B/op	10387469 B/op	       1 allocs/op
+BenchmarkMarshalConcrete/flat/8mb/encoding-json-v2/default-safe         	      10	  22262117 ns/op	 466.57 MB/s	  10386890 output-B/op	10387469 B/op	       1 allocs/op
+BenchmarkMarshalConcrete/flat/8mb/encoding-json-v2/default-safe         	      10	  22762708 ns/op	 456.31 MB/s	  10386890 output-B/op	10387469 B/op	       1 allocs/op
+BenchmarkMarshalConcrete/flat/8mb/encoding-json-v2/deterministic        	      10	  21962783 ns/op	 472.93 MB/s	  10386890 output-B/op	10387469 B/op	       1 allocs/op
+BenchmarkMarshalConcrete/flat/8mb/encoding-json-v2/deterministic        	      10	  21878742 ns/op	 474.75 MB/s	  10386890 output-B/op	10387469 B/op	       1 allocs/op
+BenchmarkMarshalConcrete/flat/8mb/encoding-json-v2/deterministic        	      10	  22716121 ns/op	 457.25 MB/s	  10386890 output-B/op	10387469 B/op	       1 allocs/op
+BenchmarkMarshalConcrete/flat/8mb/encoding-json-v2/fast-relaxed         	      10	  22837050 ns/op	 454.83 MB/s	  10386890 output-B/op	10387469 B/op	       1 allocs/op
+BenchmarkMarshalConcrete/flat/8mb/encoding-json-v2/fast-relaxed         	      10	  22767742 ns/op	 456.21 MB/s	  10386890 output-B/op	10387469 B/op	       1 allocs/op
+BenchmarkMarshalConcrete/flat/8mb/encoding-json-v2/fast-relaxed         	      10	  22295646 ns/op	 465.87 MB/s	  10386890 output-B/op	10387469 B/op	       1 allocs/op
+BenchmarkMarshalConcrete/flat/8mb/jsoniter/compat                       	      12	  20862257 ns/op	 548.14 MB/s	  11435450 output-B/op	11436062 B/op	       2 allocs/op
+BenchmarkMarshalConcrete/flat/8mb/jsoniter/compat                       	      12	  21537990 ns/op	 530.94 MB/s	  11435450 output-B/op	11436062 B/op	       2 allocs/op
+BenchmarkMarshalConcrete/flat/8mb/jsoniter/compat                       	      12	  20779802 ns/op	 550.32 MB/s	  11435450 output-B/op	11436062 B/op	       2 allocs/op
+BenchmarkMarshalConcrete/flat/8mb/jsoniter/fast                         	       9	  24141861 ns/op	 413.47 MB/s	   9982035 output-B/op	 9986071 B/op	       2 allocs/op
+BenchmarkMarshalConcrete/flat/8mb/jsoniter/fast                         	       9	  23733528 ns/op	 420.59 MB/s	   9982035 output-B/op	 9986071 B/op	       2 allocs/op
+BenchmarkMarshalConcrete/flat/8mb/jsoniter/fast                         	       9	  23621296 ns/op	 422.59 MB/s	   9982035 output-B/op	 9986071 B/op	       2 allocs/op
+BenchmarkMarshalConcrete/flat/8mb/go-json/compat                        	      28	   9060057 ns/op	1262.18 MB/s	  11435450 output-B/op	11436051 B/op	       1 allocs/op
+BenchmarkMarshalConcrete/flat/8mb/go-json/compat                        	      28	   9145368 ns/op	1250.41 MB/s	  11435450 output-B/op	11436051 B/op	       1 allocs/op
+BenchmarkMarshalConcrete/flat/8mb/go-json/compat                        	      28	   9050659 ns/op	1263.49 MB/s	  11435450 output-B/op	11436051 B/op	       1 allocs/op
+BenchmarkMarshalConcrete/flat/8mb/go-json/fast                          	      39	   6820199 ns/op	1522.96 MB/s	  10386890 output-B/op	10387473 B/op	       1 allocs/op
+BenchmarkMarshalConcrete/flat/8mb/go-json/fast                          	      38	   6887236 ns/op	1508.14 MB/s	  10386890 output-B/op	10387473 B/op	       1 allocs/op
+BenchmarkMarshalConcrete/flat/8mb/go-json/fast                          	      38	   6976557 ns/op	1488.83 MB/s	  10386890 output-B/op	10387473 B/op	       1 allocs/op
+BenchmarkMarshalConcrete/flat/8mb/segmentio/compat                      	      16	  14314375 ns/op	 798.88 MB/s	  11435450 output-B/op	11436049 B/op	       1 allocs/op
+BenchmarkMarshalConcrete/flat/8mb/segmentio/compat                      	      15	  14255044 ns/op	 802.20 MB/s	  11435450 output-B/op	11436050 B/op	       1 allocs/op
+BenchmarkMarshalConcrete/flat/8mb/segmentio/compat                      	      15	  14174919 ns/op	 806.74 MB/s	  11435450 output-B/op	11436050 B/op	       1 allocs/op
+BenchmarkMarshalConcrete/flat/8mb/segmentio/fast                        	      13	  15745455 ns/op	 659.68 MB/s	  10386890 output-B/op	52263677 B/op	      43 allocs/op
+BenchmarkMarshalConcrete/flat/8mb/segmentio/fast                        	      14	  15172738 ns/op	 684.58 MB/s	  10386890 output-B/op	52263676 B/op	      43 allocs/op
+BenchmarkMarshalConcrete/flat/8mb/segmentio/fast                        	      14	  15448494 ns/op	 672.36 MB/s	  10386890 output-B/op	52263677 B/op	      43 allocs/op
+BenchmarkMarshalConcrete/flat/8mb/sonic/compat                          	       6	  37470542 ns/op	 305.19 MB/s	  11435450 output-B/op	64973993 B/op	      32 allocs/op
+BenchmarkMarshalConcrete/flat/8mb/sonic/compat                          	       6	  38982201 ns/op	 293.35 MB/s	  11435450 output-B/op	64974040 B/op	      33 allocs/op
+BenchmarkMarshalConcrete/flat/8mb/sonic/compat                          	       6	  38196562 ns/op	 299.38 MB/s	  11435450 output-B/op	64974040 B/op	      33 allocs/op
+BenchmarkMarshalConcrete/flat/8mb/sonic/fast                            	       7	  31481690 ns/op	 329.93 MB/s	  10386890 output-B/op	49388675 B/op	      29 allocs/op
+BenchmarkMarshalConcrete/flat/8mb/sonic/fast                            	       7	  30893488 ns/op	 336.22 MB/s	  10386890 output-B/op	49388656 B/op	      28 allocs/op
+BenchmarkMarshalConcrete/flat/8mb/sonic/fast                            	       7	  30489000 ns/op	 340.68 MB/s	  10386890 output-B/op	49388616 B/op	      28 allocs/op
+BenchmarkMarshalConcrete/flat/8mb/easyjson/compat                       	      18	  14651933 ns/op	 780.47 MB/s	  11435450 output-B/op	11481437 B/op	     371 allocs/op
+BenchmarkMarshalConcrete/flat/8mb/easyjson/compat                       	      18	  14070104 ns/op	 812.75 MB/s	  11435450 output-B/op	11480852 B/op	     370 allocs/op
+BenchmarkMarshalConcrete/flat/8mb/easyjson/compat                       	      18	  13754398 ns/op	 831.40 MB/s	  11435450 output-B/op	11479739 B/op	     368 allocs/op
+BenchmarkMarshalConcrete/flat/8mb/easyjson/fast                         	      21	  12115133 ns/op	 857.35 MB/s	  10386890 output-B/op	10414572 B/op	     336 allocs/op
+BenchmarkMarshalConcrete/flat/8mb/easyjson/fast                         	      22	  12923826 ns/op	 803.70 MB/s	  10386890 output-B/op	10414421 B/op	     336 allocs/op
+BenchmarkMarshalConcrete/flat/8mb/easyjson/fast                         	      20	  12596225 ns/op	 824.60 MB/s	  10386890 output-B/op	10414738 B/op	     336 allocs/op
+BenchmarkMarshalConcrete/nested/8mb/encoding-json-v2/default-safe       	       9	  23692778 ns/op	 306.07 MB/s	   7251615 output-B/op	 7541871 B/op	   17735 allocs/op
+BenchmarkMarshalConcrete/nested/8mb/encoding-json-v2/default-safe       	      10	  23985704 ns/op	 302.33 MB/s	   7251615 output-B/op	 7541869 B/op	   17735 allocs/op
+BenchmarkMarshalConcrete/nested/8mb/encoding-json-v2/default-safe       	       9	  23427153 ns/op	 309.54 MB/s	   7251615 output-B/op	 7541871 B/op	   17735 allocs/op
+BenchmarkMarshalConcrete/nested/8mb/encoding-json-v2/deterministic      	       9	  23450259 ns/op	 309.23 MB/s	   7251615 output-B/op	 7967503 B/op	   44336 allocs/op
+BenchmarkMarshalConcrete/nested/8mb/encoding-json-v2/deterministic      	       9	  24094736 ns/op	 300.96 MB/s	   7251615 output-B/op	 7967503 B/op	   44336 allocs/op
+BenchmarkMarshalConcrete/nested/8mb/encoding-json-v2/deterministic      	       9	  23490296 ns/op	 308.71 MB/s	   7251615 output-B/op	 7967503 B/op	   44336 allocs/op
+BenchmarkMarshalConcrete/nested/8mb/encoding-json-v2/fast-relaxed       	      10	  23110262 ns/op	 313.78 MB/s	   7251615 output-B/op	 7541869 B/op	   17735 allocs/op
+BenchmarkMarshalConcrete/nested/8mb/encoding-json-v2/fast-relaxed       	      10	  23463671 ns/op	 309.06 MB/s	   7251615 output-B/op	 7541869 B/op	   17735 allocs/op
+BenchmarkMarshalConcrete/nested/8mb/encoding-json-v2/fast-relaxed       	       9	  24368102 ns/op	 297.59 MB/s	   7251615 output-B/op	 7541871 B/op	   17735 allocs/op
+BenchmarkMarshalConcrete/nested/8mb/jsoniter/compat                     	      10	  21196554 ns/op	 348.39 MB/s	   7384620 output-B/op	12212931 B/op	   88673 allocs/op
+BenchmarkMarshalConcrete/nested/8mb/jsoniter/compat                     	      12	  22393028 ns/op	 329.77 MB/s	   7384620 output-B/op	12212916 B/op	   88673 allocs/op
+BenchmarkMarshalConcrete/nested/8mb/jsoniter/compat                     	      10	  21145275 ns/op	 349.23 MB/s	   7384620 output-B/op	12212931 B/op	   88673 allocs/op
+BenchmarkMarshalConcrete/nested/8mb/jsoniter/fast                       	      12	  18760375 ns/op	 386.54 MB/s	   7251615 output-B/op	 9173414 B/op	   26603 allocs/op
+BenchmarkMarshalConcrete/nested/8mb/jsoniter/fast                       	      13	  19111978 ns/op	 379.43 MB/s	   7251615 output-B/op	 9173412 B/op	   26603 allocs/op
+BenchmarkMarshalConcrete/nested/8mb/jsoniter/fast                       	      13	  18806439 ns/op	 385.59 MB/s	   7251615 output-B/op	 9173412 B/op	   26603 allocs/op
+BenchmarkMarshalConcrete/nested/8mb/go-json/compat                      	      26	   8947298 ns/op	 825.35 MB/s	   7384620 output-B/op	 7389199 B/op	       1 allocs/op
+BenchmarkMarshalConcrete/nested/8mb/go-json/compat                      	      30	   8872650 ns/op	 832.29 MB/s	   7384620 output-B/op	 7389202 B/op	       1 allocs/op
+BenchmarkMarshalConcrete/nested/8mb/go-json/compat                      	      26	   9111066 ns/op	 810.51 MB/s	   7384620 output-B/op	 7389199 B/op	       1 allocs/op
+BenchmarkMarshalConcrete/nested/8mb/go-json/fast                        	      31	   8450870 ns/op	 858.09 MB/s	   7251615 output-B/op	 7400001 B/op	    8868 allocs/op
+BenchmarkMarshalConcrete/nested/8mb/go-json/fast                        	      31	   9602706 ns/op	 755.16 MB/s	   7251615 output-B/op	 7400001 B/op	    8868 allocs/op
+BenchmarkMarshalConcrete/nested/8mb/go-json/fast                        	      31	   8287476 ns/op	 875.01 MB/s	   7251615 output-B/op	 7400001 B/op	    8868 allocs/op
+BenchmarkMarshalConcrete/nested/8mb/segmentio/compat                    	      20	  11448256 ns/op	 645.04 MB/s	   7384620 output-B/op	 7814834 B/op	   26602 allocs/op
+BenchmarkMarshalConcrete/nested/8mb/segmentio/compat                    	      20	  11609796 ns/op	 636.07 MB/s	   7384620 output-B/op	 7814828 B/op	   26602 allocs/op
+BenchmarkMarshalConcrete/nested/8mb/segmentio/compat                    	      21	  12043280 ns/op	 613.17 MB/s	   7384620 output-B/op	 7814840 B/op	   26602 allocs/op
+BenchmarkMarshalConcrete/nested/8mb/segmentio/fast                      	      13	  15540006 ns/op	 466.64 MB/s	   7251615 output-B/op	41702836 B/op	      41 allocs/op
+BenchmarkMarshalConcrete/nested/8mb/segmentio/fast                      	      16	  14700016 ns/op	 493.31 MB/s	   7251615 output-B/op	41702834 B/op	      41 allocs/op
+BenchmarkMarshalConcrete/nested/8mb/segmentio/fast                      	      16	  15184932 ns/op	 477.55 MB/s	   7251615 output-B/op	41702836 B/op	      41 allocs/op
+BenchmarkMarshalConcrete/nested/8mb/sonic/compat                        	       6	  40732701 ns/op	 181.29 MB/s	   7384620 output-B/op	45091406 B/op	    8899 allocs/op
+BenchmarkMarshalConcrete/nested/8mb/sonic/compat                        	       5	  40585342 ns/op	 181.95 MB/s	   7384620 output-B/op	45091392 B/op	    8898 allocs/op
+BenchmarkMarshalConcrete/nested/8mb/sonic/compat                        	       6	  39940042 ns/op	 184.89 MB/s	   7384620 output-B/op	45091333 B/op	    8898 allocs/op
+BenchmarkMarshalConcrete/nested/8mb/sonic/fast                          	       6	  35588250 ns/op	 203.76 MB/s	   7251615 output-B/op	34208210 B/op	    8894 allocs/op
+BenchmarkMarshalConcrete/nested/8mb/sonic/fast                          	       6	  37112215 ns/op	 195.40 MB/s	   7251615 output-B/op	34208237 B/op	    8895 allocs/op
+BenchmarkMarshalConcrete/nested/8mb/sonic/fast                          	       6	  36096743 ns/op	 200.89 MB/s	   7251615 output-B/op	34208284 B/op	    8895 allocs/op
+BenchmarkMarshalConcrete/nested/8mb/easyjson/compat                     	      20	  11885175 ns/op	 621.33 MB/s	   7384620 output-B/op	 7412073 B/op	     243 allocs/op
+BenchmarkMarshalConcrete/nested/8mb/easyjson/compat                     	      24	  12627455 ns/op	 584.81 MB/s	   7384620 output-B/op	 7412295 B/op	     243 allocs/op
+BenchmarkMarshalConcrete/nested/8mb/easyjson/compat                     	      20	  11667298 ns/op	 632.93 MB/s	   7384620 output-B/op	 7412073 B/op	     243 allocs/op
+BenchmarkMarshalConcrete/nested/8mb/easyjson/fast                       	      25	  12027092 ns/op	 602.94 MB/s	   7251615 output-B/op	 7281066 B/op	     239 allocs/op
+BenchmarkMarshalConcrete/nested/8mb/easyjson/fast                       	      20	  11485435 ns/op	 631.37 MB/s	   7251615 output-B/op	 7280905 B/op	     239 allocs/op
+BenchmarkMarshalConcrete/nested/8mb/easyjson/fast                       	      22	  11531072 ns/op	 628.88 MB/s	   7251615 output-B/op	 7280787 B/op	     239 allocs/op
+BenchmarkMarshalDynamic/flat/8mb/encoding-json-v2/default-safe          	       8	  36975490 ns/op	 280.91 MB/s	  10386890 output-B/op	10387617 B/op	      11 allocs/op
+BenchmarkMarshalDynamic/flat/8mb/encoding-json-v2/default-safe          	       8	  32444417 ns/op	 320.14 MB/s	  10386890 output-B/op	10387619 B/op	      11 allocs/op
+BenchmarkMarshalDynamic/flat/8mb/encoding-json-v2/default-safe          	       8	  28163328 ns/op	 368.81 MB/s	  10386890 output-B/op	10387617 B/op	      11 allocs/op
+BenchmarkMarshalDynamic/flat/8mb/encoding-json-v2/deterministic         	       6	  37987340 ns/op	 273.43 MB/s	  10386890 output-B/op	10387712 B/op	      18 allocs/op
+BenchmarkMarshalDynamic/flat/8mb/encoding-json-v2/deterministic         	       6	  38083952 ns/op	 272.74 MB/s	  10386890 output-B/op	10387712 B/op	      18 allocs/op
+BenchmarkMarshalDynamic/flat/8mb/encoding-json-v2/deterministic         	       6	  37775951 ns/op	 274.96 MB/s	  10386890 output-B/op	10387712 B/op	      18 allocs/op
+BenchmarkMarshalDynamic/flat/8mb/encoding-json-v2/fast-relaxed          	       8	  27779052 ns/op	 373.91 MB/s	  10386890 output-B/op	10387617 B/op	      11 allocs/op
+BenchmarkMarshalDynamic/flat/8mb/encoding-json-v2/fast-relaxed          	       8	  28245010 ns/op	 367.74 MB/s	  10386890 output-B/op	10387617 B/op	      11 allocs/op
+BenchmarkMarshalDynamic/flat/8mb/encoding-json-v2/fast-relaxed          	       8	  27845214 ns/op	 373.02 MB/s	  10386890 output-B/op	10387617 B/op	      11 allocs/op
+BenchmarkMarshalDynamic/flat/8mb/jsoniter/compat                        	       2	 115104792 ns/op	  99.35 MB/s	  11435450 output-B/op	73278424 B/op	 1118489 allocs/op
+BenchmarkMarshalDynamic/flat/8mb/jsoniter/compat                        	       2	 113493938 ns/op	 100.76 MB/s	  11435450 output-B/op	73278920 B/op	 1118489 allocs/op
+BenchmarkMarshalDynamic/flat/8mb/jsoniter/compat                        	       3	  97166486 ns/op	 117.69 MB/s	  11435450 output-B/op	77089762 B/op	 1118486 allocs/op
+BenchmarkMarshalDynamic/flat/8mb/jsoniter/fast                          	       7	  40730018 ns/op	 245.08 MB/s	   9982035 output-B/op	25644806 B/op	  279621 allocs/op
+BenchmarkMarshalDynamic/flat/8mb/jsoniter/fast                          	       7	  41127542 ns/op	 242.71 MB/s	   9982035 output-B/op	25644806 B/op	  279621 allocs/op
+BenchmarkMarshalDynamic/flat/8mb/jsoniter/fast                          	       7	  40570625 ns/op	 246.04 MB/s	   9982035 output-B/op	25644806 B/op	  279621 allocs/op
+BenchmarkMarshalDynamic/flat/8mb/go-json/compat                         	      10	  25782333 ns/op	 443.54 MB/s	  11435450 output-B/op	11436045 B/op	       1 allocs/op
+BenchmarkMarshalDynamic/flat/8mb/go-json/compat                         	       9	  25751546 ns/op	 444.07 MB/s	  11435450 output-B/op	11436047 B/op	       1 allocs/op
+BenchmarkMarshalDynamic/flat/8mb/go-json/compat                         	      10	  25529888 ns/op	 447.92 MB/s	  11435450 output-B/op	11436045 B/op	       1 allocs/op
+BenchmarkMarshalDynamic/flat/8mb/go-json/fast                           	      14	  17752152 ns/op	 585.11 MB/s	  10386890 output-B/op	10387465 B/op	       1 allocs/op
+BenchmarkMarshalDynamic/flat/8mb/go-json/fast                           	      14	  18030339 ns/op	 576.08 MB/s	  10386890 output-B/op	10387465 B/op	       1 allocs/op
+BenchmarkMarshalDynamic/flat/8mb/go-json/fast                           	      14	  18157372 ns/op	 572.05 MB/s	  10386890 output-B/op	10387465 B/op	       1 allocs/op
+BenchmarkMarshalDynamic/flat/8mb/segmentio/compat                       	       6	  36343792 ns/op	 314.65 MB/s	  11435450 output-B/op	11436032 B/op	       1 allocs/op
+BenchmarkMarshalDynamic/flat/8mb/segmentio/compat                       	       6	  36391354 ns/op	 314.24 MB/s	  11435450 output-B/op	11436032 B/op	       1 allocs/op
+BenchmarkMarshalDynamic/flat/8mb/segmentio/compat                       	       6	  36914528 ns/op	 309.78 MB/s	  11435450 output-B/op	11436032 B/op	       1 allocs/op
+BenchmarkMarshalDynamic/flat/8mb/segmentio/fast                         	       6	  36228993 ns/op	 286.70 MB/s	  10386890 output-B/op	52263674 B/op	      43 allocs/op
+BenchmarkMarshalDynamic/flat/8mb/segmentio/fast                         	       6	  36398930 ns/op	 285.36 MB/s	  10386890 output-B/op	52263674 B/op	      43 allocs/op
+BenchmarkMarshalDynamic/flat/8mb/segmentio/fast                         	       6	  37675375 ns/op	 275.69 MB/s	  10386890 output-B/op	52263674 B/op	      43 allocs/op
+BenchmarkMarshalDynamic/flat/8mb/sonic/compat                           	       2	 109481438 ns/op	 104.45 MB/s	  11435450 output-B/op	58279432 B/op	   69939 allocs/op
+BenchmarkMarshalDynamic/flat/8mb/sonic/compat                           	       2	 115240708 ns/op	  99.23 MB/s	  11435450 output-B/op	58279432 B/op	   69939 allocs/op
+BenchmarkMarshalDynamic/flat/8mb/sonic/compat                           	       3	 103491264 ns/op	 110.50 MB/s	  11435450 output-B/op	58279226 B/op	   69936 allocs/op
+BenchmarkMarshalDynamic/flat/8mb/sonic/fast                             	       3	  87557542 ns/op	 118.63 MB/s	  10386890 output-B/op	47527970 B/op	   69933 allocs/op
+BenchmarkMarshalDynamic/flat/8mb/sonic/fast                             	       3	  88386014 ns/op	 117.52 MB/s	  10386890 output-B/op	48150722 B/op	   69932 allocs/op
+BenchmarkMarshalDynamic/flat/8mb/sonic/fast                             	       3	  90417528 ns/op	 114.88 MB/s	  10386890 output-B/op	48197144 B/op	   69932 allocs/op
+BenchmarkMarshalDynamic/nested/8mb/encoding-json-v2/default-safe        	       9	  23612634 ns/op	 307.11 MB/s	   7251615 output-B/op	 7258192 B/op	       7 allocs/op
+BenchmarkMarshalDynamic/nested/8mb/encoding-json-v2/default-safe        	       9	  23366940 ns/op	 310.34 MB/s	   7251615 output-B/op	 7258192 B/op	       7 allocs/op
+BenchmarkMarshalDynamic/nested/8mb/encoding-json-v2/default-safe        	       9	  23227125 ns/op	 312.20 MB/s	   7251615 output-B/op	 7258192 B/op	       7 allocs/op
+BenchmarkMarshalDynamic/nested/8mb/encoding-json-v2/deterministic       	       7	  29753411 ns/op	 243.72 MB/s	   7251615 output-B/op	 7258240 B/op	      10 allocs/op
+BenchmarkMarshalDynamic/nested/8mb/encoding-json-v2/deterministic       	       7	  29668970 ns/op	 244.42 MB/s	   7251615 output-B/op	 7258240 B/op	      10 allocs/op
+BenchmarkMarshalDynamic/nested/8mb/encoding-json-v2/deterministic       	       7	  30079714 ns/op	 241.08 MB/s	   7251615 output-B/op	 7258240 B/op	      10 allocs/op
+BenchmarkMarshalDynamic/nested/8mb/encoding-json-v2/fast-relaxed        	       9	  23180232 ns/op	 312.84 MB/s	   7251615 output-B/op	 7258192 B/op	       7 allocs/op
+BenchmarkMarshalDynamic/nested/8mb/encoding-json-v2/fast-relaxed        	       9	  23033000 ns/op	 314.84 MB/s	   7251615 output-B/op	 7258192 B/op	       7 allocs/op
+BenchmarkMarshalDynamic/nested/8mb/encoding-json-v2/fast-relaxed        	       9	  23260421 ns/op	 311.76 MB/s	   7251615 output-B/op	 7258192 B/op	       7 allocs/op
+BenchmarkMarshalDynamic/nested/8mb/jsoniter/compat                      	       3	  84839667 ns/op	  87.04 MB/s	   7384620 output-B/op	60405125 B/op	 1049029 allocs/op
+BenchmarkMarshalDynamic/nested/8mb/jsoniter/compat                      	       3	  79340847 ns/op	  93.07 MB/s	   7384620 output-B/op	57942101 B/op	 1049028 allocs/op
+BenchmarkMarshalDynamic/nested/8mb/jsoniter/compat                      	       3	  80669361 ns/op	  91.54 MB/s	   7384620 output-B/op	57941984 B/op	 1049028 allocs/op
+BenchmarkMarshalDynamic/nested/8mb/jsoniter/fast                        	       7	  43064060 ns/op	 168.39 MB/s	   7251615 output-B/op	26508934 B/op	  343765 allocs/op
+BenchmarkMarshalDynamic/nested/8mb/jsoniter/fast                        	       7	  43636643 ns/op	 166.18 MB/s	   7251615 output-B/op	26508934 B/op	  343765 allocs/op
+BenchmarkMarshalDynamic/nested/8mb/jsoniter/fast                        	       7	  43744720 ns/op	 165.77 MB/s	   7251615 output-B/op	26508934 B/op	  343765 allocs/op
+BenchmarkMarshalDynamic/nested/8mb/go-json/compat                       	      10	  24115029 ns/op	 306.22 MB/s	   7384620 output-B/op	 7389197 B/op	       1 allocs/op
+BenchmarkMarshalDynamic/nested/8mb/go-json/compat                       	      10	  24132812 ns/op	 306.00 MB/s	   7384620 output-B/op	 7389197 B/op	       1 allocs/op
+BenchmarkMarshalDynamic/nested/8mb/go-json/compat                       	      10	  24239950 ns/op	 304.65 MB/s	   7384620 output-B/op	 7389197 B/op	       1 allocs/op
+BenchmarkMarshalDynamic/nested/8mb/go-json/fast                         	      12	  21688094 ns/op	 334.36 MB/s	   7251615 output-B/op	 7258123 B/op	       1 allocs/op
+BenchmarkMarshalDynamic/nested/8mb/go-json/fast                         	      12	  18520031 ns/op	 391.56 MB/s	   7251615 output-B/op	 7258112 B/op	       1 allocs/op
+BenchmarkMarshalDynamic/nested/8mb/go-json/fast                         	      13	  18205054 ns/op	 398.33 MB/s	   7251615 output-B/op	 7258122 B/op	       1 allocs/op
+BenchmarkMarshalDynamic/nested/8mb/segmentio/compat                     	       9	  25195268 ns/op	 293.10 MB/s	   7384620 output-B/op	 7389184 B/op	       1 allocs/op
+BenchmarkMarshalDynamic/nested/8mb/segmentio/compat                     	       9	  25560694 ns/op	 288.91 MB/s	   7384620 output-B/op	 7389184 B/op	       1 allocs/op
+BenchmarkMarshalDynamic/nested/8mb/segmentio/compat                     	       8	  25470364 ns/op	 289.93 MB/s	   7384620 output-B/op	 7389184 B/op	       1 allocs/op
+BenchmarkMarshalDynamic/nested/8mb/segmentio/fast                       	      10	  32255246 ns/op	 224.82 MB/s	   7251615 output-B/op	41703509 B/op	      41 allocs/op
+BenchmarkMarshalDynamic/nested/8mb/segmentio/fast                       	       7	  33728405 ns/op	 215.00 MB/s	   7251615 output-B/op	41703412 B/op	      41 allocs/op
+BenchmarkMarshalDynamic/nested/8mb/segmentio/fast                       	       7	  33777708 ns/op	 214.69 MB/s	   7251615 output-B/op	41702833 B/op	      41 allocs/op
+BenchmarkMarshalDynamic/nested/8mb/sonic/compat                         	       3	 100903903 ns/op	  73.18 MB/s	   7384620 output-B/op	43593402 B/op	   85971 allocs/op
+BenchmarkMarshalDynamic/nested/8mb/sonic/compat                         	       3	  87728542 ns/op	  84.18 MB/s	   7384620 output-B/op	43593197 B/op	   85968 allocs/op
+BenchmarkMarshalDynamic/nested/8mb/sonic/compat                         	       3	  90440014 ns/op	  81.65 MB/s	   7384620 output-B/op	43593197 B/op	   85968 allocs/op
+BenchmarkMarshalDynamic/nested/8mb/sonic/fast                           	       3	  80619431 ns/op	  89.95 MB/s	   7251615 output-B/op	34240170 B/op	   85966 allocs/op
+BenchmarkMarshalDynamic/nested/8mb/sonic/fast                           	       3	  81927903 ns/op	  88.51 MB/s	   7251615 output-B/op	34493866 B/op	   85966 allocs/op
+BenchmarkMarshalDynamic/nested/8mb/sonic/fast                           	       3	  80899208 ns/op	  89.64 MB/s	   7251615 output-B/op	36422869 B/op	   85966 allocs/op
+BenchmarkUnmarshalConcreteFresh/flat/8mb/encoding-json-v2/default-safe  	       4	  51130510 ns/op	 223.65 MB/s	33202828 B/op	  210289 allocs/op
+BenchmarkUnmarshalConcreteFresh/flat/8mb/encoding-json-v2/default-safe  	       4	  51623042 ns/op	 221.52 MB/s	33202828 B/op	  210289 allocs/op
+BenchmarkUnmarshalConcreteFresh/flat/8mb/encoding-json-v2/default-safe  	       4	  50894438 ns/op	 224.69 MB/s	33202828 B/op	  210289 allocs/op
+BenchmarkUnmarshalConcreteFresh/flat/8mb/encoding-json-v2/deterministic 	       4	  50896166 ns/op	 224.68 MB/s	33202828 B/op	  210289 allocs/op
+BenchmarkUnmarshalConcreteFresh/flat/8mb/encoding-json-v2/deterministic 	       4	  51827656 ns/op	 220.64 MB/s	33202828 B/op	  210289 allocs/op
+BenchmarkUnmarshalConcreteFresh/flat/8mb/encoding-json-v2/deterministic 	       4	  51135323 ns/op	 223.63 MB/s	33202828 B/op	  210289 allocs/op
+BenchmarkUnmarshalConcreteFresh/flat/8mb/encoding-json-v2/fast-relaxed  	       4	  50261302 ns/op	 227.52 MB/s	33202828 B/op	  210289 allocs/op
+BenchmarkUnmarshalConcreteFresh/flat/8mb/encoding-json-v2/fast-relaxed  	       4	  50171708 ns/op	 227.93 MB/s	33202862 B/op	  210289 allocs/op
+BenchmarkUnmarshalConcreteFresh/flat/8mb/encoding-json-v2/fast-relaxed  	       5	  51722725 ns/op	 221.09 MB/s	33202841 B/op	  210289 allocs/op
+BenchmarkUnmarshalConcreteFresh/flat/8mb/jsoniter/compat                	       5	  41444625 ns/op	 275.92 MB/s	39931865 B/op	  370328 allocs/op
+BenchmarkUnmarshalConcreteFresh/flat/8mb/jsoniter/compat                	       5	  40684408 ns/op	 281.08 MB/s	39931865 B/op	  370328 allocs/op
+BenchmarkUnmarshalConcreteFresh/flat/8mb/jsoniter/compat                	       5	  40713450 ns/op	 280.88 MB/s	39931865 B/op	  370328 allocs/op
+BenchmarkUnmarshalConcreteFresh/flat/8mb/jsoniter/fast                  	       5	  40694150 ns/op	 281.01 MB/s	39931865 B/op	  370328 allocs/op
+BenchmarkUnmarshalConcreteFresh/flat/8mb/jsoniter/fast                  	       5	  42225417 ns/op	 270.82 MB/s	39931865 B/op	  370328 allocs/op
+BenchmarkUnmarshalConcreteFresh/flat/8mb/jsoniter/fast                  	       5	  40630017 ns/op	 281.45 MB/s	39931865 B/op	  370328 allocs/op
+BenchmarkUnmarshalConcreteFresh/flat/8mb/go-json/compat                 	      13	  17014109 ns/op	 672.12 MB/s	19225257 B/op	  209734 allocs/op
+BenchmarkUnmarshalConcreteFresh/flat/8mb/go-json/compat                 	      15	  16658261 ns/op	 686.47 MB/s	19225248 B/op	  209734 allocs/op
+BenchmarkUnmarshalConcreteFresh/flat/8mb/go-json/compat                 	      15	  16922089 ns/op	 675.77 MB/s	19225248 B/op	  209734 allocs/op
+BenchmarkUnmarshalConcreteFresh/flat/8mb/go-json/fast                   	      15	  16722289 ns/op	 683.84 MB/s	19225266 B/op	  209735 allocs/op
+BenchmarkUnmarshalConcreteFresh/flat/8mb/go-json/fast                   	      15	  16422789 ns/op	 696.32 MB/s	19225248 B/op	  209734 allocs/op
+BenchmarkUnmarshalConcreteFresh/flat/8mb/go-json/fast                   	      15	  16412464 ns/op	 696.75 MB/s	19225248 B/op	  209734 allocs/op
+BenchmarkUnmarshalConcreteFresh/flat/8mb/segmentio/compat               	       6	  41977569 ns/op	 272.42 MB/s	19271626 B/op	  209733 allocs/op
+BenchmarkUnmarshalConcreteFresh/flat/8mb/segmentio/compat               	       6	  41001639 ns/op	 278.90 MB/s	19271624 B/op	  209733 allocs/op
+BenchmarkUnmarshalConcreteFresh/flat/8mb/segmentio/compat               	       6	  41297847 ns/op	 276.90 MB/s	19271624 B/op	  209733 allocs/op
+BenchmarkUnmarshalConcreteFresh/flat/8mb/segmentio/fast                 	       6	  39018820 ns/op	 293.08 MB/s	17593872 B/op	   69920 allocs/op
+BenchmarkUnmarshalConcreteFresh/flat/8mb/segmentio/fast                 	       6	  38344882 ns/op	 298.23 MB/s	17593872 B/op	   69920 allocs/op
+BenchmarkUnmarshalConcreteFresh/flat/8mb/segmentio/fast                 	       6	  38482847 ns/op	 297.16 MB/s	17593872 B/op	   69920 allocs/op
+BenchmarkUnmarshalConcreteFresh/flat/8mb/sonic/compat                   	       8	  29949828 ns/op	 381.82 MB/s	108932652 B/op	  209727 allocs/op
+BenchmarkUnmarshalConcreteFresh/flat/8mb/sonic/compat                   	       8	  29330859 ns/op	 389.88 MB/s	108932652 B/op	  209727 allocs/op
+BenchmarkUnmarshalConcreteFresh/flat/8mb/sonic/compat                   	       8	  29817828 ns/op	 383.51 MB/s	108932652 B/op	  209727 allocs/op
+BenchmarkUnmarshalConcreteFresh/flat/8mb/sonic/fast                     	      12	  23878396 ns/op	 478.90 MB/s	107254900 B/op	   69914 allocs/op
+BenchmarkUnmarshalConcreteFresh/flat/8mb/sonic/fast                     	      10	  23786754 ns/op	 480.75 MB/s	107254900 B/op	   69914 allocs/op
+BenchmarkUnmarshalConcreteFresh/flat/8mb/sonic/fast                     	      10	  23628196 ns/op	 483.97 MB/s	107254900 B/op	   69914 allocs/op
+BenchmarkUnmarshalConcreteFresh/flat/8mb/easyjson/compat                	       7	  38279066 ns/op	 298.74 MB/s	33176920 B/op	  209747 allocs/op
+BenchmarkUnmarshalConcreteFresh/flat/8mb/easyjson/compat                	       6	  38715188 ns/op	 295.37 MB/s	33176920 B/op	  209747 allocs/op
+BenchmarkUnmarshalConcreteFresh/flat/8mb/easyjson/compat                	       6	  39074882 ns/op	 292.65 MB/s	33176920 B/op	  209747 allocs/op
+BenchmarkUnmarshalConcreteFresh/flat/8mb/easyjson/fast                  	       5	  41119583 ns/op	 278.10 MB/s	33176923 B/op	  209747 allocs/op
+BenchmarkUnmarshalConcreteFresh/flat/8mb/easyjson/fast                  	       6	  41217181 ns/op	 277.44 MB/s	33176920 B/op	  209747 allocs/op
+BenchmarkUnmarshalConcreteFresh/flat/8mb/easyjson/fast                  	       6	  39260521 ns/op	 291.27 MB/s	33176920 B/op	  209747 allocs/op
+BenchmarkUnmarshalConcreteFresh/nested/8mb/encoding-json-v2/default-safe         	       4	  52414917 ns/op	 140.89 MB/s	21010060 B/op	  374718 allocs/op
+BenchmarkUnmarshalConcreteFresh/nested/8mb/encoding-json-v2/default-safe         	       5	  51490642 ns/op	 143.42 MB/s	21010049 B/op	  374717 allocs/op
+BenchmarkUnmarshalConcreteFresh/nested/8mb/encoding-json-v2/default-safe         	       4	  50230281 ns/op	 147.02 MB/s	21010026 B/op	  374717 allocs/op
+BenchmarkUnmarshalConcreteFresh/nested/8mb/encoding-json-v2/deterministic        	       5	  51446358 ns/op	 143.54 MB/s	21010049 B/op	  374717 allocs/op
+BenchmarkUnmarshalConcreteFresh/nested/8mb/encoding-json-v2/deterministic        	       5	  51798183 ns/op	 142.57 MB/s	21010049 B/op	  374717 allocs/op
+BenchmarkUnmarshalConcreteFresh/nested/8mb/encoding-json-v2/deterministic        	       4	  50694146 ns/op	 145.67 MB/s	21010060 B/op	  374718 allocs/op
+BenchmarkUnmarshalConcreteFresh/nested/8mb/encoding-json-v2/fast-relaxed         	       5	  51586717 ns/op	 143.15 MB/s	21010049 B/op	  374717 allocs/op
+BenchmarkUnmarshalConcreteFresh/nested/8mb/encoding-json-v2/fast-relaxed         	       5	  50240133 ns/op	 146.99 MB/s	21010046 B/op	  374717 allocs/op
+BenchmarkUnmarshalConcreteFresh/nested/8mb/encoding-json-v2/fast-relaxed         	       5	  50909667 ns/op	 145.05 MB/s	21010046 B/op	  374717 allocs/op
+BenchmarkUnmarshalConcreteFresh/nested/8mb/jsoniter/compat                       	       8	  35080781 ns/op	 210.50 MB/s	23666699 B/op	  661421 allocs/op
+BenchmarkUnmarshalConcreteFresh/nested/8mb/jsoniter/compat                       	       7	  33287958 ns/op	 221.84 MB/s	23666706 B/op	  661421 allocs/op
+BenchmarkUnmarshalConcreteFresh/nested/8mb/jsoniter/compat                       	       7	  33266732 ns/op	 221.98 MB/s	23666706 B/op	  661421 allocs/op
+BenchmarkUnmarshalConcreteFresh/nested/8mb/jsoniter/fast                         	       7	  37590309 ns/op	 196.45 MB/s	23666689 B/op	  661421 allocs/op
+BenchmarkUnmarshalConcreteFresh/nested/8mb/jsoniter/fast                         	       7	  34735958 ns/op	 212.59 MB/s	23666706 B/op	  661421 allocs/op
+BenchmarkUnmarshalConcreteFresh/nested/8mb/jsoniter/fast                         	       7	  34680399 ns/op	 212.93 MB/s	23666706 B/op	  661421 allocs/op
+BenchmarkUnmarshalConcreteFresh/nested/8mb/go-json/compat                        	      14	  19738277 ns/op	 374.13 MB/s	17274188 B/op	  440784 allocs/op
+BenchmarkUnmarshalConcreteFresh/nested/8mb/go-json/compat                        	      14	  19466363 ns/op	 379.35 MB/s	17274188 B/op	  440784 allocs/op
+BenchmarkUnmarshalConcreteFresh/nested/8mb/go-json/compat                        	      14	  19771920 ns/op	 373.49 MB/s	17274188 B/op	  440784 allocs/op
+BenchmarkUnmarshalConcreteFresh/nested/8mb/go-json/fast                          	      14	  19656661 ns/op	 375.68 MB/s	17274188 B/op	  440784 allocs/op
+BenchmarkUnmarshalConcreteFresh/nested/8mb/go-json/fast                          	      15	  19705667 ns/op	 374.75 MB/s	17274184 B/op	  440784 allocs/op
+BenchmarkUnmarshalConcreteFresh/nested/8mb/go-json/fast                          	      14	  19848202 ns/op	 372.05 MB/s	17274188 B/op	  440784 allocs/op
+BenchmarkUnmarshalConcreteFresh/nested/8mb/segmentio/compat                      	       5	  42337842 ns/op	 174.42 MB/s	65527955 B/op	  449650 allocs/op
+BenchmarkUnmarshalConcreteFresh/nested/8mb/segmentio/compat                      	       5	  43555892 ns/op	 169.54 MB/s	65527952 B/op	  449650 allocs/op
+BenchmarkUnmarshalConcreteFresh/nested/8mb/segmentio/compat                      	       5	  41531383 ns/op	 177.81 MB/s	65527952 B/op	  449650 allocs/op
+BenchmarkUnmarshalConcreteFresh/nested/8mb/segmentio/fast                        	       6	  38761312 ns/op	 190.52 MB/s	62625688 B/op	  123622 allocs/op
+BenchmarkUnmarshalConcreteFresh/nested/8mb/segmentio/fast                        	       6	  39277542 ns/op	 188.01 MB/s	62625688 B/op	  123622 allocs/op
+BenchmarkUnmarshalConcreteFresh/nested/8mb/segmentio/fast                        	       6	  39463729 ns/op	 187.12 MB/s	62625688 B/op	  123622 allocs/op
+BenchmarkUnmarshalConcreteFresh/nested/8mb/sonic/compat                          	       7	  33748595 ns/op	 218.81 MB/s	79779773 B/op	  511203 allocs/op
+BenchmarkUnmarshalConcreteFresh/nested/8mb/sonic/compat                          	       8	  30492052 ns/op	 242.18 MB/s	79779770 B/op	  511203 allocs/op
+BenchmarkUnmarshalConcreteFresh/nested/8mb/sonic/compat                          	       8	  30064974 ns/op	 245.62 MB/s	79779770 B/op	  511203 allocs/op
+BenchmarkUnmarshalConcreteFresh/nested/8mb/sonic/fast                            	      10	  24923304 ns/op	 296.29 MB/s	76877500 B/op	  185175 allocs/op
+BenchmarkUnmarshalConcreteFresh/nested/8mb/sonic/fast                            	      12	  24008948 ns/op	 307.58 MB/s	76877500 B/op	  185175 allocs/op
+BenchmarkUnmarshalConcreteFresh/nested/8mb/sonic/fast                            	       9	  25257995 ns/op	 292.37 MB/s	76877492 B/op	  185174 allocs/op
+BenchmarkUnmarshalConcreteFresh/nested/8mb/easyjson/compat                       	       7	  36581488 ns/op	 201.87 MB/s	20535560 B/op	  471807 allocs/op
+BenchmarkUnmarshalConcreteFresh/nested/8mb/easyjson/compat                       	       7	  35441708 ns/op	 208.36 MB/s	20535560 B/op	  471807 allocs/op
+BenchmarkUnmarshalConcreteFresh/nested/8mb/easyjson/compat                       	       7	  36012726 ns/op	 205.06 MB/s	20535560 B/op	  471807 allocs/op
+BenchmarkUnmarshalConcreteFresh/nested/8mb/easyjson/fast                         	       7	  35587786 ns/op	 207.50 MB/s	20535562 B/op	  471807 allocs/op
+BenchmarkUnmarshalConcreteFresh/nested/8mb/easyjson/fast                         	       7	  36108000 ns/op	 204.51 MB/s	20535562 B/op	  471807 allocs/op
+BenchmarkUnmarshalConcreteFresh/nested/8mb/easyjson/fast                         	       7	  36183625 ns/op	 204.09 MB/s	20535562 B/op	  471807 allocs/op
+BenchmarkUnmarshalDynamicFresh/flat/8mb/encoding-json-v2/default-safe            	       3	  79740181 ns/op	 143.41 MB/s	43035386 B/op	 1258861 allocs/op
+BenchmarkUnmarshalDynamicFresh/flat/8mb/encoding-json-v2/default-safe            	       3	  78592764 ns/op	 145.50 MB/s	43035386 B/op	 1258861 allocs/op
+BenchmarkUnmarshalDynamicFresh/flat/8mb/encoding-json-v2/default-safe            	       3	  79898570 ns/op	 143.12 MB/s	43035386 B/op	 1258861 allocs/op
+BenchmarkUnmarshalDynamicFresh/flat/8mb/encoding-json-v2/deterministic           	       3	  79565695 ns/op	 143.72 MB/s	43035386 B/op	 1258861 allocs/op
+BenchmarkUnmarshalDynamicFresh/flat/8mb/encoding-json-v2/deterministic           	       3	  80344792 ns/op	 142.33 MB/s	43035386 B/op	 1258861 allocs/op
+BenchmarkUnmarshalDynamicFresh/flat/8mb/encoding-json-v2/deterministic           	       3	  79531167 ns/op	 143.79 MB/s	43035386 B/op	 1258861 allocs/op
+BenchmarkUnmarshalDynamicFresh/flat/8mb/encoding-json-v2/fast-relaxed            	       2	 134721354 ns/op	  84.88 MB/s	49746552 B/op	 1680943 allocs/op
+BenchmarkUnmarshalDynamicFresh/flat/8mb/encoding-json-v2/fast-relaxed            	       2	 130989188 ns/op	  87.30 MB/s	49746492 B/op	 1680942 allocs/op
+BenchmarkUnmarshalDynamicFresh/flat/8mb/encoding-json-v2/fast-relaxed            	       2	 131712020 ns/op	  86.82 MB/s	49746484 B/op	 1680942 allocs/op
+BenchmarkUnmarshalDynamicFresh/flat/8mb/jsoniter/compat                          	       3	  80771097 ns/op	 141.58 MB/s	57488938 B/op	 1978144 allocs/op
+BenchmarkUnmarshalDynamicFresh/flat/8mb/jsoniter/compat                          	       3	  84528667 ns/op	 135.28 MB/s	57488938 B/op	 1978144 allocs/op
+BenchmarkUnmarshalDynamicFresh/flat/8mb/jsoniter/compat                          	       3	  82202014 ns/op	 139.11 MB/s	57488938 B/op	 1978144 allocs/op
+BenchmarkUnmarshalDynamicFresh/flat/8mb/jsoniter/fast                            	       3	  83366681 ns/op	 137.17 MB/s	57488938 B/op	 1978144 allocs/op
+BenchmarkUnmarshalDynamicFresh/flat/8mb/jsoniter/fast                            	       3	  84347208 ns/op	 135.58 MB/s	57488938 B/op	 1978144 allocs/op
+BenchmarkUnmarshalDynamicFresh/flat/8mb/jsoniter/fast                            	       3	  82414694 ns/op	 138.75 MB/s	57488938 B/op	 1978144 allocs/op
+BenchmarkUnmarshalDynamicFresh/flat/8mb/go-json/compat                           	       5	  47972217 ns/op	 238.38 MB/s	37472966 B/op	 1258291 allocs/op
+BenchmarkUnmarshalDynamicFresh/flat/8mb/go-json/compat                           	       6	  46558854 ns/op	 245.61 MB/s	37472957 B/op	 1258291 allocs/op
+BenchmarkUnmarshalDynamicFresh/flat/8mb/go-json/compat                           	       6	  47806694 ns/op	 239.20 MB/s	37472957 B/op	 1258291 allocs/op
+BenchmarkUnmarshalDynamicFresh/flat/8mb/go-json/fast                             	       5	  47613292 ns/op	 240.17 MB/s	37472966 B/op	 1258291 allocs/op
+BenchmarkUnmarshalDynamicFresh/flat/8mb/go-json/fast                             	       5	  44042200 ns/op	 259.65 MB/s	37472966 B/op	 1258291 allocs/op
+BenchmarkUnmarshalDynamicFresh/flat/8mb/go-json/fast                             	       5	  48724500 ns/op	 234.70 MB/s	37472966 B/op	 1258291 allocs/op
+BenchmarkUnmarshalDynamicFresh/flat/8mb/segmentio/compat                         	       2	 111168084 ns/op	 102.87 MB/s	40092960 B/op	 1258304 allocs/op
+BenchmarkUnmarshalDynamicFresh/flat/8mb/segmentio/compat                         	       2	 110550292 ns/op	 103.44 MB/s	40092960 B/op	 1258304 allocs/op
+BenchmarkUnmarshalDynamicFresh/flat/8mb/segmentio/compat                         	       2	 110291646 ns/op	 103.68 MB/s	40092960 B/op	 1258304 allocs/op
+BenchmarkUnmarshalDynamicFresh/flat/8mb/segmentio/fast                           	       2	 108799646 ns/op	 105.11 MB/s	35619056 B/op	  629156 allocs/op
+BenchmarkUnmarshalDynamicFresh/flat/8mb/segmentio/fast                           	       2	 105698979 ns/op	 108.19 MB/s	35619064 B/op	  629156 allocs/op
+BenchmarkUnmarshalDynamicFresh/flat/8mb/segmentio/fast                           	       2	 109698625 ns/op	 104.24 MB/s	35619064 B/op	  629156 allocs/op
+BenchmarkUnmarshalDynamicFresh/flat/8mb/sonic/compat                             	       6	  55969451 ns/op	 204.32 MB/s	135777121 B/op	 1258296 allocs/op
+BenchmarkUnmarshalDynamicFresh/flat/8mb/sonic/compat                             	       4	  53199542 ns/op	 214.95 MB/s	135777076 B/op	 1258296 allocs/op
+BenchmarkUnmarshalDynamicFresh/flat/8mb/sonic/compat                             	       4	  52575708 ns/op	 217.50 MB/s	135777076 B/op	 1258296 allocs/op
+BenchmarkUnmarshalDynamicFresh/flat/8mb/sonic/fast                               	       6	  39832479 ns/op	 287.09 MB/s	131308306 B/op	  209726 allocs/op
+BenchmarkUnmarshalDynamicFresh/flat/8mb/sonic/fast                               	       7	  38930631 ns/op	 293.74 MB/s	131308293 B/op	  209726 allocs/op
+BenchmarkUnmarshalDynamicFresh/flat/8mb/sonic/fast                               	       6	  41764528 ns/op	 273.81 MB/s	131308306 B/op	  209726 allocs/op
+BenchmarkUnmarshalDynamicFresh/nested/8mb/encoding-json-v2/default-safe          	       3	  77762542 ns/op	  94.96 MB/s	49477973 B/op	 1343133 allocs/op
+BenchmarkUnmarshalDynamicFresh/nested/8mb/encoding-json-v2/default-safe          	       3	  80196236 ns/op	  92.08 MB/s	49477973 B/op	 1343133 allocs/op
+BenchmarkUnmarshalDynamicFresh/nested/8mb/encoding-json-v2/default-safe          	       3	  76140930 ns/op	  96.99 MB/s	49477968 B/op	 1343133 allocs/op
+BenchmarkUnmarshalDynamicFresh/nested/8mb/encoding-json-v2/deterministic         	       3	  76503292 ns/op	  96.53 MB/s	49477973 B/op	 1343133 allocs/op
+BenchmarkUnmarshalDynamicFresh/nested/8mb/encoding-json-v2/deterministic         	       3	  74210875 ns/op	  99.51 MB/s	49477973 B/op	 1343133 allocs/op
+BenchmarkUnmarshalDynamicFresh/nested/8mb/encoding-json-v2/deterministic         	       3	  70879542 ns/op	 104.19 MB/s	49477968 B/op	 1343133 allocs/op
+BenchmarkUnmarshalDynamicFresh/nested/8mb/encoding-json-v2/fast-relaxed          	       2	 157995938 ns/op	  46.74 MB/s	59184184 B/op	 1867733 allocs/op
+BenchmarkUnmarshalDynamicFresh/nested/8mb/encoding-json-v2/fast-relaxed          	       2	 139502979 ns/op	  52.94 MB/s	59184184 B/op	 1867733 allocs/op
+BenchmarkUnmarshalDynamicFresh/nested/8mb/encoding-json-v2/fast-relaxed          	       2	 147995250 ns/op	  49.90 MB/s	59184184 B/op	 1867733 allocs/op
+BenchmarkUnmarshalDynamicFresh/nested/8mb/jsoniter/compat                        	       3	  95491847 ns/op	  77.33 MB/s	61701106 B/op	 2194027 allocs/op
+BenchmarkUnmarshalDynamicFresh/nested/8mb/jsoniter/compat                        	       3	  96120694 ns/op	  76.83 MB/s	61701106 B/op	 2194027 allocs/op
+BenchmarkUnmarshalDynamicFresh/nested/8mb/jsoniter/compat                        	       3	  96228347 ns/op	  76.74 MB/s	61701106 B/op	 2194027 allocs/op
+BenchmarkUnmarshalDynamicFresh/nested/8mb/jsoniter/fast                          	       3	  95207431 ns/op	  77.56 MB/s	61701106 B/op	 2194027 allocs/op
+BenchmarkUnmarshalDynamicFresh/nested/8mb/jsoniter/fast                          	       3	  97283070 ns/op	  75.91 MB/s	61701106 B/op	 2194027 allocs/op
+BenchmarkUnmarshalDynamicFresh/nested/8mb/jsoniter/fast                          	       3	  96160806 ns/op	  76.79 MB/s	61701106 B/op	 2194027 allocs/op
+BenchmarkUnmarshalDynamicFresh/nested/8mb/go-json/compat                         	       4	  52227781 ns/op	 141.39 MB/s	45883532 B/op	 1385610 allocs/op
+BenchmarkUnmarshalDynamicFresh/nested/8mb/go-json/compat                         	       4	  55539240 ns/op	 132.96 MB/s	45883532 B/op	 1385610 allocs/op
+BenchmarkUnmarshalDynamicFresh/nested/8mb/go-json/compat                         	       5	  60840017 ns/op	 121.38 MB/s	45883518 B/op	 1385609 allocs/op
+BenchmarkUnmarshalDynamicFresh/nested/8mb/go-json/fast                           	       4	  55882990 ns/op	 132.14 MB/s	45883532 B/op	 1385610 allocs/op
+BenchmarkUnmarshalDynamicFresh/nested/8mb/go-json/fast                           	       4	  54530458 ns/op	 135.42 MB/s	45883532 B/op	 1385610 allocs/op
+BenchmarkUnmarshalDynamicFresh/nested/8mb/go-json/fast                           	       5	  55175725 ns/op	 133.84 MB/s	45883518 B/op	 1385609 allocs/op
+BenchmarkUnmarshalDynamicFresh/nested/8mb/segmentio/compat                       	       2	 177665604 ns/op	  41.56 MB/s	55500400 B/op	 1398923 allocs/op
+BenchmarkUnmarshalDynamicFresh/nested/8mb/segmentio/compat                       	       2	 175945958 ns/op	  41.97 MB/s	55500400 B/op	 1398923 allocs/op
+BenchmarkUnmarshalDynamicFresh/nested/8mb/segmentio/compat                       	       2	 178059438 ns/op	  41.47 MB/s	55500400 B/op	 1398923 allocs/op
+BenchmarkUnmarshalDynamicFresh/nested/8mb/segmentio/fast                         	       2	 189553583 ns/op	  38.96 MB/s	50806944 B/op	  746866 allocs/op
+BenchmarkUnmarshalDynamicFresh/nested/8mb/segmentio/fast                         	       2	 176182062 ns/op	  41.91 MB/s	50806952 B/op	  746866 allocs/op
+BenchmarkUnmarshalDynamicFresh/nested/8mb/segmentio/fast                         	       2	 175110166 ns/op	  42.17 MB/s	50806944 B/op	  746866 allocs/op
+BenchmarkUnmarshalDynamicFresh/nested/8mb/sonic/compat                           	       4	  59424698 ns/op	 124.27 MB/s	109859052 B/op	 1392270 allocs/op
+BenchmarkUnmarshalDynamicFresh/nested/8mb/sonic/compat                           	       6	  59405493 ns/op	 124.31 MB/s	109859052 B/op	 1392270 allocs/op
+BenchmarkUnmarshalDynamicFresh/nested/8mb/sonic/compat                           	       6	  59754417 ns/op	 123.58 MB/s	109859052 B/op	 1392270 allocs/op
+BenchmarkUnmarshalDynamicFresh/nested/8mb/sonic/fast                             	       8	  36423974 ns/op	 202.74 MB/s	105185060 B/op	  180761 allocs/op
+BenchmarkUnmarshalDynamicFresh/nested/8mb/sonic/fast                             	       8	  37282453 ns/op	 198.07 MB/s	105185060 B/op	  180761 allocs/op
+BenchmarkUnmarshalDynamicFresh/nested/8mb/sonic/fast                             	       8	  36525953 ns/op	 202.17 MB/s	105185060 B/op	  180761 allocs/op
+PASS
+ok  	json-benchmark	147.273s
+goos: darwin
+goarch: arm64
+pkg: json-benchmark
+cpu: Apple M1 Pro
+BenchmarkMarshalConcrete/flat/64mb/encoding-json-v2/default-safe         	       2	 164644980 ns/op	 509.47 MB/s	  83881706 output-B/op	83886080 B/op	       1 allocs/op
+BenchmarkMarshalConcrete/flat/64mb/encoding-json-v2/default-safe         	       2	 167163334 ns/op	 501.79 MB/s	  83881706 output-B/op	83886080 B/op	       1 allocs/op
+BenchmarkMarshalConcrete/flat/64mb/encoding-json-v2/default-safe         	       2	 165545438 ns/op	 506.70 MB/s	  83881706 output-B/op	83886080 B/op	       1 allocs/op
+BenchmarkMarshalConcrete/flat/64mb/encoding-json-v2/deterministic        	       2	 170142084 ns/op	 493.01 MB/s	  83881706 output-B/op	83886080 B/op	       1 allocs/op
+BenchmarkMarshalConcrete/flat/64mb/encoding-json-v2/deterministic        	       2	 164798562 ns/op	 509.00 MB/s	  83881706 output-B/op	83886080 B/op	       1 allocs/op
+BenchmarkMarshalConcrete/flat/64mb/encoding-json-v2/deterministic        	       2	 164399125 ns/op	 510.23 MB/s	  83881706 output-B/op	83886080 B/op	       1 allocs/op
+BenchmarkMarshalConcrete/flat/64mb/encoding-json-v2/fast-relaxed         	       2	 163707166 ns/op	 512.39 MB/s	  83881706 output-B/op	83886080 B/op	       1 allocs/op
+BenchmarkMarshalConcrete/flat/64mb/encoding-json-v2/fast-relaxed         	       2	 163407334 ns/op	 513.33 MB/s	  83881706 output-B/op	83886080 B/op	       1 allocs/op
+BenchmarkMarshalConcrete/flat/64mb/encoding-json-v2/fast-relaxed         	       2	 164303938 ns/op	 510.53 MB/s	  83881706 output-B/op	83886080 B/op	       1 allocs/op
+BenchmarkMarshalConcrete/flat/64mb/jsoniter/compat                       	       2	 152219000 ns/op	 606.17 MB/s	  92270291 output-B/op	92274696 B/op	       2 allocs/op
+BenchmarkMarshalConcrete/flat/64mb/jsoniter/compat                       	       2	 151833729 ns/op	 607.71 MB/s	  92270291 output-B/op	92274696 B/op	       2 allocs/op
+BenchmarkMarshalConcrete/flat/64mb/jsoniter/compat                       	       2	 151822375 ns/op	 607.75 MB/s	  92270291 output-B/op	92274696 B/op	       2 allocs/op
+BenchmarkMarshalConcrete/flat/64mb/jsoniter/fast                         	       2	 179211979 ns/op	 451.59 MB/s	  80930689 output-B/op	80936968 B/op	       2 allocs/op
+BenchmarkMarshalConcrete/flat/64mb/jsoniter/fast                         	       2	 181003020 ns/op	 447.12 MB/s	  80930689 output-B/op	80936968 B/op	       2 allocs/op
+BenchmarkMarshalConcrete/flat/64mb/jsoniter/fast                         	       2	 184182042 ns/op	 439.41 MB/s	  80930689 output-B/op	80936968 B/op	       2 allocs/op
+BenchmarkMarshalConcrete/flat/64mb/go-json/compat                        	       4	  64271062 ns/op	1435.64 MB/s	  92270291 output-B/op	92274688 B/op	       1 allocs/op
+BenchmarkMarshalConcrete/flat/64mb/go-json/compat                        	       3	  70531819 ns/op	1308.21 MB/s	  92270291 output-B/op	92274688 B/op	       1 allocs/op
+BenchmarkMarshalConcrete/flat/64mb/go-json/compat                        	       4	  64137562 ns/op	1438.63 MB/s	  92270291 output-B/op	92274688 B/op	       1 allocs/op
+BenchmarkMarshalConcrete/flat/64mb/go-json/fast                          	       5	  47995275 ns/op	1747.71 MB/s	  83881706 output-B/op	83886107 B/op	       1 allocs/op
+BenchmarkMarshalConcrete/flat/64mb/go-json/fast                          	       5	  47435517 ns/op	1768.33 MB/s	  83881706 output-B/op	83886107 B/op	       1 allocs/op
+BenchmarkMarshalConcrete/flat/64mb/go-json/fast                          	       5	  46815783 ns/op	1791.74 MB/s	  83881706 output-B/op	83886107 B/op	       1 allocs/op
+BenchmarkMarshalConcrete/flat/64mb/segmentio/compat                      	       2	 106152625 ns/op	 869.22 MB/s	  92270291 output-B/op	92274688 B/op	       1 allocs/op
+BenchmarkMarshalConcrete/flat/64mb/segmentio/compat                      	       2	 106918250 ns/op	 863.00 MB/s	  92270291 output-B/op	92274688 B/op	       1 allocs/op
+BenchmarkMarshalConcrete/flat/64mb/segmentio/compat                      	       2	 106645958 ns/op	 865.20 MB/s	  92270291 output-B/op	92274688 B/op	       1 allocs/op
+BenchmarkMarshalConcrete/flat/64mb/segmentio/fast                        	       2	 129947104 ns/op	 645.51 MB/s	  83881706 output-B/op	492026624 B/op	      53 allocs/op
+BenchmarkMarshalConcrete/flat/64mb/segmentio/fast                        	       2	 128874646 ns/op	 650.88 MB/s	  83881706 output-B/op	492026624 B/op	      53 allocs/op
+BenchmarkMarshalConcrete/flat/64mb/segmentio/fast                        	       2	 130052854 ns/op	 644.98 MB/s	  83881706 output-B/op	492026624 B/op	      53 allocs/op
+BenchmarkMarshalConcrete/flat/64mb/sonic/compat                          	       1	 306863750 ns/op	 300.69 MB/s	  92270291 output-B/op	485740120 B/op	      38 allocs/op
+BenchmarkMarshalConcrete/flat/64mb/sonic/compat                          	       1	 308751750 ns/op	 298.85 MB/s	  92270291 output-B/op	485740120 B/op	      38 allocs/op
+BenchmarkMarshalConcrete/flat/64mb/sonic/compat                          	       1	 304454666 ns/op	 303.07 MB/s	  92270291 output-B/op	485740120 B/op	      38 allocs/op
+BenchmarkMarshalConcrete/flat/64mb/sonic/fast                            	       1	 230888250 ns/op	 363.30 MB/s	  83881706 output-B/op	359906744 B/op	      33 allocs/op
+BenchmarkMarshalConcrete/flat/64mb/sonic/fast                            	       1	 223994208 ns/op	 374.48 MB/s	  83881706 output-B/op	359906744 B/op	      33 allocs/op
+BenchmarkMarshalConcrete/flat/64mb/sonic/fast                            	       1	 225256666 ns/op	 372.38 MB/s	  83881706 output-B/op	359906744 B/op	      33 allocs/op
+BenchmarkMarshalConcrete/flat/64mb/easyjson/compat                       	       3	  98768431 ns/op	 934.21 MB/s	  92270291 output-B/op	92627976 B/op	    2847 allocs/op
+BenchmarkMarshalConcrete/flat/64mb/easyjson/compat                       	       2	 100335438 ns/op	 919.62 MB/s	  92270291 output-B/op	92615128 B/op	    2838 allocs/op
+BenchmarkMarshalConcrete/flat/64mb/easyjson/compat                       	       3	  99063819 ns/op	 931.42 MB/s	  92270291 output-B/op	92627976 B/op	    2847 allocs/op
+BenchmarkMarshalConcrete/flat/64mb/easyjson/fast                         	       3	  85109222 ns/op	 985.58 MB/s	  83881706 output-B/op	84209445 B/op	    2581 allocs/op
+BenchmarkMarshalConcrete/flat/64mb/easyjson/fast                         	       3	  84664292 ns/op	 990.76 MB/s	  83881706 output-B/op	84209445 B/op	    2581 allocs/op
+BenchmarkMarshalConcrete/flat/64mb/easyjson/fast                         	       3	  85406861 ns/op	 982.14 MB/s	  83881706 output-B/op	84209445 B/op	    2581 allocs/op
+BenchmarkMarshalConcrete/nested/64mb/encoding-json-v2/default-safe       	       1	 221032791 ns/op	 259.55 MB/s	  57368284 output-B/op	59159488 B/op	  111933 allocs/op
+BenchmarkMarshalConcrete/nested/64mb/encoding-json-v2/default-safe       	       2	 165526520 ns/op	 346.58 MB/s	  57368284 output-B/op	59159488 B/op	  111933 allocs/op
+BenchmarkMarshalConcrete/nested/64mb/encoding-json-v2/default-safe       	       2	 168212292 ns/op	 341.05 MB/s	  57368284 output-B/op	59159488 B/op	  111933 allocs/op
+BenchmarkMarshalConcrete/nested/64mb/encoding-json-v2/deterministic      	       2	 169803438 ns/op	 337.85 MB/s	  57368284 output-B/op	61845856 B/op	  279831 allocs/op
+BenchmarkMarshalConcrete/nested/64mb/encoding-json-v2/deterministic      	       2	 179532479 ns/op	 319.54 MB/s	  57368284 output-B/op	61845856 B/op	  279831 allocs/op
+BenchmarkMarshalConcrete/nested/64mb/encoding-json-v2/deterministic      	       2	 168502771 ns/op	 340.46 MB/s	  57368284 output-B/op	61845856 B/op	  279831 allocs/op
+BenchmarkMarshalConcrete/nested/64mb/encoding-json-v2/fast-relaxed       	       2	 161973292 ns/op	 354.18 MB/s	  57368284 output-B/op	59159488 B/op	  111933 allocs/op
+BenchmarkMarshalConcrete/nested/64mb/encoding-json-v2/fast-relaxed       	       2	 164198084 ns/op	 349.38 MB/s	  57368284 output-B/op	59159488 B/op	  111933 allocs/op
+BenchmarkMarshalConcrete/nested/64mb/encoding-json-v2/fast-relaxed       	       2	 162047042 ns/op	 354.02 MB/s	  57368284 output-B/op	59159488 B/op	  111933 allocs/op
+BenchmarkMarshalConcrete/nested/64mb/jsoniter/compat                     	       1	 205193417 ns/op	 283.67 MB/s	  58207774 output-B/op	88658184 B/op	  559666 allocs/op
+BenchmarkMarshalConcrete/nested/64mb/jsoniter/compat                     	       1	 209774542 ns/op	 277.48 MB/s	  58207774 output-B/op	88658200 B/op	  559666 allocs/op
+BenchmarkMarshalConcrete/nested/64mb/jsoniter/compat                     	       2	 144924604 ns/op	 401.64 MB/s	  58207774 output-B/op	88657864 B/op	  559662 allocs/op
+BenchmarkMarshalConcrete/nested/64mb/jsoniter/fast                       	       2	 135210854 ns/op	 424.29 MB/s	  57368284 output-B/op	69457240 B/op	  167900 allocs/op
+BenchmarkMarshalConcrete/nested/64mb/jsoniter/fast                       	       2	 133502812 ns/op	 429.72 MB/s	  57368284 output-B/op	69457240 B/op	  167900 allocs/op
+BenchmarkMarshalConcrete/nested/64mb/jsoniter/fast                       	       2	 133069521 ns/op	 431.12 MB/s	  57368284 output-B/op	69457240 B/op	  167900 allocs/op
+BenchmarkMarshalConcrete/nested/64mb/go-json/compat                      	       4	  61536031 ns/op	 945.91 MB/s	  58207774 output-B/op	58212352 B/op	       1 allocs/op
+BenchmarkMarshalConcrete/nested/64mb/go-json/compat                      	       4	  61617208 ns/op	 944.67 MB/s	  58207774 output-B/op	58212352 B/op	       1 allocs/op
+BenchmarkMarshalConcrete/nested/64mb/go-json/compat                      	       4	  61457250 ns/op	 947.13 MB/s	  58207774 output-B/op	58212352 B/op	       1 allocs/op
+BenchmarkMarshalConcrete/nested/64mb/go-json/fast                        	       4	  60017802 ns/op	 955.85 MB/s	  57368284 output-B/op	58264032 B/op	   55967 allocs/op
+BenchmarkMarshalConcrete/nested/64mb/go-json/fast                        	       4	  59048552 ns/op	 971.54 MB/s	  57368284 output-B/op	58264032 B/op	   55967 allocs/op
+BenchmarkMarshalConcrete/nested/64mb/go-json/fast                        	       4	  59268636 ns/op	 967.94 MB/s	  57368284 output-B/op	58264032 B/op	   55967 allocs/op
+BenchmarkMarshalConcrete/nested/64mb/segmentio/compat                    	       3	  80096847 ns/op	 726.72 MB/s	  58207774 output-B/op	60898720 B/op	  167899 allocs/op
+BenchmarkMarshalConcrete/nested/64mb/segmentio/compat                    	       3	  78975528 ns/op	 737.04 MB/s	  58207774 output-B/op	60898720 B/op	  167899 allocs/op
+BenchmarkMarshalConcrete/nested/64mb/segmentio/compat                    	       3	  79212889 ns/op	 734.83 MB/s	  58207774 output-B/op	60898720 B/op	  167899 allocs/op
+BenchmarkMarshalConcrete/nested/64mb/segmentio/fast                      	       2	 137024166 ns/op	 418.67 MB/s	  57368284 output-B/op	314627512 B/op	      50 allocs/op
+BenchmarkMarshalConcrete/nested/64mb/segmentio/fast                      	       2	 125021625 ns/op	 458.87 MB/s	  57368284 output-B/op	314627512 B/op	      50 allocs/op
+BenchmarkMarshalConcrete/nested/64mb/segmentio/fast                      	       2	 124444188 ns/op	 461.00 MB/s	  57368284 output-B/op	314627512 B/op	      50 allocs/op
+BenchmarkMarshalConcrete/nested/64mb/sonic/compat                        	       1	 296088208 ns/op	 196.59 MB/s	  58207774 output-B/op	324249144 B/op	   56003 allocs/op
+BenchmarkMarshalConcrete/nested/64mb/sonic/compat                        	       1	 312582208 ns/op	 186.22 MB/s	  58207774 output-B/op	324249144 B/op	   56003 allocs/op
+BenchmarkMarshalConcrete/nested/64mb/sonic/compat                        	       1	 304662708 ns/op	 191.06 MB/s	  58207774 output-B/op	324249144 B/op	   56003 allocs/op
+BenchmarkMarshalConcrete/nested/64mb/sonic/fast                          	       1	 285783292 ns/op	 200.74 MB/s	  57368284 output-B/op	238187904 B/op	   55998 allocs/op
+BenchmarkMarshalConcrete/nested/64mb/sonic/fast                          	       1	 286284833 ns/op	 200.39 MB/s	  57368284 output-B/op	238187904 B/op	   55998 allocs/op
+BenchmarkMarshalConcrete/nested/64mb/sonic/fast                          	       1	 287799167 ns/op	 199.33 MB/s	  57368284 output-B/op	238187904 B/op	   55998 allocs/op
+BenchmarkMarshalConcrete/nested/64mb/easyjson/compat                     	       3	  79335889 ns/op	 733.69 MB/s	  58207774 output-B/op	58424058 B/op	    1796 allocs/op
+BenchmarkMarshalConcrete/nested/64mb/easyjson/compat                     	       3	  79147167 ns/op	 735.44 MB/s	  58207774 output-B/op	58424058 B/op	    1796 allocs/op
+BenchmarkMarshalConcrete/nested/64mb/easyjson/compat                     	       3	  78420347 ns/op	 742.25 MB/s	  58207774 output-B/op	58424058 B/op	    1796 allocs/op
+BenchmarkMarshalConcrete/nested/64mb/easyjson/fast                       	       3	  76325417 ns/op	 751.63 MB/s	  57368284 output-B/op	57579658 B/op	    1770 allocs/op
+BenchmarkMarshalConcrete/nested/64mb/easyjson/fast                       	       3	  76041167 ns/op	 754.44 MB/s	  57368284 output-B/op	57579658 B/op	    1770 allocs/op
+BenchmarkMarshalConcrete/nested/64mb/easyjson/fast                       	       3	  75760097 ns/op	 757.24 MB/s	  57368284 output-B/op	57579658 B/op	    1770 allocs/op
+BenchmarkMarshalDynamic/flat/64mb/encoding-json-v2/default-safe          	       1	 328318959 ns/op	 255.49 MB/s	  83881706 output-B/op	83886232 B/op	      11 allocs/op
+BenchmarkMarshalDynamic/flat/64mb/encoding-json-v2/default-safe          	       1	 224275250 ns/op	 374.01 MB/s	  83881706 output-B/op	83886232 B/op	      11 allocs/op
+BenchmarkMarshalDynamic/flat/64mb/encoding-json-v2/default-safe          	       1	 219700166 ns/op	 381.80 MB/s	  83881706 output-B/op	83886232 B/op	      11 allocs/op
+BenchmarkMarshalDynamic/flat/64mb/encoding-json-v2/deterministic         	       1	 305220334 ns/op	 274.82 MB/s	  83881706 output-B/op	83886344 B/op	      18 allocs/op
+BenchmarkMarshalDynamic/flat/64mb/encoding-json-v2/deterministic         	       1	 322724750 ns/op	 259.92 MB/s	  83881706 output-B/op	83886344 B/op	      18 allocs/op
+BenchmarkMarshalDynamic/flat/64mb/encoding-json-v2/deterministic         	       1	 297926875 ns/op	 281.55 MB/s	  83881706 output-B/op	83886344 B/op	      18 allocs/op
+BenchmarkMarshalDynamic/flat/64mb/encoding-json-v2/fast-relaxed          	       1	 217439334 ns/op	 385.77 MB/s	  83881706 output-B/op	83886232 B/op	      11 allocs/op
+BenchmarkMarshalDynamic/flat/64mb/encoding-json-v2/fast-relaxed          	       1	 221107541 ns/op	 379.37 MB/s	  83881706 output-B/op	83886232 B/op	      11 allocs/op
+BenchmarkMarshalDynamic/flat/64mb/encoding-json-v2/fast-relaxed          	       1	 219029708 ns/op	 382.97 MB/s	  83881706 output-B/op	83886232 B/op	      11 allocs/op
+BenchmarkMarshalDynamic/flat/64mb/jsoniter/compat                        	       1	 944833958 ns/op	  97.66 MB/s	  92270291 output-B/op	679281640 B/op	 8947850 allocs/op
+BenchmarkMarshalDynamic/flat/64mb/jsoniter/compat                        	       1	 939549250 ns/op	  98.21 MB/s	  92270291 output-B/op	587009032 B/op	 8947849 allocs/op
+BenchmarkMarshalDynamic/flat/64mb/jsoniter/compat                        	       1	 924161334 ns/op	  99.84 MB/s	  92270291 output-B/op	587006040 B/op	 8947849 allocs/op
+BenchmarkMarshalDynamic/flat/64mb/jsoniter/fast                          	       1	 536974792 ns/op	 150.72 MB/s	  80930689 output-B/op	206206856 B/op	 2236963 allocs/op
+BenchmarkMarshalDynamic/flat/64mb/jsoniter/fast                          	       1	 250396750 ns/op	 323.21 MB/s	  80930689 output-B/op	206206720 B/op	 2236961 allocs/op
+BenchmarkMarshalDynamic/flat/64mb/jsoniter/fast                          	       1	 250719417 ns/op	 322.79 MB/s	  80930689 output-B/op	206206720 B/op	 2236961 allocs/op
+BenchmarkMarshalDynamic/flat/64mb/go-json/compat                         	       2	 175653250 ns/op	 525.30 MB/s	  92270291 output-B/op	92274688 B/op	       1 allocs/op
+BenchmarkMarshalDynamic/flat/64mb/go-json/compat                         	       2	 174643666 ns/op	 528.33 MB/s	  92270291 output-B/op	92274688 B/op	       1 allocs/op
+BenchmarkMarshalDynamic/flat/64mb/go-json/compat                         	       2	 172859229 ns/op	 533.79 MB/s	  92270291 output-B/op	92274688 B/op	       1 allocs/op
+BenchmarkMarshalDynamic/flat/64mb/go-json/fast                           	       2	 127053833 ns/op	 660.21 MB/s	  83881706 output-B/op	83886080 B/op	       1 allocs/op
+BenchmarkMarshalDynamic/flat/64mb/go-json/fast                           	       2	 127547938 ns/op	 657.65 MB/s	  83881706 output-B/op	83886080 B/op	       1 allocs/op
+BenchmarkMarshalDynamic/flat/64mb/go-json/fast                           	       2	 125085354 ns/op	 670.60 MB/s	  83881706 output-B/op	83886080 B/op	       1 allocs/op
+BenchmarkMarshalDynamic/flat/64mb/segmentio/compat                       	       1	 627256375 ns/op	 147.10 MB/s	  92270291 output-B/op	92275008 B/op	       5 allocs/op
+BenchmarkMarshalDynamic/flat/64mb/segmentio/compat                       	       1	 291996459 ns/op	 316.00 MB/s	  92270291 output-B/op	92274688 B/op	       1 allocs/op
+BenchmarkMarshalDynamic/flat/64mb/segmentio/compat                       	       1	 290522708 ns/op	 317.60 MB/s	  92270291 output-B/op	92274688 B/op	       1 allocs/op
+BenchmarkMarshalDynamic/flat/64mb/segmentio/fast                         	       1	 370874500 ns/op	 226.17 MB/s	  83881706 output-B/op	492026624 B/op	      53 allocs/op
+BenchmarkMarshalDynamic/flat/64mb/segmentio/fast                         	       1	 357181041 ns/op	 234.84 MB/s	  83881706 output-B/op	492026624 B/op	      53 allocs/op
+BenchmarkMarshalDynamic/flat/64mb/segmentio/fast                         	       1	 351632125 ns/op	 238.55 MB/s	  83881706 output-B/op	492026624 B/op	      53 allocs/op
+BenchmarkMarshalDynamic/flat/64mb/sonic/compat                           	       1	 880350875 ns/op	 104.81 MB/s	  92270291 output-B/op	484151976 B/op	  559280 allocs/op
+BenchmarkMarshalDynamic/flat/64mb/sonic/compat                           	       1	 890785750 ns/op	 103.58 MB/s	  92270291 output-B/op	484151976 B/op	  559280 allocs/op
+BenchmarkMarshalDynamic/flat/64mb/sonic/compat                           	       1	 899797709 ns/op	 102.55 MB/s	  92270291 output-B/op	484151976 B/op	  559280 allocs/op
+BenchmarkMarshalDynamic/flat/64mb/sonic/fast                             	       1	 828317792 ns/op	 101.27 MB/s	  83881706 output-B/op	368668784 B/op	  559274 allocs/op
+BenchmarkMarshalDynamic/flat/64mb/sonic/fast                             	       1	 799286084 ns/op	 104.95 MB/s	  83881706 output-B/op	326277872 B/op	  559274 allocs/op
+BenchmarkMarshalDynamic/flat/64mb/sonic/fast                             	       1	 798163958 ns/op	 105.09 MB/s	  83881706 output-B/op	369873008 B/op	  559274 allocs/op
+BenchmarkMarshalDynamic/nested/64mb/encoding-json-v2/default-safe        	       2	 179002854 ns/op	 320.49 MB/s	  57368284 output-B/op	57368656 B/op	       7 allocs/op
+BenchmarkMarshalDynamic/nested/64mb/encoding-json-v2/default-safe        	       2	 179367229 ns/op	 319.84 MB/s	  57368284 output-B/op	57368656 B/op	       7 allocs/op
+BenchmarkMarshalDynamic/nested/64mb/encoding-json-v2/default-safe        	       2	 180008729 ns/op	 318.70 MB/s	  57368284 output-B/op	57368656 B/op	       7 allocs/op
+BenchmarkMarshalDynamic/nested/64mb/encoding-json-v2/deterministic       	       1	 230604042 ns/op	 248.77 MB/s	  57368284 output-B/op	57368800 B/op	      11 allocs/op
+BenchmarkMarshalDynamic/nested/64mb/encoding-json-v2/deterministic       	       1	 234122584 ns/op	 245.04 MB/s	  57368284 output-B/op	57368704 B/op	      10 allocs/op
+BenchmarkMarshalDynamic/nested/64mb/encoding-json-v2/deterministic       	       1	 230719708 ns/op	 248.65 MB/s	  57368284 output-B/op	57368704 B/op	      10 allocs/op
+BenchmarkMarshalDynamic/nested/64mb/encoding-json-v2/fast-relaxed        	       2	 178565542 ns/op	 321.27 MB/s	  57368284 output-B/op	57368656 B/op	       7 allocs/op
+BenchmarkMarshalDynamic/nested/64mb/encoding-json-v2/fast-relaxed        	       2	 177832480 ns/op	 322.60 MB/s	  57368284 output-B/op	57368656 B/op	       7 allocs/op
+BenchmarkMarshalDynamic/nested/64mb/encoding-json-v2/fast-relaxed        	       2	 177770896 ns/op	 322.71 MB/s	  57368284 output-B/op	57368656 B/op	       7 allocs/op
+BenchmarkMarshalDynamic/nested/64mb/jsoniter/compat                      	       1	 485401500 ns/op	 119.92 MB/s	  58207774 output-B/op	500868232 B/op	 8039985 allocs/op
+BenchmarkMarshalDynamic/nested/64mb/jsoniter/compat                      	       1	 590597042 ns/op	  98.56 MB/s	  58207774 output-B/op	500865224 B/op	 8039985 allocs/op
+BenchmarkMarshalDynamic/nested/64mb/jsoniter/compat                      	       1	 700792000 ns/op	  83.06 MB/s	  58207774 output-B/op	442653616 B/op	 8039994 allocs/op
+BenchmarkMarshalDynamic/nested/64mb/jsoniter/fast                        	       1	 245248250 ns/op	 233.92 MB/s	  57368284 output-B/op	205358880 B/op	 2642685 allocs/op
+BenchmarkMarshalDynamic/nested/64mb/jsoniter/fast                        	       1	 239047667 ns/op	 239.99 MB/s	  57368284 output-B/op	205358880 B/op	 2642685 allocs/op
+BenchmarkMarshalDynamic/nested/64mb/jsoniter/fast                        	       1	 240737291 ns/op	 238.30 MB/s	  57368284 output-B/op	205358880 B/op	 2642685 allocs/op
+BenchmarkMarshalDynamic/nested/64mb/go-json/compat                       	       2	 161627521 ns/op	 360.14 MB/s	  58207774 output-B/op	58212352 B/op	       1 allocs/op
+BenchmarkMarshalDynamic/nested/64mb/go-json/compat                       	       2	 161694020 ns/op	 359.99 MB/s	  58207774 output-B/op	58212352 B/op	       1 allocs/op
+BenchmarkMarshalDynamic/nested/64mb/go-json/compat                       	       2	 180429167 ns/op	 322.61 MB/s	  58207774 output-B/op	58212352 B/op	       1 allocs/op
+BenchmarkMarshalDynamic/nested/64mb/go-json/fast                         	       2	 143645854 ns/op	 399.37 MB/s	  57368284 output-B/op	57368576 B/op	       1 allocs/op
+BenchmarkMarshalDynamic/nested/64mb/go-json/fast                         	       2	 144534708 ns/op	 396.92 MB/s	  57368284 output-B/op	57368576 B/op	       1 allocs/op
+BenchmarkMarshalDynamic/nested/64mb/go-json/fast                         	       2	 145020334 ns/op	 395.59 MB/s	  57368284 output-B/op	57368576 B/op	       1 allocs/op
+BenchmarkMarshalDynamic/nested/64mb/segmentio/compat                     	       2	 190266792 ns/op	 305.93 MB/s	  58207774 output-B/op	58212352 B/op	       1 allocs/op
+BenchmarkMarshalDynamic/nested/64mb/segmentio/compat                     	       2	 189456562 ns/op	 307.24 MB/s	  58207774 output-B/op	58212352 B/op	       1 allocs/op
+BenchmarkMarshalDynamic/nested/64mb/segmentio/compat                     	       2	 193285770 ns/op	 301.15 MB/s	  58207774 output-B/op	58212352 B/op	       1 allocs/op
+BenchmarkMarshalDynamic/nested/64mb/segmentio/fast                       	       1	 237386000 ns/op	 241.67 MB/s	  57368284 output-B/op	314627512 B/op	      50 allocs/op
+BenchmarkMarshalDynamic/nested/64mb/segmentio/fast                       	       1	 290871084 ns/op	 197.23 MB/s	  57368284 output-B/op	314627512 B/op	      50 allocs/op
+BenchmarkMarshalDynamic/nested/64mb/segmentio/fast                       	       1	 277847125 ns/op	 206.47 MB/s	  57368284 output-B/op	314627512 B/op	      50 allocs/op
+BenchmarkMarshalDynamic/nested/64mb/sonic/compat                         	       1	 946059750 ns/op	  61.53 MB/s	  58207774 output-B/op	358479656 B/op	  660710 allocs/op
+BenchmarkMarshalDynamic/nested/64mb/sonic/compat                         	       1	 932264958 ns/op	  62.44 MB/s	  58207774 output-B/op	358479304 B/op	  660709 allocs/op
+BenchmarkMarshalDynamic/nested/64mb/sonic/compat                         	       1	 935353333 ns/op	  62.23 MB/s	  58207774 output-B/op	358479304 B/op	  660709 allocs/op
+BenchmarkMarshalDynamic/nested/64mb/sonic/fast                           	       1	 607487000 ns/op	  94.44 MB/s	  57368284 output-B/op	287081744 B/op	  660705 allocs/op
+BenchmarkMarshalDynamic/nested/64mb/sonic/fast                           	       1	 804070917 ns/op	  71.35 MB/s	  57368284 output-B/op	262407440 B/op	  660704 allocs/op
+BenchmarkMarshalDynamic/nested/64mb/sonic/fast                           	       1	 524159625 ns/op	 109.45 MB/s	  57368284 output-B/op	240288584 B/op	  660698 allocs/op
+BenchmarkUnmarshalConcreteFresh/flat/64mb/encoding-json-v2/default-safe  	       1	 440696625 ns/op	 209.37 MB/s	315641496 B/op	 1682033 allocs/op
+BenchmarkUnmarshalConcreteFresh/flat/64mb/encoding-json-v2/default-safe  	       1	 433835041 ns/op	 212.69 MB/s	315641648 B/op	 1682035 allocs/op
+BenchmarkUnmarshalConcreteFresh/flat/64mb/encoding-json-v2/default-safe  	       1	 432853792 ns/op	 213.17 MB/s	315641648 B/op	 1682035 allocs/op
+BenchmarkUnmarshalConcreteFresh/flat/64mb/encoding-json-v2/deterministic 	       1	 426214583 ns/op	 216.49 MB/s	315641648 B/op	 1682035 allocs/op
+BenchmarkUnmarshalConcreteFresh/flat/64mb/encoding-json-v2/deterministic 	       1	 433076084 ns/op	 213.06 MB/s	315641632 B/op	 1682035 allocs/op
+BenchmarkUnmarshalConcreteFresh/flat/64mb/encoding-json-v2/deterministic 	       1	 425185750 ns/op	 217.01 MB/s	315641648 B/op	 1682035 allocs/op
+BenchmarkUnmarshalConcreteFresh/flat/64mb/encoding-json-v2/fast-relaxed  	       1	 437639541 ns/op	 210.84 MB/s	315641632 B/op	 1682035 allocs/op
+BenchmarkUnmarshalConcreteFresh/flat/64mb/encoding-json-v2/fast-relaxed  	       1	 423237125 ns/op	 218.01 MB/s	315641648 B/op	 1682035 allocs/op
+BenchmarkUnmarshalConcreteFresh/flat/64mb/encoding-json-v2/fast-relaxed  	       1	 429477458 ns/op	 214.84 MB/s	315641648 B/op	 1682035 allocs/op
+BenchmarkUnmarshalConcreteFresh/flat/64mb/jsoniter/compat                	       1	 359998666 ns/op	 256.31 MB/s	357890648 B/op	 2962083 allocs/op
+BenchmarkUnmarshalConcreteFresh/flat/64mb/jsoniter/compat                	       1	 413470333 ns/op	 223.16 MB/s	357890648 B/op	 2962083 allocs/op
+BenchmarkUnmarshalConcreteFresh/flat/64mb/jsoniter/compat                	       1	 373576000 ns/op	 246.99 MB/s	357890664 B/op	 2962083 allocs/op
+BenchmarkUnmarshalConcreteFresh/flat/64mb/jsoniter/fast                  	       1	 402733125 ns/op	 229.11 MB/s	357890664 B/op	 2962083 allocs/op
+BenchmarkUnmarshalConcreteFresh/flat/64mb/jsoniter/fast                  	       1	 378263334 ns/op	 243.93 MB/s	357890664 B/op	 2962083 allocs/op
+BenchmarkUnmarshalConcreteFresh/flat/64mb/jsoniter/fast                  	       1	 380838542 ns/op	 242.28 MB/s	357890664 B/op	 2962083 allocs/op
+BenchmarkUnmarshalConcreteFresh/flat/64mb/go-json/compat                 	       2	 131945062 ns/op	 699.31 MB/s	154063988 B/op	 1677744 allocs/op
+BenchmarkUnmarshalConcreteFresh/flat/64mb/go-json/compat                 	       2	 130505438 ns/op	 707.02 MB/s	154063988 B/op	 1677744 allocs/op
+BenchmarkUnmarshalConcreteFresh/flat/64mb/go-json/compat                 	       2	 131019167 ns/op	 704.25 MB/s	154063988 B/op	 1677744 allocs/op
+BenchmarkUnmarshalConcreteFresh/flat/64mb/go-json/fast                   	       2	 138684396 ns/op	 665.33 MB/s	154063988 B/op	 1677744 allocs/op
+BenchmarkUnmarshalConcreteFresh/flat/64mb/go-json/fast                   	       2	 129869792 ns/op	 710.48 MB/s	154063988 B/op	 1677744 allocs/op
+BenchmarkUnmarshalConcreteFresh/flat/64mb/go-json/fast                   	       2	 113576104 ns/op	 812.41 MB/s	154063848 B/op	 1677742 allocs/op
+BenchmarkUnmarshalConcreteFresh/flat/64mb/segmentio/compat               	       1	 307314834 ns/op	 300.25 MB/s	154083512 B/op	 1677741 allocs/op
+BenchmarkUnmarshalConcreteFresh/flat/64mb/segmentio/compat               	       1	 310279250 ns/op	 297.38 MB/s	154083512 B/op	 1677741 allocs/op
+BenchmarkUnmarshalConcreteFresh/flat/64mb/segmentio/compat               	       1	 298502833 ns/op	 309.11 MB/s	154083512 B/op	 1677741 allocs/op
+BenchmarkUnmarshalConcreteFresh/flat/64mb/segmentio/fast                 	       1	 294300541 ns/op	 313.52 MB/s	140661712 B/op	  559258 allocs/op
+BenchmarkUnmarshalConcreteFresh/flat/64mb/segmentio/fast                 	       1	 297989625 ns/op	 309.64 MB/s	140661712 B/op	  559258 allocs/op
+BenchmarkUnmarshalConcreteFresh/flat/64mb/segmentio/fast                 	       1	 306215167 ns/op	 301.33 MB/s	140661712 B/op	  559258 allocs/op
+BenchmarkUnmarshalConcreteFresh/flat/64mb/sonic/compat                   	       1	 217626000 ns/op	 423.99 MB/s	910829416 B/op	 1677731 allocs/op
+BenchmarkUnmarshalConcreteFresh/flat/64mb/sonic/compat                   	       1	 218163500 ns/op	 422.94 MB/s	910829416 B/op	 1677731 allocs/op
+BenchmarkUnmarshalConcreteFresh/flat/64mb/sonic/compat                   	       1	 208154416 ns/op	 443.28 MB/s	910829416 B/op	 1677731 allocs/op
+BenchmarkUnmarshalConcreteFresh/flat/64mb/sonic/fast                     	       2	 193569896 ns/op	 476.68 MB/s	897407684 B/op	  559249 allocs/op
+BenchmarkUnmarshalConcreteFresh/flat/64mb/sonic/fast                     	       2	 188429396 ns/op	 489.68 MB/s	897407684 B/op	  559249 allocs/op
+BenchmarkUnmarshalConcreteFresh/flat/64mb/sonic/fast                     	       2	 201624229 ns/op	 457.63 MB/s	897407684 B/op	  559249 allocs/op
+BenchmarkUnmarshalConcreteFresh/flat/64mb/easyjson/compat                	       1	 360644000 ns/op	 255.85 MB/s	315436632 B/op	 1677762 allocs/op
+BenchmarkUnmarshalConcreteFresh/flat/64mb/easyjson/compat                	       1	 350858084 ns/op	 262.98 MB/s	315436616 B/op	 1677762 allocs/op
+BenchmarkUnmarshalConcreteFresh/flat/64mb/easyjson/compat                	       1	 347679334 ns/op	 265.39 MB/s	315436616 B/op	 1677762 allocs/op
+BenchmarkUnmarshalConcreteFresh/flat/64mb/easyjson/fast                  	       1	 342975791 ns/op	 269.03 MB/s	315436616 B/op	 1677762 allocs/op
+BenchmarkUnmarshalConcreteFresh/flat/64mb/easyjson/fast                  	       1	 334611333 ns/op	 275.75 MB/s	315436632 B/op	 1677762 allocs/op
+BenchmarkUnmarshalConcreteFresh/flat/64mb/easyjson/fast                  	       1	 341534167 ns/op	 270.16 MB/s	315436632 B/op	 1677762 allocs/op
+BenchmarkUnmarshalConcreteFresh/nested/64mb/encoding-json-v2/default-safe         	       1	 350310625 ns/op	 166.16 MB/s	198009512 B/op	 2883766 allocs/op
+BenchmarkUnmarshalConcreteFresh/nested/64mb/encoding-json-v2/default-safe         	       1	 351350834 ns/op	 165.67 MB/s	198009512 B/op	 2883766 allocs/op
+BenchmarkUnmarshalConcreteFresh/nested/64mb/encoding-json-v2/default-safe         	       1	 351574833 ns/op	 165.56 MB/s	198009512 B/op	 2883766 allocs/op
+BenchmarkUnmarshalConcreteFresh/nested/64mb/encoding-json-v2/deterministic        	       1	 344835167 ns/op	 168.80 MB/s	198009512 B/op	 2883766 allocs/op
+BenchmarkUnmarshalConcreteFresh/nested/64mb/encoding-json-v2/deterministic        	       1	 341827625 ns/op	 170.28 MB/s	198009512 B/op	 2883766 allocs/op
+BenchmarkUnmarshalConcreteFresh/nested/64mb/encoding-json-v2/deterministic        	       1	 348615833 ns/op	 166.97 MB/s	198009512 B/op	 2883766 allocs/op
+BenchmarkUnmarshalConcreteFresh/nested/64mb/encoding-json-v2/fast-relaxed         	       1	 342878584 ns/op	 169.76 MB/s	198009512 B/op	 2883766 allocs/op
+BenchmarkUnmarshalConcreteFresh/nested/64mb/encoding-json-v2/fast-relaxed         	       1	 341886792 ns/op	 170.25 MB/s	198009512 B/op	 2883766 allocs/op
+BenchmarkUnmarshalConcreteFresh/nested/64mb/encoding-json-v2/fast-relaxed         	       1	 337493708 ns/op	 172.47 MB/s	198009512 B/op	 2883766 allocs/op
+BenchmarkUnmarshalConcreteFresh/nested/64mb/jsoniter/compat                       	       1	 201398958 ns/op	 289.02 MB/s	218468648 B/op	 5052944 allocs/op
+BenchmarkUnmarshalConcreteFresh/nested/64mb/jsoniter/compat                       	       2	 245038708 ns/op	 237.55 MB/s	218468716 B/op	 5052945 allocs/op
+BenchmarkUnmarshalConcreteFresh/nested/64mb/jsoniter/compat                       	       1	 290189458 ns/op	 200.59 MB/s	218468784 B/op	 5052946 allocs/op
+BenchmarkUnmarshalConcreteFresh/nested/64mb/jsoniter/fast                         	       1	 290522625 ns/op	 200.36 MB/s	218468784 B/op	 5052946 allocs/op
+BenchmarkUnmarshalConcreteFresh/nested/64mb/jsoniter/fast                         	       1	 273415917 ns/op	 212.89 MB/s	218468784 B/op	 5052946 allocs/op
+BenchmarkUnmarshalConcreteFresh/nested/64mb/jsoniter/fast                         	       1	 273356000 ns/op	 212.94 MB/s	218468784 B/op	 5052946 allocs/op
+BenchmarkUnmarshalConcreteFresh/nested/64mb/go-json/compat                        	       2	 166794146 ns/op	 348.98 MB/s	172426436 B/op	 3423811 allocs/op
+BenchmarkUnmarshalConcreteFresh/nested/64mb/go-json/compat                        	       2	 171799104 ns/op	 338.81 MB/s	172426436 B/op	 3423811 allocs/op
+BenchmarkUnmarshalConcreteFresh/nested/64mb/go-json/compat                        	       2	 173970625 ns/op	 334.58 MB/s	172426436 B/op	 3423811 allocs/op
+BenchmarkUnmarshalConcreteFresh/nested/64mb/go-json/fast                          	       2	 169397625 ns/op	 343.62 MB/s	172426436 B/op	 3423811 allocs/op
+BenchmarkUnmarshalConcreteFresh/nested/64mb/go-json/fast                          	       2	 168117334 ns/op	 346.23 MB/s	172426436 B/op	 3423811 allocs/op
+BenchmarkUnmarshalConcreteFresh/nested/64mb/go-json/fast                          	       2	 168669854 ns/op	 345.10 MB/s	172426436 B/op	 3423811 allocs/op
+BenchmarkUnmarshalConcreteFresh/nested/64mb/segmentio/compat                      	       1	 413622708 ns/op	 140.73 MB/s	436653576 B/op	 3429270 allocs/op
+BenchmarkUnmarshalConcreteFresh/nested/64mb/segmentio/compat                      	       1	 402526667 ns/op	 144.61 MB/s	436653560 B/op	 3429270 allocs/op
+BenchmarkUnmarshalConcreteFresh/nested/64mb/segmentio/compat                      	       1	 402692791 ns/op	 144.55 MB/s	436653576 B/op	 3429270 allocs/op
+BenchmarkUnmarshalConcreteFresh/nested/64mb/segmentio/fast                        	       1	 399816417 ns/op	 145.59 MB/s	414196528 B/op	  898520 allocs/op
+BenchmarkUnmarshalConcreteFresh/nested/64mb/segmentio/fast                        	       1	 376810042 ns/op	 154.48 MB/s	414196528 B/op	  898520 allocs/op
+BenchmarkUnmarshalConcreteFresh/nested/64mb/segmentio/fast                        	       1	 370852834 ns/op	 156.96 MB/s	414196528 B/op	  898520 allocs/op
+BenchmarkUnmarshalConcreteFresh/nested/64mb/sonic/compat                          	       1	 292610875 ns/op	 198.93 MB/s	641894536 B/op	 3936025 allocs/op
+BenchmarkUnmarshalConcreteFresh/nested/64mb/sonic/compat                          	       2	 238130042 ns/op	 244.44 MB/s	641894604 B/op	 3936026 allocs/op
+BenchmarkUnmarshalConcreteFresh/nested/64mb/sonic/compat                          	       2	 234156312 ns/op	 248.59 MB/s	641894604 B/op	 3936026 allocs/op
+BenchmarkUnmarshalConcreteFresh/nested/64mb/sonic/fast                            	       2	 189932896 ns/op	 306.46 MB/s	619437572 B/op	 1405276 allocs/op
+BenchmarkUnmarshalConcreteFresh/nested/64mb/sonic/fast                            	       2	 185664980 ns/op	 313.51 MB/s	619437572 B/op	 1405276 allocs/op
+BenchmarkUnmarshalConcreteFresh/nested/64mb/sonic/fast                            	       2	 180506333 ns/op	 322.47 MB/s	619437572 B/op	 1405276 allocs/op
+BenchmarkUnmarshalConcreteFresh/nested/64mb/easyjson/compat                       	       1	 230031125 ns/op	 253.04 MB/s	193019080 B/op	 3619671 allocs/op
+BenchmarkUnmarshalConcreteFresh/nested/64mb/easyjson/compat                       	       1	 233150458 ns/op	 249.66 MB/s	193019080 B/op	 3619671 allocs/op
+BenchmarkUnmarshalConcreteFresh/nested/64mb/easyjson/compat                       	       1	 235532917 ns/op	 247.13 MB/s	193019080 B/op	 3619671 allocs/op
+BenchmarkUnmarshalConcreteFresh/nested/64mb/easyjson/fast                         	       1	 239634000 ns/op	 242.90 MB/s	193019080 B/op	 3619671 allocs/op
+BenchmarkUnmarshalConcreteFresh/nested/64mb/easyjson/fast                         	       1	 228213500 ns/op	 255.06 MB/s	193019080 B/op	 3619671 allocs/op
+BenchmarkUnmarshalConcreteFresh/nested/64mb/easyjson/fast                         	       1	 225654250 ns/op	 257.95 MB/s	193019080 B/op	 3619671 allocs/op
+BenchmarkUnmarshalDynamicFresh/flat/64mb/encoding-json-v2/default-safe            	       1	 762593958 ns/op	 121.00 MB/s	344671264 B/op	10070580 allocs/op
+BenchmarkUnmarshalDynamicFresh/flat/64mb/encoding-json-v2/default-safe            	       1	 742807000 ns/op	 124.22 MB/s	344671384 B/op	10070582 allocs/op
+BenchmarkUnmarshalDynamicFresh/flat/64mb/encoding-json-v2/default-safe            	       1	 798518792 ns/op	 115.55 MB/s	344671400 B/op	10070582 allocs/op
+BenchmarkUnmarshalDynamicFresh/flat/64mb/encoding-json-v2/deterministic           	       1	 724122875 ns/op	 127.42 MB/s	344671384 B/op	10070582 allocs/op
+BenchmarkUnmarshalDynamicFresh/flat/64mb/encoding-json-v2/deterministic           	       1	 718575834 ns/op	 128.41 MB/s	344671400 B/op	10070582 allocs/op
+BenchmarkUnmarshalDynamicFresh/flat/64mb/encoding-json-v2/deterministic           	       1	 720651250 ns/op	 128.04 MB/s	344671400 B/op	10070582 allocs/op
+BenchmarkUnmarshalDynamicFresh/flat/64mb/encoding-json-v2/fast-relaxed            	       1	1140356584 ns/op	  80.91 MB/s	398359696 B/op	13447535 allocs/op
+BenchmarkUnmarshalDynamicFresh/flat/64mb/encoding-json-v2/fast-relaxed            	       1	1195359667 ns/op	  77.19 MB/s	398359712 B/op	13447535 allocs/op
+BenchmarkUnmarshalDynamicFresh/flat/64mb/encoding-json-v2/fast-relaxed            	       1	1153470375 ns/op	  79.99 MB/s	398359712 B/op	13447535 allocs/op
+BenchmarkUnmarshalDynamicFresh/flat/64mb/jsoniter/compat                          	       1	 848094917 ns/op	 108.80 MB/s	460294480 B/op	15824554 allocs/op
+BenchmarkUnmarshalDynamicFresh/flat/64mb/jsoniter/compat                          	       1	 843541958 ns/op	 109.38 MB/s	460294464 B/op	15824554 allocs/op
+BenchmarkUnmarshalDynamicFresh/flat/64mb/jsoniter/compat                          	       1	 898269542 ns/op	 102.72 MB/s	460294480 B/op	15824554 allocs/op
+BenchmarkUnmarshalDynamicFresh/flat/64mb/jsoniter/fast                            	       1	 865719583 ns/op	 106.58 MB/s	460294464 B/op	15824554 allocs/op
+BenchmarkUnmarshalDynamicFresh/flat/64mb/jsoniter/fast                            	       1	 856373750 ns/op	 107.75 MB/s	460294464 B/op	15824554 allocs/op
+BenchmarkUnmarshalDynamicFresh/flat/64mb/jsoniter/fast                            	       1	 876874750 ns/op	 105.23 MB/s	460294464 B/op	15824554 allocs/op
+BenchmarkUnmarshalDynamicFresh/flat/64mb/go-json/compat                           	       1	 568783000 ns/op	 162.22 MB/s	299758008 B/op	10066274 allocs/op
+BenchmarkUnmarshalDynamicFresh/flat/64mb/go-json/compat                           	       1	 389867375 ns/op	 236.67 MB/s	299758008 B/op	10066274 allocs/op
+BenchmarkUnmarshalDynamicFresh/flat/64mb/go-json/compat                           	       1	 438764958 ns/op	 210.30 MB/s	299758008 B/op	10066274 allocs/op
+BenchmarkUnmarshalDynamicFresh/flat/64mb/go-json/fast                             	       1	 385090167 ns/op	 239.61 MB/s	299758008 B/op	10066274 allocs/op
+BenchmarkUnmarshalDynamicFresh/flat/64mb/go-json/fast                             	       1	 385175500 ns/op	 239.55 MB/s	299758008 B/op	10066274 allocs/op
+BenchmarkUnmarshalDynamicFresh/flat/64mb/go-json/fast                             	       1	 379319333 ns/op	 243.25 MB/s	299758008 B/op	10066274 allocs/op
+BenchmarkUnmarshalDynamicFresh/flat/64mb/segmentio/compat                         	       1	 835737791 ns/op	 110.41 MB/s	320725808 B/op	10066288 allocs/op
+BenchmarkUnmarshalDynamicFresh/flat/64mb/segmentio/compat                         	       1	 958158417 ns/op	  96.30 MB/s	320725808 B/op	10066288 allocs/op
+BenchmarkUnmarshalDynamicFresh/flat/64mb/segmentio/compat                         	       1	 993588917 ns/op	  92.87 MB/s	320725808 B/op	10066288 allocs/op
+BenchmarkUnmarshalDynamicFresh/flat/64mb/segmentio/fast                           	       1	 809966833 ns/op	 113.92 MB/s	284934872 B/op	 5033125 allocs/op
+BenchmarkUnmarshalDynamicFresh/flat/64mb/segmentio/fast                           	       1	 881271583 ns/op	 104.70 MB/s	284934872 B/op	 5033125 allocs/op
+BenchmarkUnmarshalDynamicFresh/flat/64mb/segmentio/fast                           	       1	 838433792 ns/op	 110.05 MB/s	284934872 B/op	 5033125 allocs/op
+BenchmarkUnmarshalDynamicFresh/flat/64mb/sonic/compat                             	       1	 342322959 ns/op	 269.54 MB/s	1125577240 B/op	10066278 allocs/op
+BenchmarkUnmarshalDynamicFresh/flat/64mb/sonic/compat                             	       1	 307098666 ns/op	 300.46 MB/s	1125577104 B/op	10066276 allocs/op
+BenchmarkUnmarshalDynamicFresh/flat/64mb/sonic/compat                             	       1	 333950417 ns/op	 276.30 MB/s	1125577104 B/op	10066276 allocs/op
+BenchmarkUnmarshalDynamicFresh/flat/64mb/sonic/fast                               	       2	 255182562 ns/op	 361.59 MB/s	1089793404 B/op	 1677731 allocs/op
+BenchmarkUnmarshalDynamicFresh/flat/64mb/sonic/fast                               	       2	 245788416 ns/op	 375.41 MB/s	1089793404 B/op	 1677731 allocs/op
+BenchmarkUnmarshalDynamicFresh/flat/64mb/sonic/fast                               	       2	 254290416 ns/op	 362.85 MB/s	1089793404 B/op	 1677731 allocs/op
+BenchmarkUnmarshalDynamicFresh/nested/64mb/encoding-json-v2/default-safe          	       1	 674649959 ns/op	  86.28 MB/s	392253688 B/op	10412904 allocs/op
+BenchmarkUnmarshalDynamicFresh/nested/64mb/encoding-json-v2/default-safe          	       1	 733182833 ns/op	  79.39 MB/s	392253672 B/op	10412904 allocs/op
+BenchmarkUnmarshalDynamicFresh/nested/64mb/encoding-json-v2/default-safe          	       1	 734954917 ns/op	  79.20 MB/s	392253672 B/op	10412904 allocs/op
+BenchmarkUnmarshalDynamicFresh/nested/64mb/encoding-json-v2/deterministic         	       1	 729553750 ns/op	  79.79 MB/s	392253688 B/op	10412904 allocs/op
+BenchmarkUnmarshalDynamicFresh/nested/64mb/encoding-json-v2/deterministic         	       1	 727227375 ns/op	  80.04 MB/s	392253672 B/op	10412904 allocs/op
+BenchmarkUnmarshalDynamicFresh/nested/64mb/encoding-json-v2/deterministic         	       1	 736104750 ns/op	  79.08 MB/s	392253688 B/op	10412904 allocs/op
+BenchmarkUnmarshalDynamicFresh/nested/64mb/encoding-json-v2/fast-relaxed          	       1	1205496500 ns/op	  48.29 MB/s	467707448 B/op	14549831 allocs/op
+BenchmarkUnmarshalDynamicFresh/nested/64mb/encoding-json-v2/fast-relaxed          	       1	1211703833 ns/op	  48.04 MB/s	467707448 B/op	14549831 allocs/op
+BenchmarkUnmarshalDynamicFresh/nested/64mb/encoding-json-v2/fast-relaxed          	       1	1234543833 ns/op	  47.15 MB/s	467707448 B/op	14549831 allocs/op
+BenchmarkUnmarshalDynamicFresh/nested/64mb/jsoniter/compat                        	       1	1038976791 ns/op	  56.02 MB/s	488712560 B/op	17091070 allocs/op
+BenchmarkUnmarshalDynamicFresh/nested/64mb/jsoniter/compat                        	       1	 766920042 ns/op	  75.90 MB/s	488712696 B/op	17091072 allocs/op
+BenchmarkUnmarshalDynamicFresh/nested/64mb/jsoniter/compat                        	       1	 753320000 ns/op	  77.27 MB/s	488712696 B/op	17091072 allocs/op
+BenchmarkUnmarshalDynamicFresh/nested/64mb/jsoniter/fast                          	       1	 785937125 ns/op	  74.06 MB/s	488712712 B/op	17091072 allocs/op
+BenchmarkUnmarshalDynamicFresh/nested/64mb/jsoniter/fast                          	       1	 741767750 ns/op	  78.47 MB/s	488712712 B/op	17091072 allocs/op
+BenchmarkUnmarshalDynamicFresh/nested/64mb/jsoniter/fast                          	       1	 775082500 ns/op	  75.10 MB/s	488712712 B/op	17091072 allocs/op
+BenchmarkUnmarshalDynamicFresh/nested/64mb/go-json/compat                         	       1	 661611625 ns/op	  87.98 MB/s	355138904 B/op	10755672 allocs/op
+BenchmarkUnmarshalDynamicFresh/nested/64mb/go-json/compat                         	       1	 546863959 ns/op	 106.44 MB/s	355138888 B/op	10755672 allocs/op
+BenchmarkUnmarshalDynamicFresh/nested/64mb/go-json/compat                         	       1	 539790750 ns/op	 107.83 MB/s	355138888 B/op	10755672 allocs/op
+BenchmarkUnmarshalDynamicFresh/nested/64mb/go-json/fast                           	       1	 535333375 ns/op	 108.73 MB/s	355138888 B/op	10755672 allocs/op
+BenchmarkUnmarshalDynamicFresh/nested/64mb/go-json/fast                           	       1	 527316625 ns/op	 110.38 MB/s	355138888 B/op	10755672 allocs/op
+BenchmarkUnmarshalDynamicFresh/nested/64mb/go-json/fast                           	       1	 519114209 ns/op	 112.13 MB/s	355138888 B/op	10755672 allocs/op
+BenchmarkUnmarshalDynamicFresh/nested/64mb/segmentio/compat                       	       1	1639760125 ns/op	  35.50 MB/s	427184464 B/op	10839641 allocs/op
+BenchmarkUnmarshalDynamicFresh/nested/64mb/segmentio/compat                       	       1	1672467208 ns/op	  34.80 MB/s	427184480 B/op	10839641 allocs/op
+BenchmarkUnmarshalDynamicFresh/nested/64mb/segmentio/compat                       	       1	1669068833 ns/op	  34.87 MB/s	427184480 B/op	10839641 allocs/op
+BenchmarkUnmarshalDynamicFresh/nested/64mb/segmentio/fast                         	       1	1635087625 ns/op	  35.60 MB/s	390671720 B/op	 5778140 allocs/op
+BenchmarkUnmarshalDynamicFresh/nested/64mb/segmentio/fast                         	       1	1635953666 ns/op	  35.58 MB/s	390671736 B/op	 5778140 allocs/op
+BenchmarkUnmarshalDynamicFresh/nested/64mb/segmentio/fast                         	       1	1669977541 ns/op	  34.86 MB/s	390671736 B/op	 5778140 allocs/op
+BenchmarkUnmarshalDynamicFresh/nested/64mb/sonic/compat                           	       1	 343352667 ns/op	 169.53 MB/s	877338024 B/op	10797660 allocs/op
+BenchmarkUnmarshalDynamicFresh/nested/64mb/sonic/compat                           	       1	 290396375 ns/op	 200.44 MB/s	877337888 B/op	10797658 allocs/op
+BenchmarkUnmarshalDynamicFresh/nested/64mb/sonic/compat                           	       1	 291751333 ns/op	 199.51 MB/s	877337888 B/op	10797658 allocs/op
+BenchmarkUnmarshalDynamicFresh/nested/64mb/sonic/fast                             	       2	 277706875 ns/op	 209.60 MB/s	840842220 B/op	 1377320 allocs/op
+BenchmarkUnmarshalDynamicFresh/nested/64mb/sonic/fast                             	       2	 279178604 ns/op	 208.50 MB/s	840842220 B/op	 1377320 allocs/op
+BenchmarkUnmarshalDynamicFresh/nested/64mb/sonic/fast                             	       2	 274951666 ns/op	 211.70 MB/s	840842220 B/op	 1377320 allocs/op
+PASS
+ok  	json-benchmark	315.328s

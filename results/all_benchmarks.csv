@@ -1,0 +1,2017 @@
+size,library,operation,shape,metric,concrete,dynamic
+512 Byte,encoding/json go1.23,marshal,flat,ns_per_op,1192,6116
+8 KiB,encoding/json go1.23,marshal,flat,ns_per_op,20790,103637
+64 KiB,encoding/json go1.23,marshal,flat,ns_per_op,159578,854152
+512 KiB,encoding/json go1.23,marshal,flat,ns_per_op,1239133,7047435
+2 MiB,encoding/json go1.23,marshal,flat,ns_per_op,5414122,26873275
+8 MiB,encoding/json go1.23,marshal,flat,ns_per_op,18710472,101771900
+64 MiB,encoding/json go1.23,marshal,flat,ns_per_op,144554125,806491597
+512 Byte,encoding/json go1.23,marshal,flat,bytes_per_op,640,2688
+8 KiB,encoding/json go1.23,marshal,flat,bytes_per_op,10880,45696
+64 KiB,encoding/json go1.23,marshal,flat,bytes_per_op,90112,369667
+512 KiB,encoding/json go1.23,marshal,flat,bytes_per_op,712709,2949651
+2 MiB,encoding/json go1.23,marshal,flat,bytes_per_op,2850830,11798580
+8 MiB,encoding/json go1.23,marshal,flat,bytes_per_op,11436052,47227475
+64 MiB,encoding/json go1.23,marshal,flat,bytes_per_op,92274688,378605659
+512 Byte,encoding/json go1.23,marshal,flat,allocs_per_op,1,61
+8 KiB,encoding/json go1.23,marshal,flat,allocs_per_op,1,1021
+64 KiB,encoding/json go1.23,marshal,flat,allocs_per_op,1,8191
+512 KiB,encoding/json go1.23,marshal,flat,allocs_per_op,1,65536
+2 MiB,encoding/json go1.23,marshal,flat,allocs_per_op,1,262141
+8 MiB,encoding/json go1.23,marshal,flat,allocs_per_op,1,1048577
+64 MiB,encoding/json go1.23,marshal,flat,allocs_per_op,1,8388602
+512 Byte,encoding/json go1.23,marshal,nested,ns_per_op,2937,9192
+8 KiB,encoding/json go1.23,marshal,nested,ns_per_op,28651,98211
+64 KiB,encoding/json go1.23,marshal,nested,ns_per_op,173789,644926
+512 KiB,encoding/json go1.23,marshal,nested,ns_per_op,1362185,5291736
+2 MiB,encoding/json go1.23,marshal,nested,ns_per_op,5063777,21110427
+8 MiB,encoding/json go1.23,marshal,nested,ns_per_op,18362542,82519083
+64 MiB,encoding/json go1.23,marshal,nested,ns_per_op,133919951,551525444
+512 Byte,encoding/json go1.23,marshal,nested,bytes_per_op,1440,3824
+8 KiB,encoding/json go1.23,marshal,nested,bytes_per_op,13120,39552
+64 KiB,encoding/json go1.23,marshal,nested,bytes_per_op,81088,261890
+512 KiB,encoding/json go1.23,marshal,nested,bytes_per_op,628453,2116350
+2 MiB,encoding/json go1.23,marshal,nested,bytes_per_op,2352750,8069945
+8 MiB,encoding/json go1.23,marshal,nested,bytes_per_op,9375415,32849533
+64 MiB,encoding/json go1.23,marshal,nested,bytes_per_op,70748736,252962861
+512 Byte,encoding/json go1.23,marshal,nested,allocs_per_op,22,95
+8 KiB,encoding/json go1.23,marshal,nested,allocs_per_op,155,970
+64 KiB,encoding/json go1.23,marshal,nested,allocs_per_op,743,6340
+512 KiB,encoding/json go1.23,marshal,nested,allocs_per_op,5048,51184
+2 MiB,encoding/json go1.23,marshal,nested,allocs_per_op,16948,194399
+8 MiB,encoding/json go1.23,marshal,nested,allocs_per_op,62070,791202
+64 MiB,encoding/json go1.23,marshal,nested,allocs_per_op,391763,6057971
+512 Byte,encoding/json go1.23,unmarshal,flat,ns_per_op,6571,7230
+8 KiB,encoding/json go1.23,unmarshal,flat,ns_per_op,101857,108565
+64 KiB,encoding/json go1.23,unmarshal,flat,ns_per_op,814447,1004211
+512 KiB,encoding/json go1.23,unmarshal,flat,ns_per_op,6692642,7020405
+2 MiB,encoding/json go1.23,unmarshal,flat,ns_per_op,27666189,28856889
+8 MiB,encoding/json go1.23,unmarshal,flat,ns_per_op,105991174,108400792
+64 MiB,encoding/json go1.23,unmarshal,flat,ns_per_op,848671653,1056867514
+512 Byte,encoding/json go1.23,unmarshal,flat,bytes_per_op,1552,2896
+8 KiB,encoding/json go1.23,unmarshal,flat,bytes_per_op,21576,43496
+64 KiB,encoding/json go1.23,unmarshal,flat,bytes_per_op,172608,348168
+512 KiB,encoding/json go1.23,unmarshal,flat,bytes_per_op,2044216,2872337
+2 MiB,encoding/json go1.23,unmarshal,flat,bytes_per_op,8537160,11727651
+8 MiB,encoding/json go1.23,unmarshal,flat,bytes_per_op,36532525,47698619
+64 MiB,encoding/json go1.23,unmarshal,flat,bytes_per_op,342280312,382153784
+512 Byte,encoding/json go1.23,unmarshal,flat,allocs_per_op,31,105
+8 KiB,encoding/json go1.23,unmarshal,flat,allocs_per_op,291,1511
+64 KiB,encoding/json go1.23,unmarshal,flat,allocs_per_op,2206,12030
+512 KiB,encoding/json go1.23,unmarshal,flat,allocs_per_op,17504,96137
+2 MiB,encoding/json go1.23,unmarshal,flat,allocs_per_op,69937,384482
+8 MiB,encoding/json go1.23,unmarshal,flat,allocs_per_op,279659,1537869
+64 MiB,encoding/json go1.23,unmarshal,flat,allocs_per_op,2237009,12302710
+512 Byte,encoding/json go1.23,unmarshal,nested,ns_per_op,11529,9910
+8 KiB,encoding/json go1.23,unmarshal,nested,ns_per_op,115525,108566
+64 KiB,encoding/json go1.23,unmarshal,nested,ns_per_op,764366,748508
+512 KiB,encoding/json go1.23,unmarshal,nested,ns_per_op,6436647,6374479
+2 MiB,encoding/json go1.23,unmarshal,nested,ns_per_op,24578411,26420085
+8 MiB,encoding/json go1.23,unmarshal,nested,ns_per_op,94840785,105592188
+64 MiB,encoding/json go1.23,unmarshal,nested,ns_per_op,666815417,962670069
+512 Byte,encoding/json go1.23,unmarshal,nested,bytes_per_op,3176,5632
+8 KiB,encoding/json go1.23,unmarshal,nested,bytes_per_op,29192,58960
+64 KiB,encoding/json go1.23,unmarshal,nested,bytes_per_op,216712,410976
+512 KiB,encoding/json go1.23,unmarshal,nested,bytes_per_op,1705104,3371528
+2 MiB,encoding/json go1.23,unmarshal,nested,bytes_per_op,6296977,12918418
+8 MiB,encoding/json go1.23,unmarshal,nested,bytes_per_op,23898912,52591808
+64 MiB,encoding/json go1.23,unmarshal,nested,bytes_per_op,219919560,417041424
+512 Byte,encoding/json go1.23,unmarshal,nested,allocs_per_op,83,166
+8 KiB,encoding/json go1.23,unmarshal,nested,allocs_per_op,812,1846
+64 KiB,encoding/json go1.23,unmarshal,nested,allocs_per_op,5325,12737
+512 KiB,encoding/json go1.23,unmarshal,nested,allocs_per_op,42652,104638
+2 MiB,encoding/json go1.23,unmarshal,nested,allocs_per_op,161151,401857
+8 MiB,encoding/json go1.23,unmarshal,nested,allocs_per_op,650354,1645653
+64 MiB,encoding/json go1.23,unmarshal,nested,allocs_per_op,4983008,12802182
+512 Byte,encoding/json/v2 (default-safe) go1.27,marshal,flat,ns_per_op,1707,2949
+8 KiB,encoding/json/v2 (default-safe) go1.27,marshal,flat,ns_per_op,25983,34803
+64 KiB,encoding/json/v2 (default-safe) go1.27,marshal,flat,ns_per_op,205200,267964
+512 KiB,encoding/json/v2 (default-safe) go1.27,marshal,flat,ns_per_op,1624161,2014033
+2 MiB,encoding/json/v2 (default-safe) go1.27,marshal,flat,ns_per_op,6152411,8277388
+8 MiB,encoding/json/v2 (default-safe) go1.27,marshal,flat,ns_per_op,22470364,32527745
+64 MiB,encoding/json/v2 (default-safe) go1.27,marshal,flat,ns_per_op,165784584,257431458
+512 Byte,encoding/json/v2 (default-safe) go1.27,marshal,flat,bytes_per_op,576,719
+8 KiB,encoding/json/v2 (default-safe) go1.27,marshal,flat,bytes_per_op,9728,9871
+64 KiB,encoding/json/v2 (default-safe) go1.27,marshal,flat,bytes_per_op,81920,82064
+512 KiB,encoding/json/v2 (default-safe) go1.27,marshal,flat,bytes_per_op,647172,647316
+2 MiB,encoding/json/v2 (default-safe) go1.27,marshal,flat,bytes_per_op,2588688,2588828
+8 MiB,encoding/json/v2 (default-safe) go1.27,marshal,flat,bytes_per_op,10387469,10387618
+64 MiB,encoding/json/v2 (default-safe) go1.27,marshal,flat,bytes_per_op,83886080,83886232
+512 Byte,encoding/json/v2 (default-safe) go1.27,marshal,flat,allocs_per_op,1,11
+8 KiB,encoding/json/v2 (default-safe) go1.27,marshal,flat,allocs_per_op,1,11
+64 KiB,encoding/json/v2 (default-safe) go1.27,marshal,flat,allocs_per_op,1,11
+512 KiB,encoding/json/v2 (default-safe) go1.27,marshal,flat,allocs_per_op,1,11
+2 MiB,encoding/json/v2 (default-safe) go1.27,marshal,flat,allocs_per_op,1,11
+8 MiB,encoding/json/v2 (default-safe) go1.27,marshal,flat,allocs_per_op,1,11
+64 MiB,encoding/json/v2 (default-safe) go1.27,marshal,flat,allocs_per_op,1,11
+512 Byte,encoding/json/v2 (default-safe) go1.27,marshal,nested,ns_per_op,2972,3149
+8 KiB,encoding/json/v2 (default-safe) go1.27,marshal,nested,ns_per_op,32070,31335
+64 KiB,encoding/json/v2 (default-safe) go1.27,marshal,nested,ns_per_op,216215,208810
+512 KiB,encoding/json/v2 (default-safe) go1.27,marshal,nested,ns_per_op,1611596,1790291
+2 MiB,encoding/json/v2 (default-safe) go1.27,marshal,nested,ns_per_op,6241282,6580451
+8 MiB,encoding/json/v2 (default-safe) go1.27,marshal,nested,ns_per_op,23701878,23402233
+64 MiB,encoding/json/v2 (default-safe) go1.27,marshal,nested,ns_per_op,184923868,179459604
+512 Byte,encoding/json/v2 (default-safe) go1.27,marshal,nested,bytes_per_op,800,784
+8 KiB,encoding/json/v2 (default-safe) go1.27,marshal,nested,bytes_per_op,8896,8272
+64 KiB,encoding/json/v2 (default-safe) go1.27,marshal,nested,bytes_per_op,60736,57424
+512 KiB,encoding/json/v2 (default-safe) go1.27,marshal,nested,bytes_per_op,481828,458835
+2 MiB,encoding/json/v2 (default-safe) go1.27,marshal,nested,bytes_per_op,1846955,1769559
+8 MiB,encoding/json/v2 (default-safe) go1.27,marshal,nested,bytes_per_op,7541870,7258192
+64 MiB,encoding/json/v2 (default-safe) go1.27,marshal,nested,bytes_per_op,59159488,57368656
+512 Byte,encoding/json/v2 (default-safe) go1.27,marshal,nested,allocs_per_op,7,7
+8 KiB,encoding/json/v2 (default-safe) go1.27,marshal,nested,allocs_per_op,45,7
+64 KiB,encoding/json/v2 (default-safe) go1.27,marshal,nested,allocs_per_op,213,7
+512 KiB,encoding/json/v2 (default-safe) go1.27,marshal,nested,allocs_per_op,1443,7
+2 MiB,encoding/json/v2 (default-safe) go1.27,marshal,nested,allocs_per_op,4843,7
+8 MiB,encoding/json/v2 (default-safe) go1.27,marshal,nested,allocs_per_op,17735,7
+64 MiB,encoding/json/v2 (default-safe) go1.27,marshal,nested,allocs_per_op,111933,7
+512 Byte,encoding/json/v2 (default-safe) go1.27,unmarshal,flat,ns_per_op,2985,4686
+8 KiB,encoding/json/v2 (default-safe) go1.27,unmarshal,flat,ns_per_op,49491,71730
+64 KiB,encoding/json/v2 (default-safe) go1.27,unmarshal,flat,ns_per_op,380434,576649
+512 KiB,encoding/json/v2 (default-safe) go1.27,unmarshal,flat,ns_per_op,3252041,4677740
+2 MiB,encoding/json/v2 (default-safe) go1.27,unmarshal,flat,ns_per_op,13242234,19445042
+8 MiB,encoding/json/v2 (default-safe) go1.27,unmarshal,flat,ns_per_op,51215997,79410505
+64 MiB,encoding/json/v2 (default-safe) go1.27,unmarshal,flat,ns_per_op,435795153,767973250
+512 Byte,encoding/json/v2 (default-safe) go1.27,unmarshal,flat,bytes_per_op,1048,2336
+8 KiB,encoding/json/v2 (default-safe) go1.27,unmarshal,flat,bytes_per_op,18040,38736
+64 KiB,encoding/json/v2 (default-safe) go1.27,unmarshal,flat,bytes_per_op,146097,311554
+512 KiB,encoding/json/v2 (default-safe) go1.27,unmarshal,flat,bytes_per_op,1836180,2583881
+2 MiB,encoding/json/v2 (default-safe) go1.27,unmarshal,flat,bytes_per_op,7705311,10564807
+8 MiB,encoding/json/v2 (default-safe) go1.27,unmarshal,flat,bytes_per_op,33202828,43035386
+64 MiB,encoding/json/v2 (default-safe) go1.27,unmarshal,flat,bytes_per_op,315641597,344671349
+512 Byte,encoding/json/v2 (default-safe) go1.27,unmarshal,flat,allocs_per_op,16,73
+8 KiB,encoding/json/v2 (default-safe) go1.27,unmarshal,flat,allocs_per_op,214,1233
+64 KiB,encoding/json/v2 (default-safe) go1.27,unmarshal,flat,allocs_per_op,1650,9839
+512 KiB,encoding/json/v2 (default-safe) go1.27,unmarshal,flat,allocs_per_op,13168,78706
+2 MiB,encoding/json/v2 (default-safe) go1.27,unmarshal,flat,allocs_per_op,52605,314747
+8 MiB,encoding/json/v2 (default-safe) go1.27,unmarshal,flat,allocs_per_op,210289,1258861
+64 MiB,encoding/json/v2 (default-safe) go1.27,unmarshal,flat,allocs_per_op,1682034,10070581
+512 Byte,encoding/json/v2 (default-safe) go1.27,unmarshal,nested,ns_per_op,5467,7057
+8 KiB,encoding/json/v2 (default-safe) go1.27,unmarshal,nested,ns_per_op,62816,78938
+64 KiB,encoding/json/v2 (default-safe) go1.27,unmarshal,nested,ns_per_op,429331,529153
+512 KiB,encoding/json/v2 (default-safe) go1.27,unmarshal,nested,ns_per_op,3522771,4494267
+2 MiB,encoding/json/v2 (default-safe) go1.27,unmarshal,nested,ns_per_op,13225750,18597702
+8 MiB,encoding/json/v2 (default-safe) go1.27,unmarshal,nested,ns_per_op,51378613,78033236
+64 MiB,encoding/json/v2 (default-safe) go1.27,unmarshal,nested,ns_per_op,351078764,714262570
+512 Byte,encoding/json/v2 (default-safe) go1.27,unmarshal,nested,bytes_per_op,2120,4928
+8 KiB,encoding/json/v2 (default-safe) go1.27,unmarshal,nested,bytes_per_op,25248,55912
+64 KiB,encoding/json/v2 (default-safe) go1.27,unmarshal,nested,bytes_per_op,193825,389594
+512 KiB,encoding/json/v2 (default-safe) go1.27,unmarshal,nested,bytes_per_op,1518522,3181065
+2 MiB,encoding/json/v2 (default-safe) go1.27,unmarshal,nested,bytes_per_op,5593054,12166265
+8 MiB,encoding/json/v2 (default-safe) go1.27,unmarshal,nested,bytes_per_op,21010045,49477971
+64 MiB,encoding/json/v2 (default-safe) go1.27,unmarshal,nested,bytes_per_op,198009512,392253677
+512 Byte,encoding/json/v2 (default-safe) go1.27,unmarshal,nested,allocs_per_op,33,126
+8 KiB,encoding/json/v2 (default-safe) go1.27,unmarshal,nested,allocs_per_op,452,1528
+64 KiB,encoding/json/v2 (default-safe) go1.27,unmarshal,nested,allocs_per_op,3088,10506
+512 KiB,encoding/json/v2 (default-safe) go1.27,unmarshal,nested,allocs_per_op,24544,85808
+2 MiB,encoding/json/v2 (default-safe) go1.27,unmarshal,nested,allocs_per_op,93581,329008
+8 MiB,encoding/json/v2 (default-safe) go1.27,unmarshal,nested,allocs_per_op,374717,1343133
+64 MiB,encoding/json/v2 (default-safe) go1.27,unmarshal,nested,allocs_per_op,2883766,10412904
+512 Byte,encoding/json/v2 (deterministic) go1.27,marshal,flat,ns_per_op,1721,3787
+8 KiB,encoding/json/v2 (deterministic) go1.27,marshal,flat,ns_per_op,26280,45064
+64 KiB,encoding/json/v2 (deterministic) go1.27,marshal,flat,ns_per_op,212023,352598
+512 KiB,encoding/json/v2 (deterministic) go1.27,marshal,flat,ns_per_op,1627700,2746137
+2 MiB,encoding/json/v2 (deterministic) go1.27,marshal,flat,ns_per_op,5975137,11052618
+8 MiB,encoding/json/v2 (deterministic) go1.27,marshal,flat,ns_per_op,22185882,37949081
+64 MiB,encoding/json/v2 (deterministic) go1.27,marshal,flat,ns_per_op,166446590,308623986
+512 Byte,encoding/json/v2 (deterministic) go1.27,marshal,flat,bytes_per_op,576,832
+8 KiB,encoding/json/v2 (deterministic) go1.27,marshal,flat,bytes_per_op,9728,9984
+64 KiB,encoding/json/v2 (deterministic) go1.27,marshal,flat,bytes_per_op,81920,82178
+512 KiB,encoding/json/v2 (deterministic) go1.27,marshal,flat,bytes_per_op,647172,647438
+2 MiB,encoding/json/v2 (deterministic) go1.27,marshal,flat,bytes_per_op,2588688,2588966
+8 MiB,encoding/json/v2 (deterministic) go1.27,marshal,flat,bytes_per_op,10387469,10387712
+64 MiB,encoding/json/v2 (deterministic) go1.27,marshal,flat,bytes_per_op,83886080,83886344
+512 Byte,encoding/json/v2 (deterministic) go1.27,marshal,flat,allocs_per_op,1,18
+8 KiB,encoding/json/v2 (deterministic) go1.27,marshal,flat,allocs_per_op,1,18
+64 KiB,encoding/json/v2 (deterministic) go1.27,marshal,flat,allocs_per_op,1,18
+512 KiB,encoding/json/v2 (deterministic) go1.27,marshal,flat,allocs_per_op,1,18
+2 MiB,encoding/json/v2 (deterministic) go1.27,marshal,flat,allocs_per_op,1,18
+8 MiB,encoding/json/v2 (deterministic) go1.27,marshal,flat,allocs_per_op,1,18
+64 MiB,encoding/json/v2 (deterministic) go1.27,marshal,flat,allocs_per_op,1,18
+512 Byte,encoding/json/v2 (deterministic) go1.27,marshal,nested,ns_per_op,3471,4251
+8 KiB,encoding/json/v2 (deterministic) go1.27,marshal,nested,ns_per_op,35506,42657
+64 KiB,encoding/json/v2 (deterministic) go1.27,marshal,nested,ns_per_op,225652,274208
+512 KiB,encoding/json/v2 (deterministic) go1.27,marshal,nested,ns_per_op,1685806,2137314
+2 MiB,encoding/json/v2 (deterministic) go1.27,marshal,nested,ns_per_op,6458382,8109518
+8 MiB,encoding/json/v2 (deterministic) go1.27,marshal,nested,ns_per_op,23678430,29834032
+64 MiB,encoding/json/v2 (deterministic) go1.27,marshal,nested,ns_per_op,172612896,231815445
+512 Byte,encoding/json/v2 (deterministic) go1.27,marshal,nested,bytes_per_op,944,832
+8 KiB,encoding/json/v2 (deterministic) go1.27,marshal,nested,bytes_per_op,9952,8320
+64 KiB,encoding/json/v2 (deterministic) go1.27,marshal,nested,bytes_per_op,65825,57473
+512 KiB,encoding/json/v2 (deterministic) go1.27,marshal,nested,bytes_per_op,516441,458892
+2 MiB,encoding/json/v2 (deterministic) go1.27,marshal,nested,bytes_per_op,1963180,1769620
+8 MiB,encoding/json/v2 (deterministic) go1.27,marshal,nested,bytes_per_op,7967503,7258240
+64 MiB,encoding/json/v2 (deterministic) go1.27,marshal,nested,bytes_per_op,61845856,57368736
+512 Byte,encoding/json/v2 (deterministic) go1.27,marshal,nested,allocs_per_op,16,10
+8 KiB,encoding/json/v2 (deterministic) go1.27,marshal,nested,allocs_per_op,111,10
+64 KiB,encoding/json/v2 (deterministic) go1.27,marshal,nested,allocs_per_op,531,10
+512 KiB,encoding/json/v2 (deterministic) go1.27,marshal,nested,allocs_per_op,3606,10
+2 MiB,encoding/json/v2 (deterministic) go1.27,marshal,nested,allocs_per_op,12106,10
+8 MiB,encoding/json/v2 (deterministic) go1.27,marshal,nested,allocs_per_op,44336,10
+64 MiB,encoding/json/v2 (deterministic) go1.27,marshal,nested,allocs_per_op,279831,10
+512 Byte,encoding/json/v2 (deterministic) go1.27,unmarshal,flat,ns_per_op,3078,4762
+8 KiB,encoding/json/v2 (deterministic) go1.27,unmarshal,flat,ns_per_op,48707,71758
+64 KiB,encoding/json/v2 (deterministic) go1.27,unmarshal,flat,ns_per_op,376174,571553
+512 KiB,encoding/json/v2 (deterministic) go1.27,unmarshal,flat,ns_per_op,3293781,4660159
+2 MiB,encoding/json/v2 (deterministic) go1.27,unmarshal,flat,ns_per_op,13545627,19567477
+8 MiB,encoding/json/v2 (deterministic) go1.27,unmarshal,flat,ns_per_op,51286382,79813885
+64 MiB,encoding/json/v2 (deterministic) go1.27,unmarshal,flat,ns_per_op,428158806,721116653
+512 Byte,encoding/json/v2 (deterministic) go1.27,unmarshal,flat,bytes_per_op,1048,2336
+8 KiB,encoding/json/v2 (deterministic) go1.27,unmarshal,flat,bytes_per_op,18040,38736
+64 KiB,encoding/json/v2 (deterministic) go1.27,unmarshal,flat,bytes_per_op,146097,311554
+512 KiB,encoding/json/v2 (deterministic) go1.27,unmarshal,flat,bytes_per_op,1836180,2583881
+2 MiB,encoding/json/v2 (deterministic) go1.27,unmarshal,flat,bytes_per_op,7705306,10564808
+8 MiB,encoding/json/v2 (deterministic) go1.27,unmarshal,flat,bytes_per_op,33202828,43035386
+64 MiB,encoding/json/v2 (deterministic) go1.27,unmarshal,flat,bytes_per_op,315641643,344671395
+512 Byte,encoding/json/v2 (deterministic) go1.27,unmarshal,flat,allocs_per_op,16,73
+8 KiB,encoding/json/v2 (deterministic) go1.27,unmarshal,flat,allocs_per_op,214,1233
+64 KiB,encoding/json/v2 (deterministic) go1.27,unmarshal,flat,allocs_per_op,1650,9839
+512 KiB,encoding/json/v2 (deterministic) go1.27,unmarshal,flat,allocs_per_op,13168,78706
+2 MiB,encoding/json/v2 (deterministic) go1.27,unmarshal,flat,allocs_per_op,52605,314747
+8 MiB,encoding/json/v2 (deterministic) go1.27,unmarshal,flat,allocs_per_op,210289,1258861
+64 MiB,encoding/json/v2 (deterministic) go1.27,unmarshal,flat,allocs_per_op,1682035,10070582
+512 Byte,encoding/json/v2 (deterministic) go1.27,unmarshal,nested,ns_per_op,5485,6916
+8 KiB,encoding/json/v2 (deterministic) go1.27,unmarshal,nested,ns_per_op,62585,78496
+64 KiB,encoding/json/v2 (deterministic) go1.27,unmarshal,nested,ns_per_op,428634,539711
+512 KiB,encoding/json/v2 (deterministic) go1.27,unmarshal,nested,ns_per_op,3492648,4508073
+2 MiB,encoding/json/v2 (deterministic) go1.27,unmarshal,nested,ns_per_op,13227947,18568900
+8 MiB,encoding/json/v2 (deterministic) go1.27,unmarshal,nested,ns_per_op,51312896,73864570
+64 MiB,encoding/json/v2 (deterministic) go1.27,unmarshal,nested,ns_per_op,345092875,730961958
+512 Byte,encoding/json/v2 (deterministic) go1.27,unmarshal,nested,bytes_per_op,2120,4928
+8 KiB,encoding/json/v2 (deterministic) go1.27,unmarshal,nested,bytes_per_op,25248,55912
+64 KiB,encoding/json/v2 (deterministic) go1.27,unmarshal,nested,bytes_per_op,193825,389595
+512 KiB,encoding/json/v2 (deterministic) go1.27,unmarshal,nested,bytes_per_op,1518522,3181065
+2 MiB,encoding/json/v2 (deterministic) go1.27,unmarshal,nested,bytes_per_op,5593052,12166269
+8 MiB,encoding/json/v2 (deterministic) go1.27,unmarshal,nested,bytes_per_op,21010053,49477971
+64 MiB,encoding/json/v2 (deterministic) go1.27,unmarshal,nested,bytes_per_op,198009512,392253683
+512 Byte,encoding/json/v2 (deterministic) go1.27,unmarshal,nested,allocs_per_op,33,126
+8 KiB,encoding/json/v2 (deterministic) go1.27,unmarshal,nested,allocs_per_op,452,1528
+64 KiB,encoding/json/v2 (deterministic) go1.27,unmarshal,nested,allocs_per_op,3088,10506
+512 KiB,encoding/json/v2 (deterministic) go1.27,unmarshal,nested,allocs_per_op,24544,85808
+2 MiB,encoding/json/v2 (deterministic) go1.27,unmarshal,nested,allocs_per_op,93581,329008
+8 MiB,encoding/json/v2 (deterministic) go1.27,unmarshal,nested,allocs_per_op,374717,1343133
+64 MiB,encoding/json/v2 (deterministic) go1.27,unmarshal,nested,allocs_per_op,2883766,10412904
+512 Byte,encoding/json/v2 (fast-relaxed) go1.27,marshal,flat,ns_per_op,1705,2774
+8 KiB,encoding/json/v2 (fast-relaxed) go1.27,marshal,flat,ns_per_op,25864,34046
+64 KiB,encoding/json/v2 (fast-relaxed) go1.27,marshal,flat,ns_per_op,205354,265891
+512 KiB,encoding/json/v2 (fast-relaxed) go1.27,marshal,flat,ns_per_op,1591368,1999718
+2 MiB,encoding/json/v2 (fast-relaxed) go1.27,marshal,flat,ns_per_op,5846459,7794020
+8 MiB,encoding/json/v2 (fast-relaxed) go1.27,marshal,flat,ns_per_op,22633479,27956425
+64 MiB,encoding/json/v2 (fast-relaxed) go1.27,marshal,flat,ns_per_op,163806146,219192194
+512 Byte,encoding/json/v2 (fast-relaxed) go1.27,marshal,flat,bytes_per_op,576,719
+8 KiB,encoding/json/v2 (fast-relaxed) go1.27,marshal,flat,bytes_per_op,9728,9871
+64 KiB,encoding/json/v2 (fast-relaxed) go1.27,marshal,flat,bytes_per_op,81920,82064
+512 KiB,encoding/json/v2 (fast-relaxed) go1.27,marshal,flat,bytes_per_op,647173,647317
+2 MiB,encoding/json/v2 (fast-relaxed) go1.27,marshal,flat,bytes_per_op,2588687,2588827
+8 MiB,encoding/json/v2 (fast-relaxed) go1.27,marshal,flat,bytes_per_op,10387469,10387617
+64 MiB,encoding/json/v2 (fast-relaxed) go1.27,marshal,flat,bytes_per_op,83886080,83886232
+512 Byte,encoding/json/v2 (fast-relaxed) go1.27,marshal,flat,allocs_per_op,1,11
+8 KiB,encoding/json/v2 (fast-relaxed) go1.27,marshal,flat,allocs_per_op,1,11
+64 KiB,encoding/json/v2 (fast-relaxed) go1.27,marshal,flat,allocs_per_op,1,11
+512 KiB,encoding/json/v2 (fast-relaxed) go1.27,marshal,flat,allocs_per_op,1,11
+2 MiB,encoding/json/v2 (fast-relaxed) go1.27,marshal,flat,allocs_per_op,1,11
+8 MiB,encoding/json/v2 (fast-relaxed) go1.27,marshal,flat,allocs_per_op,1,11
+64 MiB,encoding/json/v2 (fast-relaxed) go1.27,marshal,flat,allocs_per_op,1,11
+512 Byte,encoding/json/v2 (fast-relaxed) go1.27,marshal,nested,ns_per_op,3035,3336
+8 KiB,encoding/json/v2 (fast-relaxed) go1.27,marshal,nested,ns_per_op,32888,30480
+64 KiB,encoding/json/v2 (fast-relaxed) go1.27,marshal,nested,ns_per_op,208694,209531
+512 KiB,encoding/json/v2 (fast-relaxed) go1.27,marshal,nested,ns_per_op,1604491,1794625
+2 MiB,encoding/json/v2 (fast-relaxed) go1.27,marshal,nested,ns_per_op,6129597,6235798
+8 MiB,encoding/json/v2 (fast-relaxed) go1.27,marshal,nested,ns_per_op,23647345,23157884
+64 MiB,encoding/json/v2 (fast-relaxed) go1.27,marshal,nested,ns_per_op,162739473,178056306
+512 Byte,encoding/json/v2 (fast-relaxed) go1.27,marshal,nested,bytes_per_op,800,784
+8 KiB,encoding/json/v2 (fast-relaxed) go1.27,marshal,nested,bytes_per_op,8896,8272
+64 KiB,encoding/json/v2 (fast-relaxed) go1.27,marshal,nested,bytes_per_op,60736,57424
+512 KiB,encoding/json/v2 (fast-relaxed) go1.27,marshal,nested,bytes_per_op,481828,458835
+2 MiB,encoding/json/v2 (fast-relaxed) go1.27,marshal,nested,bytes_per_op,1846956,1769558
+8 MiB,encoding/json/v2 (fast-relaxed) go1.27,marshal,nested,bytes_per_op,7541870,7258192
+64 MiB,encoding/json/v2 (fast-relaxed) go1.27,marshal,nested,bytes_per_op,59159488,57368656
+512 Byte,encoding/json/v2 (fast-relaxed) go1.27,marshal,nested,allocs_per_op,7,7
+8 KiB,encoding/json/v2 (fast-relaxed) go1.27,marshal,nested,allocs_per_op,45,7
+64 KiB,encoding/json/v2 (fast-relaxed) go1.27,marshal,nested,allocs_per_op,213,7
+512 KiB,encoding/json/v2 (fast-relaxed) go1.27,marshal,nested,allocs_per_op,1443,7
+2 MiB,encoding/json/v2 (fast-relaxed) go1.27,marshal,nested,allocs_per_op,4843,7
+8 MiB,encoding/json/v2 (fast-relaxed) go1.27,marshal,nested,allocs_per_op,17735,7
+64 MiB,encoding/json/v2 (fast-relaxed) go1.27,marshal,nested,allocs_per_op,111933,7
+512 Byte,encoding/json/v2 (fast-relaxed) go1.27,unmarshal,flat,ns_per_op,2950,8081
+8 KiB,encoding/json/v2 (fast-relaxed) go1.27,unmarshal,flat,ns_per_op,47086,128842
+64 KiB,encoding/json/v2 (fast-relaxed) go1.27,unmarshal,flat,ns_per_op,371319,1036846
+512 KiB,encoding/json/v2 (fast-relaxed) go1.27,unmarshal,flat,ns_per_op,3164888,8325558
+2 MiB,encoding/json/v2 (fast-relaxed) go1.27,unmarshal,flat,ns_per_op,13078129,34567153
+8 MiB,encoding/json/v2 (fast-relaxed) go1.27,unmarshal,flat,ns_per_op,50718578,132474187
+64 MiB,encoding/json/v2 (fast-relaxed) go1.27,unmarshal,flat,ns_per_op,430118041,1163062209
+512 Byte,encoding/json/v2 (fast-relaxed) go1.27,unmarshal,flat,bytes_per_op,1048,2792
+8 KiB,encoding/json/v2 (fast-relaxed) go1.27,unmarshal,flat,bytes_per_op,18040,45336
+64 KiB,encoding/json/v2 (fast-relaxed) go1.27,unmarshal,flat,bytes_per_op,146097,364050
+512 KiB,encoding/json/v2 (fast-relaxed) go1.27,unmarshal,flat,bytes_per_op,1836179,3003383
+2 MiB,encoding/json/v2 (fast-relaxed) go1.27,unmarshal,flat,bytes_per_op,7705310,12242606
+8 MiB,encoding/json/v2 (fast-relaxed) go1.27,unmarshal,flat,bytes_per_op,33202844,49746509
+64 MiB,encoding/json/v2 (fast-relaxed) go1.27,unmarshal,flat,bytes_per_op,315641643,398359707
+512 Byte,encoding/json/v2 (fast-relaxed) go1.27,unmarshal,flat,allocs_per_op,16,103
+8 KiB,encoding/json/v2 (fast-relaxed) go1.27,unmarshal,flat,allocs_per_op,214,1654
+64 KiB,encoding/json/v2 (fast-relaxed) go1.27,unmarshal,flat,allocs_per_op,1650,13151
+512 KiB,encoding/json/v2 (fast-relaxed) go1.27,unmarshal,flat,allocs_per_op,13168,105155
+2 MiB,encoding/json/v2 (fast-relaxed) go1.27,unmarshal,flat,allocs_per_op,52605,420260
+8 MiB,encoding/json/v2 (fast-relaxed) go1.27,unmarshal,flat,allocs_per_op,210289,1680942
+64 MiB,encoding/json/v2 (fast-relaxed) go1.27,unmarshal,flat,allocs_per_op,1682035,13447535
+512 Byte,encoding/json/v2 (fast-relaxed) go1.27,unmarshal,nested,ns_per_op,5368,13080
+8 KiB,encoding/json/v2 (fast-relaxed) go1.27,unmarshal,nested,ns_per_op,63326,153959
+64 KiB,encoding/json/v2 (fast-relaxed) go1.27,unmarshal,nested,ns_per_op,425850,1052866
+512 KiB,encoding/json/v2 (fast-relaxed) go1.27,unmarshal,nested,ns_per_op,3451740,8748440
+2 MiB,encoding/json/v2 (fast-relaxed) go1.27,unmarshal,nested,ns_per_op,13165273,35723030
+8 MiB,encoding/json/v2 (fast-relaxed) go1.27,unmarshal,nested,ns_per_op,50912172,148498056
+64 MiB,encoding/json/v2 (fast-relaxed) go1.27,unmarshal,nested,ns_per_op,340753028,1217248055
+512 Byte,encoding/json/v2 (fast-relaxed) go1.27,unmarshal,nested,bytes_per_op,2120,5840
+8 KiB,encoding/json/v2 (fast-relaxed) go1.27,unmarshal,nested,bytes_per_op,25248,66536
+64 KiB,encoding/json/v2 (fast-relaxed) go1.27,unmarshal,nested,bytes_per_op,193825,463403
+512 KiB,encoding/json/v2 (fast-relaxed) go1.27,unmarshal,nested,bytes_per_op,1518522,3794912
+2 MiB,encoding/json/v2 (fast-relaxed) go1.27,unmarshal,nested,bytes_per_op,5593053,14528509
+8 MiB,encoding/json/v2 (fast-relaxed) go1.27,unmarshal,nested,bytes_per_op,21010047,59184184
+64 MiB,encoding/json/v2 (fast-relaxed) go1.27,unmarshal,nested,bytes_per_op,198009512,467707448
+512 Byte,encoding/json/v2 (fast-relaxed) go1.27,unmarshal,nested,allocs_per_op,33,166
+8 KiB,encoding/json/v2 (fast-relaxed) go1.27,unmarshal,nested,allocs_per_op,452,2050
+64 KiB,encoding/json/v2 (fast-relaxed) go1.27,unmarshal,nested,allocs_per_op,3088,14324
+512 KiB,encoding/json/v2 (fast-relaxed) go1.27,unmarshal,nested,allocs_per_op,24544,118248
+2 MiB,encoding/json/v2 (fast-relaxed) go1.27,unmarshal,nested,allocs_per_op,93581,455457
+8 MiB,encoding/json/v2 (fast-relaxed) go1.27,unmarshal,nested,allocs_per_op,374717,1867733
+64 MiB,encoding/json/v2 (fast-relaxed) go1.27,unmarshal,nested,allocs_per_op,2883766,14549831
+512 Byte,go-json/compat go1.23,marshal,flat,ns_per_op,706,1919
+8 KiB,go-json/compat go1.23,marshal,flat,ns_per_op,11492,31287
+64 KiB,go-json/compat go1.23,marshal,flat,ns_per_op,87135,245707
+512 KiB,go-json/compat go1.23,marshal,flat,ns_per_op,675907,1926353
+2 MiB,go-json/compat go1.23,marshal,flat,ns_per_op,2783560,7589452
+8 MiB,go-json/compat go1.23,marshal,flat,ns_per_op,10676149,28911194
+64 MiB,go-json/compat go1.23,marshal,flat,ns_per_op,74193611,192155847
+512 Byte,go-json/compat go1.23,marshal,flat,bytes_per_op,640,640
+8 KiB,go-json/compat go1.23,marshal,flat,bytes_per_op,10880,10880
+64 KiB,go-json/compat go1.23,marshal,flat,bytes_per_op,90112,90112
+512 KiB,go-json/compat go1.23,marshal,flat,bytes_per_op,712709,712709
+2 MiB,go-json/compat go1.23,marshal,flat,bytes_per_op,2850833,2850827
+8 MiB,go-json/compat go1.23,marshal,flat,bytes_per_op,11436051,11436047
+64 MiB,go-json/compat go1.23,marshal,flat,bytes_per_op,92274688,92274688
+512 Byte,go-json/compat go1.23,marshal,flat,allocs_per_op,1,1
+8 KiB,go-json/compat go1.23,marshal,flat,allocs_per_op,1,1
+64 KiB,go-json/compat go1.23,marshal,flat,allocs_per_op,1,1
+512 KiB,go-json/compat go1.23,marshal,flat,allocs_per_op,1,1
+2 MiB,go-json/compat go1.23,marshal,flat,allocs_per_op,1,1
+8 MiB,go-json/compat go1.23,marshal,flat,allocs_per_op,1,1
+64 MiB,go-json/compat go1.23,marshal,flat,allocs_per_op,1,1
+512 Byte,go-json/compat go1.23,marshal,nested,ns_per_op,1424,2989
+8 KiB,go-json/compat go1.23,marshal,nested,ns_per_op,14578,31301
+64 KiB,go-json/compat go1.23,marshal,nested,ns_per_op,92221,205869
+512 KiB,go-json/compat go1.23,marshal,nested,ns_per_op,724116,1782064
+2 MiB,go-json/compat go1.23,marshal,nested,ns_per_op,2667943,6804114
+8 MiB,go-json/compat go1.23,marshal,nested,ns_per_op,10245419,23014170
+64 MiB,go-json/compat go1.23,marshal,nested,ns_per_op,71981708,176810757
+512 Byte,go-json/compat go1.23,marshal,nested,bytes_per_op,768,768
+8 KiB,go-json/compat go1.23,marshal,nested,bytes_per_op,8192,8192
+64 KiB,go-json/compat go1.23,marshal,nested,bytes_per_op,57344,57344
+512 KiB,go-json/compat go1.23,marshal,nested,bytes_per_op,466947,466947
+2 MiB,go-json/compat go1.23,marshal,nested,bytes_per_op,1810444,1810439
+8 MiB,go-json/compat go1.23,marshal,nested,bytes_per_op,7389201,7389184
+64 MiB,go-json/compat go1.23,marshal,nested,bytes_per_op,58212352,58212352
+512 Byte,go-json/compat go1.23,marshal,nested,allocs_per_op,1,1
+8 KiB,go-json/compat go1.23,marshal,nested,allocs_per_op,1,1
+64 KiB,go-json/compat go1.23,marshal,nested,allocs_per_op,1,1
+512 KiB,go-json/compat go1.23,marshal,nested,allocs_per_op,1,1
+2 MiB,go-json/compat go1.23,marshal,nested,allocs_per_op,1,1
+8 MiB,go-json/compat go1.23,marshal,nested,allocs_per_op,1,1
+64 MiB,go-json/compat go1.23,marshal,nested,allocs_per_op,1,1
+512 Byte,go-json/compat go1.23,unmarshal,flat,ns_per_op,1118,3096
+8 KiB,go-json/compat go1.23,unmarshal,flat,ns_per_op,20098,50835
+64 KiB,go-json/compat go1.23,unmarshal,flat,ns_per_op,146978,407300
+512 KiB,go-json/compat go1.23,unmarshal,flat,ns_per_op,1154526,3348906
+2 MiB,go-json/compat go1.23,unmarshal,flat,ns_per_op,4698782,14112201
+8 MiB,go-json/compat go1.23,unmarshal,flat,ns_per_op,17709530,54783587
+64 MiB,go-json/compat go1.23,unmarshal,flat,ns_per_op,137943771,485481792
+512 Byte,go-json/compat go1.23,unmarshal,flat,bytes_per_op,776,2224
+8 KiB,go-json/compat go1.23,unmarshal,flat,bytes_per_op,16696,36608
+64 KiB,go-json/compat go1.23,unmarshal,flat,bytes_per_op,132921,293490
+512 KiB,go-json/compat go1.23,unmarshal,flat,bytes_per_op,1178230,2345725
+2 MiB,go-json/compat go1.23,unmarshal,flat,bytes_per_op,4784363,9374362
+8 MiB,go-json/compat go1.23,unmarshal,flat,bytes_per_op,19225253,37472946
+64 MiB,go-json/compat go1.23,unmarshal,flat,bytes_per_op,154063988,299758008
+512 Byte,go-json/compat go1.23,unmarshal,flat,allocs_per_op,17,79
+8 KiB,go-json/compat go1.23,unmarshal,flat,allocs_per_op,213,1231
+64 KiB,go-json/compat go1.23,unmarshal,flat,allocs_per_op,1650,9835
+512 KiB,go-json/compat go1.23,unmarshal,flat,allocs_per_op,13122,78649
+2 MiB,go-json/compat go1.23,unmarshal,flat,allocs_per_op,52445,314574
+8 MiB,go-json/compat go1.23,unmarshal,flat,allocs_per_op,209734,1258291
+64 MiB,go-json/compat go1.23,unmarshal,flat,allocs_per_op,1677744,10066274
+512 Byte,go-json/compat go1.23,unmarshal,nested,ns_per_op,2984,5659
+8 KiB,go-json/compat go1.23,unmarshal,nested,ns_per_op,28062,63366
+64 KiB,go-json/compat go1.23,unmarshal,nested,ns_per_op,184323,424043
+512 KiB,go-json/compat go1.23,unmarshal,nested,ns_per_op,1447223,3604896
+2 MiB,go-json/compat go1.23,unmarshal,nested,ns_per_op,5453142,15158894
+8 MiB,go-json/compat go1.23,unmarshal,nested,ns_per_op,21816958,57246045
+64 MiB,go-json/compat go1.23,unmarshal,nested,ns_per_op,136232632,604024486
+512 Byte,go-json/compat go1.23,unmarshal,nested,bytes_per_op,3040,4776
+8 KiB,go-json/compat go1.23,unmarshal,nested,bytes_per_op,23016,52032
+64 KiB,go-json/compat go1.23,unmarshal,nested,bytes_per_op,166042,355026
+512 KiB,go-json/compat go1.23,unmarshal,nested,bytes_per_op,1221376,2917691
+2 MiB,go-json/compat go1.23,unmarshal,nested,bytes_per_op,4550859,11203900
+8 MiB,go-json/compat go1.23,unmarshal,nested,bytes_per_op,17274193,45883521
+64 MiB,go-json/compat go1.23,unmarshal,nested,bytes_per_op,172426296,355138888
+512 Byte,go-json/compat go1.23,unmarshal,nested,allocs_per_op,50,140
+8 KiB,go-json/compat go1.23,unmarshal,nested,allocs_per_op,523,1566
+64 KiB,go-json/compat go1.23,unmarshal,nested,allocs_per_op,3529,10716
+512 KiB,go-json/compat go1.23,unmarshal,nested,allocs_per_op,28470,87933
+2 MiB,go-json/compat go1.23,unmarshal,nested,allocs_per_op,108533,337860
+8 MiB,go-json/compat go1.23,unmarshal,nested,allocs_per_op,440784,1385610
+64 MiB,go-json/compat go1.23,unmarshal,nested,allocs_per_op,3423809,10755672
+512 Byte,go-json/compat go1.27,marshal,flat,ns_per_op,601,1748
+8 KiB,go-json/compat go1.27,marshal,flat,ns_per_op,9933,27632
+64 KiB,go-json/compat go1.27,marshal,flat,ns_per_op,74508,211898
+512 KiB,go-json/compat go1.27,marshal,flat,ns_per_op,571733,1788547
+2 MiB,go-json/compat go1.27,marshal,flat,ns_per_op,2218619,6752423
+8 MiB,go-json/compat go1.27,marshal,flat,ns_per_op,9085361,25687922
+64 MiB,go-json/compat go1.27,marshal,flat,ns_per_op,66313481,174385382
+512 Byte,go-json/compat go1.27,marshal,flat,bytes_per_op,640,640
+8 KiB,go-json/compat go1.27,marshal,flat,bytes_per_op,10880,10880
+64 KiB,go-json/compat go1.27,marshal,flat,bytes_per_op,90112,90112
+512 KiB,go-json/compat go1.27,marshal,flat,bytes_per_op,712708,712708
+2 MiB,go-json/compat go1.27,marshal,flat,bytes_per_op,2850832,2850828
+8 MiB,go-json/compat go1.27,marshal,flat,bytes_per_op,11436051,11436046
+64 MiB,go-json/compat go1.27,marshal,flat,bytes_per_op,92274688,92274688
+512 Byte,go-json/compat go1.27,marshal,flat,allocs_per_op,1,1
+8 KiB,go-json/compat go1.27,marshal,flat,allocs_per_op,1,1
+64 KiB,go-json/compat go1.27,marshal,flat,allocs_per_op,1,1
+512 KiB,go-json/compat go1.27,marshal,flat,allocs_per_op,1,1
+2 MiB,go-json/compat go1.27,marshal,flat,allocs_per_op,1,1
+8 MiB,go-json/compat go1.27,marshal,flat,allocs_per_op,1,1
+64 MiB,go-json/compat go1.27,marshal,flat,allocs_per_op,1,1
+512 Byte,go-json/compat go1.27,marshal,nested,ns_per_op,1256,2777
+8 KiB,go-json/compat go1.27,marshal,nested,ns_per_op,13175,28934
+64 KiB,go-json/compat go1.27,marshal,nested,ns_per_op,80151,194406
+512 KiB,go-json/compat go1.27,marshal,nested,ns_per_op,611012,1673548
+2 MiB,go-json/compat go1.27,marshal,nested,ns_per_op,2351970,6189627
+8 MiB,go-json/compat go1.27,marshal,nested,ns_per_op,8977005,24162597
+64 MiB,go-json/compat go1.27,marshal,nested,ns_per_op,61536830,167916903
+512 Byte,go-json/compat go1.27,marshal,nested,bytes_per_op,768,768
+8 KiB,go-json/compat go1.27,marshal,nested,bytes_per_op,8192,8192
+64 KiB,go-json/compat go1.27,marshal,nested,bytes_per_op,57344,57344
+512 KiB,go-json/compat go1.27,marshal,nested,bytes_per_op,466947,466946
+2 MiB,go-json/compat go1.27,marshal,nested,bytes_per_op,1810443,1810441
+8 MiB,go-json/compat go1.27,marshal,nested,bytes_per_op,7389200,7389197
+64 MiB,go-json/compat go1.27,marshal,nested,bytes_per_op,58212352,58212352
+512 Byte,go-json/compat go1.27,marshal,nested,allocs_per_op,1,1
+8 KiB,go-json/compat go1.27,marshal,nested,allocs_per_op,1,1
+64 KiB,go-json/compat go1.27,marshal,nested,allocs_per_op,1,1
+512 KiB,go-json/compat go1.27,marshal,nested,allocs_per_op,1,1
+2 MiB,go-json/compat go1.27,marshal,nested,allocs_per_op,1,1
+8 MiB,go-json/compat go1.27,marshal,nested,allocs_per_op,1,1
+64 MiB,go-json/compat go1.27,marshal,nested,allocs_per_op,1,1
+512 Byte,go-json/compat go1.27,unmarshal,flat,ns_per_op,996,2693
+8 KiB,go-json/compat go1.27,unmarshal,flat,ns_per_op,18251,45983
+64 KiB,go-json/compat go1.27,unmarshal,flat,ns_per_op,132971,371031
+512 KiB,go-json/compat go1.27,unmarshal,flat,ns_per_op,1083443,2895499
+2 MiB,go-json/compat go1.27,unmarshal,flat,ns_per_op,4486576,12011560
+8 MiB,go-json/compat go1.27,unmarshal,flat,ns_per_op,16864820,47445922
+64 MiB,go-json/compat go1.27,unmarshal,flat,ns_per_op,131156556,465805111
+512 Byte,go-json/compat go1.27,unmarshal,flat,bytes_per_op,776,2224
+8 KiB,go-json/compat go1.27,unmarshal,flat,bytes_per_op,16696,36608
+64 KiB,go-json/compat go1.27,unmarshal,flat,bytes_per_op,132921,293490
+512 KiB,go-json/compat go1.27,unmarshal,flat,bytes_per_op,1178230,2345727
+2 MiB,go-json/compat go1.27,unmarshal,flat,bytes_per_op,4784363,9374356
+8 MiB,go-json/compat go1.27,unmarshal,flat,bytes_per_op,19225251,37472960
+64 MiB,go-json/compat go1.27,unmarshal,flat,bytes_per_op,154063988,299758008
+512 Byte,go-json/compat go1.27,unmarshal,flat,allocs_per_op,17,79
+8 KiB,go-json/compat go1.27,unmarshal,flat,allocs_per_op,213,1231
+64 KiB,go-json/compat go1.27,unmarshal,flat,allocs_per_op,1650,9835
+512 KiB,go-json/compat go1.27,unmarshal,flat,allocs_per_op,13122,78649
+2 MiB,go-json/compat go1.27,unmarshal,flat,allocs_per_op,52445,314574
+8 MiB,go-json/compat go1.27,unmarshal,flat,allocs_per_op,209734,1258291
+64 MiB,go-json/compat go1.27,unmarshal,flat,allocs_per_op,1677744,10066274
+512 Byte,go-json/compat go1.27,unmarshal,nested,ns_per_op,2851,4961
+8 KiB,go-json/compat go1.27,unmarshal,nested,ns_per_op,26176,58395
+64 KiB,go-json/compat go1.27,unmarshal,nested,ns_per_op,173794,379797
+512 KiB,go-json/compat go1.27,unmarshal,nested,ns_per_op,1338285,3161097
+2 MiB,go-json/compat go1.27,unmarshal,nested,ns_per_op,5241070,13010359
+8 MiB,go-json/compat go1.27,unmarshal,nested,ns_per_op,19658853,56202346
+64 MiB,go-json/compat go1.27,unmarshal,nested,ns_per_op,170854625,582755445
+512 Byte,go-json/compat go1.27,unmarshal,nested,bytes_per_op,3040,4776
+8 KiB,go-json/compat go1.27,unmarshal,nested,bytes_per_op,23016,52032
+64 KiB,go-json/compat go1.27,unmarshal,nested,bytes_per_op,166042,355026
+512 KiB,go-json/compat go1.27,unmarshal,nested,bytes_per_op,1221375,2917690
+2 MiB,go-json/compat go1.27,unmarshal,nested,bytes_per_op,4550868,11203894
+8 MiB,go-json/compat go1.27,unmarshal,nested,bytes_per_op,17274188,45883527
+64 MiB,go-json/compat go1.27,unmarshal,nested,bytes_per_op,172426436,355138893
+512 Byte,go-json/compat go1.27,unmarshal,nested,allocs_per_op,50,140
+8 KiB,go-json/compat go1.27,unmarshal,nested,allocs_per_op,523,1566
+64 KiB,go-json/compat go1.27,unmarshal,nested,allocs_per_op,3529,10716
+512 KiB,go-json/compat go1.27,unmarshal,nested,allocs_per_op,28470,87933
+2 MiB,go-json/compat go1.27,unmarshal,nested,allocs_per_op,108533,337860
+8 MiB,go-json/compat go1.27,unmarshal,nested,allocs_per_op,440784,1385610
+64 MiB,go-json/compat go1.27,unmarshal,nested,allocs_per_op,3423811,10755672
+512 Byte,go-json/fast go1.23,marshal,flat,ns_per_op,595,1377
+8 KiB,go-json/fast go1.23,marshal,flat,ns_per_op,9107,20935
+64 KiB,go-json/fast go1.23,marshal,flat,ns_per_op,69539,167882
+512 KiB,go-json/fast go1.23,marshal,flat,ns_per_op,533366,1329278
+2 MiB,go-json/fast go1.23,marshal,flat,ns_per_op,2150243,5424294
+8 MiB,go-json/fast go1.23,marshal,flat,ns_per_op,8322085,19543554
+64 MiB,go-json/fast go1.23,marshal,flat,ns_per_op,56574538,133840424
+512 Byte,go-json/fast go1.23,marshal,flat,bytes_per_op,576,576
+8 KiB,go-json/fast go1.23,marshal,flat,bytes_per_op,9728,9728
+64 KiB,go-json/fast go1.23,marshal,flat,bytes_per_op,81920,81920
+512 KiB,go-json/fast go1.23,marshal,flat,bytes_per_op,647172,647172
+2 MiB,go-json/fast go1.23,marshal,flat,bytes_per_op,2588685,2588681
+8 MiB,go-json/fast go1.23,marshal,flat,bytes_per_op,10387473,10387466
+64 MiB,go-json/fast go1.23,marshal,flat,bytes_per_op,83886080,83886080
+512 Byte,go-json/fast go1.23,marshal,flat,allocs_per_op,1,1
+8 KiB,go-json/fast go1.23,marshal,flat,allocs_per_op,1,1
+64 KiB,go-json/fast go1.23,marshal,flat,allocs_per_op,1,1
+512 KiB,go-json/fast go1.23,marshal,flat,allocs_per_op,1,1
+2 MiB,go-json/fast go1.23,marshal,flat,allocs_per_op,1,1
+8 MiB,go-json/fast go1.23,marshal,flat,allocs_per_op,1,1
+64 MiB,go-json/fast go1.23,marshal,flat,allocs_per_op,1,1
+512 Byte,go-json/fast go1.23,marshal,nested,ns_per_op,1237,2487
+8 KiB,go-json/fast go1.23,marshal,nested,ns_per_op,13753,27407
+64 KiB,go-json/fast go1.23,marshal,nested,ns_per_op,86498,182732
+512 KiB,go-json/fast go1.23,marshal,nested,ns_per_op,682034,1565272
+2 MiB,go-json/fast go1.23,marshal,nested,ns_per_op,2533725,5577186
+8 MiB,go-json/fast go1.23,marshal,nested,ns_per_op,9983676,21255944
+64 MiB,go-json/fast go1.23,marshal,nested,ns_per_op,69825032,153586868
+512 Byte,go-json/fast go1.23,marshal,nested,bytes_per_op,752,704
+8 KiB,go-json/fast go1.23,marshal,nested,bytes_per_op,8544,8192
+64 KiB,go-json/fast go1.23,marshal,nested,bytes_per_op,59040,57344
+512 KiB,go-json/fast go1.23,marshal,nested,bytes_per_op,470291,458755
+2 MiB,go-json/fast go1.23,marshal,nested,bytes_per_op,1808220,1769480
+8 MiB,go-json/fast go1.23,marshal,nested,bytes_per_op,7400001,7258123
+64 MiB,go-json/fast go1.23,marshal,nested,bytes_per_op,58264032,57368576
+512 Byte,go-json/fast go1.23,marshal,nested,allocs_per_op,4,1
+8 KiB,go-json/fast go1.23,marshal,nested,allocs_per_op,23,1
+64 KiB,go-json/fast go1.23,marshal,nested,allocs_per_op,107,1
+512 KiB,go-json/fast go1.23,marshal,nested,allocs_per_op,722,1
+2 MiB,go-json/fast go1.23,marshal,nested,allocs_per_op,2422,1
+8 MiB,go-json/fast go1.23,marshal,nested,allocs_per_op,8868,1
+64 MiB,go-json/fast go1.23,marshal,nested,allocs_per_op,55967,1
+512 Byte,go-json/fast go1.23,unmarshal,flat,ns_per_op,1119,3109
+8 KiB,go-json/fast go1.23,unmarshal,flat,ns_per_op,21360,50666
+64 KiB,go-json/fast go1.23,unmarshal,flat,ns_per_op,146041,450061
+512 KiB,go-json/fast go1.23,unmarshal,flat,ns_per_op,1184058,3398653
+2 MiB,go-json/fast go1.23,unmarshal,flat,ns_per_op,4663233,14000489
+8 MiB,go-json/fast go1.23,unmarshal,flat,ns_per_op,18027207,53717875
+64 MiB,go-json/fast go1.23,unmarshal,flat,ns_per_op,126776791,385076570
+512 Byte,go-json/fast go1.23,unmarshal,flat,bytes_per_op,776,2224
+8 KiB,go-json/fast go1.23,unmarshal,flat,bytes_per_op,16696,36608
+64 KiB,go-json/fast go1.23,unmarshal,flat,bytes_per_op,132921,293490
+512 KiB,go-json/fast go1.23,unmarshal,flat,bytes_per_op,1178230,2345726
+2 MiB,go-json/fast go1.23,unmarshal,flat,bytes_per_op,4784362,9374362
+8 MiB,go-json/fast go1.23,unmarshal,flat,bytes_per_op,19225262,37472946
+64 MiB,go-json/fast go1.23,unmarshal,flat,bytes_per_op,154063895,299758008
+512 Byte,go-json/fast go1.23,unmarshal,flat,allocs_per_op,17,79
+8 KiB,go-json/fast go1.23,unmarshal,flat,allocs_per_op,213,1231
+64 KiB,go-json/fast go1.23,unmarshal,flat,allocs_per_op,1650,9835
+512 KiB,go-json/fast go1.23,unmarshal,flat,allocs_per_op,13122,78649
+2 MiB,go-json/fast go1.23,unmarshal,flat,allocs_per_op,52445,314574
+8 MiB,go-json/fast go1.23,unmarshal,flat,allocs_per_op,209735,1258291
+64 MiB,go-json/fast go1.23,unmarshal,flat,allocs_per_op,1677743,10066274
+512 Byte,go-json/fast go1.23,unmarshal,nested,ns_per_op,2998,5655
+8 KiB,go-json/fast go1.23,unmarshal,nested,ns_per_op,28118,64203
+64 KiB,go-json/fast go1.23,unmarshal,nested,ns_per_op,184445,425043
+512 KiB,go-json/fast go1.23,unmarshal,nested,ns_per_op,1512263,3623052
+2 MiB,go-json/fast go1.23,unmarshal,nested,ns_per_op,5472440,15205828
+8 MiB,go-json/fast go1.23,unmarshal,nested,ns_per_op,21602080,58670458
+64 MiB,go-json/fast go1.23,unmarshal,nested,ns_per_op,135654486,544262820
+512 Byte,go-json/fast go1.23,unmarshal,nested,bytes_per_op,3040,4776
+8 KiB,go-json/fast go1.23,unmarshal,nested,bytes_per_op,23016,52032
+64 KiB,go-json/fast go1.23,unmarshal,nested,bytes_per_op,166042,355026
+512 KiB,go-json/fast go1.23,unmarshal,nested,bytes_per_op,1221376,2917691
+2 MiB,go-json/fast go1.23,unmarshal,nested,bytes_per_op,4550865,11203901
+8 MiB,go-json/fast go1.23,unmarshal,nested,bytes_per_op,17274196,45883532
+64 MiB,go-json/fast go1.23,unmarshal,nested,bytes_per_op,172426296,355138888
+512 Byte,go-json/fast go1.23,unmarshal,nested,allocs_per_op,50,140
+8 KiB,go-json/fast go1.23,unmarshal,nested,allocs_per_op,523,1566
+64 KiB,go-json/fast go1.23,unmarshal,nested,allocs_per_op,3529,10716
+512 KiB,go-json/fast go1.23,unmarshal,nested,allocs_per_op,28470,87933
+2 MiB,go-json/fast go1.23,unmarshal,nested,allocs_per_op,108533,337860
+8 MiB,go-json/fast go1.23,unmarshal,nested,allocs_per_op,440785,1385610
+64 MiB,go-json/fast go1.23,unmarshal,nested,allocs_per_op,3423809,10755672
+512 Byte,go-json/fast go1.27,marshal,flat,ns_per_op,491,1298
+8 KiB,go-json/fast go1.27,marshal,flat,ns_per_op,7595,18818
+64 KiB,go-json/fast go1.27,marshal,flat,ns_per_op,56084,147636
+512 KiB,go-json/fast go1.27,marshal,flat,ns_per_op,430196,1220117
+2 MiB,go-json/fast go1.27,marshal,flat,ns_per_op,1672864,4861816
+8 MiB,go-json/fast go1.27,marshal,flat,ns_per_op,6894664,17979954
+64 MiB,go-json/fast go1.27,marshal,flat,ns_per_op,47415525,126562375
+512 Byte,go-json/fast go1.27,marshal,flat,bytes_per_op,576,576
+8 KiB,go-json/fast go1.27,marshal,flat,bytes_per_op,9728,9728
+64 KiB,go-json/fast go1.27,marshal,flat,bytes_per_op,81920,81920
+512 KiB,go-json/fast go1.27,marshal,flat,bytes_per_op,647172,647172
+2 MiB,go-json/fast go1.27,marshal,flat,bytes_per_op,2588687,2588682
+8 MiB,go-json/fast go1.27,marshal,flat,bytes_per_op,10387473,10387465
+64 MiB,go-json/fast go1.27,marshal,flat,bytes_per_op,83886107,83886080
+512 Byte,go-json/fast go1.27,marshal,flat,allocs_per_op,1,1
+8 KiB,go-json/fast go1.27,marshal,flat,allocs_per_op,1,1
+64 KiB,go-json/fast go1.27,marshal,flat,allocs_per_op,1,1
+512 KiB,go-json/fast go1.27,marshal,flat,allocs_per_op,1,1
+2 MiB,go-json/fast go1.27,marshal,flat,allocs_per_op,1,1
+8 MiB,go-json/fast go1.27,marshal,flat,allocs_per_op,1,1
+64 MiB,go-json/fast go1.27,marshal,flat,allocs_per_op,1,1
+512 Byte,go-json/fast go1.27,marshal,nested,ns_per_op,1043,2362
+8 KiB,go-json/fast go1.27,marshal,nested,ns_per_op,11167,25899
+64 KiB,go-json/fast go1.27,marshal,nested,ns_per_op,73339,170903
+512 KiB,go-json/fast go1.27,marshal,nested,ns_per_op,550316,1415703
+2 MiB,go-json/fast go1.27,marshal,nested,ns_per_op,2079179,5300539
+8 MiB,go-json/fast go1.27,marshal,nested,ns_per_op,8780351,19471060
+64 MiB,go-json/fast go1.27,marshal,nested,ns_per_op,59444997,144400299
+512 Byte,go-json/fast go1.27,marshal,nested,bytes_per_op,752,704
+8 KiB,go-json/fast go1.27,marshal,nested,bytes_per_op,8544,8192
+64 KiB,go-json/fast go1.27,marshal,nested,bytes_per_op,59040,57344
+512 KiB,go-json/fast go1.27,marshal,nested,bytes_per_op,470291,458755
+2 MiB,go-json/fast go1.27,marshal,nested,bytes_per_op,1808219,1769480
+8 MiB,go-json/fast go1.27,marshal,nested,bytes_per_op,7400001,7258119
+64 MiB,go-json/fast go1.27,marshal,nested,bytes_per_op,58264032,57368576
+512 Byte,go-json/fast go1.27,marshal,nested,allocs_per_op,4,1
+8 KiB,go-json/fast go1.27,marshal,nested,allocs_per_op,23,1
+64 KiB,go-json/fast go1.27,marshal,nested,allocs_per_op,107,1
+512 KiB,go-json/fast go1.27,marshal,nested,allocs_per_op,722,1
+2 MiB,go-json/fast go1.27,marshal,nested,allocs_per_op,2422,1
+8 MiB,go-json/fast go1.27,marshal,nested,allocs_per_op,8868,1
+64 MiB,go-json/fast go1.27,marshal,nested,allocs_per_op,55967,1
+512 Byte,go-json/fast go1.27,unmarshal,flat,ns_per_op,1006,2705
+8 KiB,go-json/fast go1.27,unmarshal,flat,ns_per_op,18255,45557
+64 KiB,go-json/fast go1.27,unmarshal,flat,ns_per_op,137645,365964
+512 KiB,go-json/fast go1.27,unmarshal,flat,ns_per_op,1096198,2896324
+2 MiB,go-json/fast go1.27,unmarshal,flat,ns_per_op,4534639,12194698
+8 MiB,go-json/fast go1.27,unmarshal,flat,ns_per_op,16519181,46793331
+64 MiB,go-json/fast go1.27,unmarshal,flat,ns_per_op,127376764,383195000
+512 Byte,go-json/fast go1.27,unmarshal,flat,bytes_per_op,776,2224
+8 KiB,go-json/fast go1.27,unmarshal,flat,bytes_per_op,16696,36608
+64 KiB,go-json/fast go1.27,unmarshal,flat,bytes_per_op,132921,293490
+512 KiB,go-json/fast go1.27,unmarshal,flat,bytes_per_op,1178230,2345727
+2 MiB,go-json/fast go1.27,unmarshal,flat,bytes_per_op,4784362,9374358
+8 MiB,go-json/fast go1.27,unmarshal,flat,bytes_per_op,19225254,37472966
+64 MiB,go-json/fast go1.27,unmarshal,flat,bytes_per_op,154063941,299758008
+512 Byte,go-json/fast go1.27,unmarshal,flat,allocs_per_op,17,79
+8 KiB,go-json/fast go1.27,unmarshal,flat,allocs_per_op,213,1231
+64 KiB,go-json/fast go1.27,unmarshal,flat,allocs_per_op,1650,9835
+512 KiB,go-json/fast go1.27,unmarshal,flat,allocs_per_op,13122,78649
+2 MiB,go-json/fast go1.27,unmarshal,flat,allocs_per_op,52445,314574
+8 MiB,go-json/fast go1.27,unmarshal,flat,allocs_per_op,209734,1258291
+64 MiB,go-json/fast go1.27,unmarshal,flat,allocs_per_op,1677743,10066274
+512 Byte,go-json/fast go1.27,unmarshal,nested,ns_per_op,2848,5009
+8 KiB,go-json/fast go1.27,unmarshal,nested,ns_per_op,26032,57304
+64 KiB,go-json/fast go1.27,unmarshal,nested,ns_per_op,171801,387646
+512 KiB,go-json/fast go1.27,unmarshal,nested,ns_per_op,1333510,3139522
+2 MiB,go-json/fast go1.27,unmarshal,nested,ns_per_op,5099320,13353400
+8 MiB,go-json/fast go1.27,unmarshal,nested,ns_per_op,19736843,55196391
+64 MiB,go-json/fast go1.27,unmarshal,nested,ns_per_op,168728271,527254736
+512 Byte,go-json/fast go1.27,unmarshal,nested,bytes_per_op,3040,4776
+8 KiB,go-json/fast go1.27,unmarshal,nested,bytes_per_op,23016,52032
+64 KiB,go-json/fast go1.27,unmarshal,nested,bytes_per_op,166042,355026
+512 KiB,go-json/fast go1.27,unmarshal,nested,bytes_per_op,1221375,2917690
+2 MiB,go-json/fast go1.27,unmarshal,nested,bytes_per_op,4550866,11203893
+8 MiB,go-json/fast go1.27,unmarshal,nested,bytes_per_op,17274187,45883527
+64 MiB,go-json/fast go1.27,unmarshal,nested,bytes_per_op,172426436,355138888
+512 Byte,go-json/fast go1.27,unmarshal,nested,allocs_per_op,50,140
+8 KiB,go-json/fast go1.27,unmarshal,nested,allocs_per_op,523,1566
+64 KiB,go-json/fast go1.27,unmarshal,nested,allocs_per_op,3529,10716
+512 KiB,go-json/fast go1.27,unmarshal,nested,allocs_per_op,28470,87933
+2 MiB,go-json/fast go1.27,unmarshal,nested,allocs_per_op,108533,337860
+8 MiB,go-json/fast go1.27,unmarshal,nested,allocs_per_op,440784,1385610
+64 MiB,go-json/fast go1.27,unmarshal,nested,allocs_per_op,3423811,10755672
+512 Byte,sonic/compat go1.23,marshal,flat,ns_per_op,2168,5336
+8 KiB,sonic/compat go1.23,marshal,flat,ns_per_op,33628,84622
+64 KiB,sonic/compat go1.23,marshal,flat,ns_per_op,262567,667282
+512 KiB,sonic/compat go1.23,marshal,flat,ns_per_op,2106798,5152827
+2 MiB,sonic/compat go1.23,marshal,flat,ns_per_op,9690361,26762562
+8 MiB,sonic/compat go1.23,marshal,flat,ns_per_op,38010296,102875773
+64 MiB,sonic/compat go1.23,marshal,flat,ns_per_op,303652680,972947875
+512 Byte,sonic/compat go1.23,marshal,flat,bytes_per_op,656,656
+8 KiB,sonic/compat go1.23,marshal,flat,bytes_per_op,10896,10896
+64 KiB,sonic/compat go1.23,marshal,flat,bytes_per_op,90130,90133
+512 KiB,sonic/compat go1.23,marshal,flat,bytes_per_op,712738,726481
+2 MiB,sonic/compat go1.23,marshal,flat,bytes_per_op,13249625,14581364
+8 MiB,sonic/compat go1.23,marshal,flat,bytes_per_op,64974024,51568346
+64 MiB,sonic/compat go1.23,marshal,flat,bytes_per_op,485740120,430464936
+512 Byte,sonic/compat go1.23,marshal,flat,allocs_per_op,2,2
+8 KiB,sonic/compat go1.23,marshal,flat,allocs_per_op,2,2
+64 KiB,sonic/compat go1.23,marshal,flat,allocs_per_op,2,2
+512 KiB,sonic/compat go1.23,marshal,flat,allocs_per_op,2,2
+2 MiB,sonic/compat go1.23,marshal,flat,allocs_per_op,26,27
+8 MiB,sonic/compat go1.23,marshal,flat,allocs_per_op,33,31
+64 MiB,sonic/compat go1.23,marshal,flat,allocs_per_op,38,40
+512 Byte,sonic/compat go1.23,marshal,nested,ns_per_op,4282,7748
+8 KiB,sonic/compat go1.23,marshal,nested,ns_per_op,43796,87658
+64 KiB,sonic/compat go1.23,marshal,nested,ns_per_op,289574,589640
+512 KiB,sonic/compat go1.23,marshal,nested,ns_per_op,2294611,4671210
+2 MiB,sonic/compat go1.23,marshal,nested,ns_per_op,9839307,22105103
+8 MiB,sonic/compat go1.23,marshal,nested,ns_per_op,39209914,87773528
+64 MiB,sonic/compat go1.23,marshal,nested,ns_per_op,299714472,554542097
+512 Byte,sonic/compat go1.23,marshal,nested,bytes_per_op,784,784
+8 KiB,sonic/compat go1.23,marshal,nested,bytes_per_op,8208,8208
+64 KiB,sonic/compat go1.23,marshal,nested,bytes_per_op,57362,57363
+512 KiB,sonic/compat go1.23,marshal,nested,bytes_per_op,466978,466974
+2 MiB,sonic/compat go1.23,marshal,nested,bytes_per_op,8632823,8178807
+8 MiB,sonic/compat go1.23,marshal,nested,bytes_per_op,44240101,35342861
+64 MiB,sonic/compat go1.23,marshal,nested,bytes_per_op,318876408,295054624
+512 Byte,sonic/compat go1.23,marshal,nested,allocs_per_op,2,2
+8 KiB,sonic/compat go1.23,marshal,nested,allocs_per_op,2,2
+64 KiB,sonic/compat go1.23,marshal,nested,allocs_per_op,2,2
+512 KiB,sonic/compat go1.23,marshal,nested,allocs_per_op,2,2
+2 MiB,sonic/compat go1.23,marshal,nested,allocs_per_op,25,23
+8 MiB,sonic/compat go1.23,marshal,nested,allocs_per_op,31,27
+64 MiB,sonic/compat go1.23,marshal,nested,allocs_per_op,37,31
+512 Byte,sonic/compat go1.23,unmarshal,flat,ns_per_op,2197,3747
+8 KiB,sonic/compat go1.23,unmarshal,flat,ns_per_op,31524,52930
+64 KiB,sonic/compat go1.23,unmarshal,flat,ns_per_op,242993,410197
+512 KiB,sonic/compat go1.23,unmarshal,flat,ns_per_op,2062889,3522408
+2 MiB,sonic/compat go1.23,unmarshal,flat,ns_per_op,8352393,16103589
+8 MiB,sonic/compat go1.23,unmarshal,flat,ns_per_op,31108298,60806507
+64 MiB,sonic/compat go1.23,unmarshal,flat,ns_per_op,222190028,346140917
+512 Byte,sonic/compat go1.23,unmarshal,flat,bytes_per_op,1464,2960
+8 KiB,sonic/compat go1.23,unmarshal,flat,bytes_per_op,21432,47584
+64 KiB,sonic/compat go1.23,unmarshal,flat,bytes_per_op,178873,383698
+512 KiB,sonic/compat go1.23,unmarshal,flat,bytes_per_op,2436599,4115300
+2 MiB,sonic/compat go1.23,unmarshal,flat,bytes_per_op,23680130,30395171
+8 MiB,sonic/compat go1.23,unmarshal,flat,bytes_per_op,108932649,135777110
+64 MiB,sonic/compat go1.23,unmarshal,flat,bytes_per_op,910829416,1125577104
+512 Byte,sonic/compat go1.23,unmarshal,flat,allocs_per_op,22,82
+8 KiB,sonic/compat go1.23,unmarshal,flat,allocs_per_op,214,1234
+64 KiB,sonic/compat go1.23,unmarshal,flat,allocs_per_op,1648,9838
+512 KiB,sonic/compat go1.23,unmarshal,flat,allocs_per_op,13118,78653
+2 MiB,sonic/compat go1.23,unmarshal,flat,allocs_per_op,52439,314579
+8 MiB,sonic/compat go1.23,unmarshal,flat,allocs_per_op,209727,1258296
+64 MiB,sonic/compat go1.23,unmarshal,flat,allocs_per_op,1677731,10066276
+512 Byte,sonic/compat go1.23,unmarshal,nested,ns_per_op,3889,5891
+8 KiB,sonic/compat go1.23,unmarshal,nested,ns_per_op,40332,65307
+64 KiB,sonic/compat go1.23,unmarshal,nested,ns_per_op,262424,433207
+512 KiB,sonic/compat go1.23,unmarshal,nested,ns_per_op,2105748,3785089
+2 MiB,sonic/compat go1.23,unmarshal,nested,ns_per_op,9597420,17119008
+8 MiB,sonic/compat go1.23,unmarshal,nested,ns_per_op,34813027,67561868
+64 MiB,sonic/compat go1.23,unmarshal,nested,ns_per_op,233758153,349024583
+512 Byte,sonic/compat go1.23,unmarshal,nested,bytes_per_op,2992,5664
+8 KiB,sonic/compat go1.23,unmarshal,nested,bytes_per_op,29032,60608
+64 KiB,sonic/compat go1.23,unmarshal,nested,bytes_per_op,190697,413810
+512 KiB,sonic/compat go1.23,unmarshal,nested,bytes_per_op,1528281,3396397
+2 MiB,sonic/compat go1.23,unmarshal,nested,bytes_per_op,17461030,24694161
+8 MiB,sonic/compat go1.23,unmarshal,nested,bytes_per_op,79779769,109859052
+64 MiB,sonic/compat go1.23,unmarshal,nested,bytes_per_op,641894536,877337888
+512 Byte,sonic/compat go1.23,unmarshal,nested,allocs_per_op,61,144
+8 KiB,sonic/compat go1.23,unmarshal,nested,allocs_per_op,616,1581
+64 KiB,sonic/compat go1.23,unmarshal,nested,allocs_per_op,4080,10775
+512 KiB,sonic/compat go1.23,unmarshal,nested,allocs_per_op,32911,88422
+2 MiB,sonic/compat go1.23,unmarshal,nested,allocs_per_op,125554,339485
+8 MiB,sonic/compat go1.23,unmarshal,nested,allocs_per_op,511202,1392270
+64 MiB,sonic/compat go1.23,unmarshal,nested,allocs_per_op,3936025,10797658
+512 Byte,sonic/compat go1.27,marshal,flat,ns_per_op,2278,5746
+8 KiB,sonic/compat go1.27,marshal,flat,ns_per_op,34379,91902
+64 KiB,sonic/compat go1.27,marshal,flat,ns_per_op,262570,715932
+512 KiB,sonic/compat go1.27,marshal,flat,ns_per_op,2061293,5565398
+2 MiB,sonic/compat go1.27,marshal,flat,ns_per_op,9249779,25875469
+8 MiB,sonic/compat go1.27,marshal,flat,ns_per_op,38216435,109404470
+64 MiB,sonic/compat go1.27,marshal,flat,ns_per_op,306690055,890311445
+512 Byte,sonic/compat go1.27,marshal,flat,bytes_per_op,656,1040
+8 KiB,sonic/compat go1.27,marshal,flat,bytes_per_op,10896,17424
+64 KiB,sonic/compat go1.27,marshal,flat,bytes_per_op,90130,142551
+512 KiB,sonic/compat go1.27,marshal,flat,bytes_per_op,712738,1145647
+2 MiB,sonic/compat go1.27,marshal,flat,bytes_per_op,13249616,16259097
+8 MiB,sonic/compat go1.27,marshal,flat,bytes_per_op,64974024,58279363
+64 MiB,sonic/compat go1.27,marshal,flat,bytes_per_op,485740120,484151976
+512 Byte,sonic/compat go1.27,marshal,flat,allocs_per_op,2,6
+8 KiB,sonic/compat go1.27,marshal,flat,allocs_per_op,2,70
+64 KiB,sonic/compat go1.27,marshal,flat,allocs_per_op,2,548
+512 KiB,sonic/compat go1.27,marshal,flat,allocs_per_op,2,4371
+2 MiB,sonic/compat go1.27,marshal,flat,allocs_per_op,26,17503
+8 MiB,sonic/compat go1.27,marshal,flat,allocs_per_op,33,69938
+64 MiB,sonic/compat go1.27,marshal,flat,allocs_per_op,38,559280
+512 Byte,sonic/compat go1.27,marshal,nested,ns_per_op,4447,8759
+8 KiB,sonic/compat go1.27,marshal,nested,ns_per_op,46491,96790
+64 KiB,sonic/compat go1.27,marshal,nested,ns_per_op,292439,669598
+512 KiB,sonic/compat go1.27,marshal,nested,ns_per_op,2329019,5254812
+2 MiB,sonic/compat go1.27,marshal,nested,ns_per_op,9732688,23382412
+8 MiB,sonic/compat go1.27,marshal,nested,ns_per_op,40419362,93024153
+64 MiB,sonic/compat go1.27,marshal,nested,ns_per_op,304444375,937892680
+512 Byte,sonic/compat go1.27,marshal,nested,bytes_per_op,1072,1744
+8 KiB,sonic/compat go1.27,marshal,nested,bytes_per_op,10320,18097
+64 KiB,sonic/compat go1.27,marshal,nested,bytes_per_op,67538,122743
+512 KiB,sonic/compat go1.27,marshal,nested,bytes_per_op,536194,997593
+2 MiB,sonic/compat go1.27,marshal,nested,bytes_per_op,8865233,10200804
+8 MiB,sonic/compat go1.27,marshal,nested,bytes_per_op,45091377,43593265
+64 MiB,sonic/compat go1.27,marshal,nested,bytes_per_op,324249144,358479421
+512 Byte,sonic/compat go1.27,marshal,nested,allocs_per_op,5,12
+8 KiB,sonic/compat go1.27,marshal,nested,allocs_per_op,24,105
+64 KiB,sonic/compat go1.27,marshal,nested,allocs_per_op,108,683
+512 KiB,sonic/compat go1.27,marshal,nested,allocs_per_op,723,5529
+2 MiB,sonic/compat go1.27,marshal,nested,allocs_per_op,2446,21085
+8 MiB,sonic/compat go1.27,marshal,nested,allocs_per_op,8898,85969
+64 MiB,sonic/compat go1.27,marshal,nested,allocs_per_op,56003,660709
+512 Byte,sonic/compat go1.27,unmarshal,flat,ns_per_op,1986,3147
+8 KiB,sonic/compat go1.27,unmarshal,flat,ns_per_op,29154,49115
+64 KiB,sonic/compat go1.27,unmarshal,flat,ns_per_op,232857,382312
+512 KiB,sonic/compat go1.27,unmarshal,flat,ns_per_op,2006176,3252676
+2 MiB,sonic/compat go1.27,unmarshal,flat,ns_per_op,8130575,14718313
+8 MiB,sonic/compat go1.27,unmarshal,flat,ns_per_op,29699505,53914900
+64 MiB,sonic/compat go1.27,unmarshal,flat,ns_per_op,214647972,327790681
+512 Byte,sonic/compat go1.27,unmarshal,flat,bytes_per_op,1464,2960
+8 KiB,sonic/compat go1.27,unmarshal,flat,bytes_per_op,21432,47584
+64 KiB,sonic/compat go1.27,unmarshal,flat,bytes_per_op,178873,383698
+512 KiB,sonic/compat go1.27,unmarshal,flat,bytes_per_op,2436597,4115299
+2 MiB,sonic/compat go1.27,unmarshal,flat,bytes_per_op,23680129,30395168
+8 MiB,sonic/compat go1.27,unmarshal,flat,bytes_per_op,108932652,135777091
+64 MiB,sonic/compat go1.27,unmarshal,flat,bytes_per_op,910829416,1125577149
+512 Byte,sonic/compat go1.27,unmarshal,flat,allocs_per_op,22,82
+8 KiB,sonic/compat go1.27,unmarshal,flat,allocs_per_op,214,1234
+64 KiB,sonic/compat go1.27,unmarshal,flat,allocs_per_op,1648,9838
+512 KiB,sonic/compat go1.27,unmarshal,flat,allocs_per_op,13118,78653
+2 MiB,sonic/compat go1.27,unmarshal,flat,allocs_per_op,52440,314579
+8 MiB,sonic/compat go1.27,unmarshal,flat,allocs_per_op,209727,1258296
+64 MiB,sonic/compat go1.27,unmarshal,flat,allocs_per_op,1677731,10066277
+512 Byte,sonic/compat go1.27,unmarshal,nested,ns_per_op,3621,5463
+8 KiB,sonic/compat go1.27,unmarshal,nested,ns_per_op,36859,58977
+64 KiB,sonic/compat go1.27,unmarshal,nested,ns_per_op,239932,392017
+512 KiB,sonic/compat go1.27,unmarshal,nested,ns_per_op,1960068,3336698
+2 MiB,sonic/compat go1.27,unmarshal,nested,ns_per_op,9185311,15261248
+8 MiB,sonic/compat go1.27,unmarshal,nested,ns_per_op,31435207,59528203
+64 MiB,sonic/compat go1.27,unmarshal,nested,ns_per_op,254965743,308500125
+512 Byte,sonic/compat go1.27,unmarshal,nested,bytes_per_op,2992,5664
+8 KiB,sonic/compat go1.27,unmarshal,nested,bytes_per_op,29032,60608
+64 KiB,sonic/compat go1.27,unmarshal,nested,bytes_per_op,190697,413810
+512 KiB,sonic/compat go1.27,unmarshal,nested,bytes_per_op,1528283,3396395
+2 MiB,sonic/compat go1.27,unmarshal,nested,bytes_per_op,17461034,24694163
+8 MiB,sonic/compat go1.27,unmarshal,nested,bytes_per_op,79779771,109859052
+64 MiB,sonic/compat go1.27,unmarshal,nested,bytes_per_op,641894581,877337933
+512 Byte,sonic/compat go1.27,unmarshal,nested,allocs_per_op,61,144
+8 KiB,sonic/compat go1.27,unmarshal,nested,allocs_per_op,616,1581
+64 KiB,sonic/compat go1.27,unmarshal,nested,allocs_per_op,4080,10775
+512 KiB,sonic/compat go1.27,unmarshal,nested,allocs_per_op,32911,88422
+2 MiB,sonic/compat go1.27,unmarshal,nested,allocs_per_op,125555,339485
+8 MiB,sonic/compat go1.27,unmarshal,nested,allocs_per_op,511203,1392270
+64 MiB,sonic/compat go1.27,unmarshal,nested,allocs_per_op,3936026,10797659
+512 Byte,sonic/fast go1.23,marshal,flat,ns_per_op,1722,4570
+8 KiB,sonic/fast go1.23,marshal,flat,ns_per_op,26774,71313
+64 KiB,sonic/fast go1.23,marshal,flat,ns_per_op,210018,573667
+512 KiB,sonic/fast go1.23,marshal,flat,ns_per_op,1701716,4535674
+2 MiB,sonic/fast go1.23,marshal,flat,ns_per_op,7748239,21104458
+8 MiB,sonic/fast go1.23,marshal,flat,ns_per_op,30665740,78903898
+64 MiB,sonic/fast go1.23,marshal,flat,ns_per_op,225753611,661299486
+512 Byte,sonic/fast go1.23,marshal,flat,bytes_per_op,592,592
+8 KiB,sonic/fast go1.23,marshal,flat,bytes_per_op,9744,9744
+64 KiB,sonic/fast go1.23,marshal,flat,bytes_per_op,81937,81938
+512 KiB,sonic/fast go1.23,marshal,flat,bytes_per_op,647193,647203
+2 MiB,sonic/fast go1.23,marshal,flat,bytes_per_op,9362482,9036377
+8 MiB,sonic/fast go1.23,marshal,flat,bytes_per_op,49388629,40451118
+64 MiB,sonic/fast go1.23,marshal,flat,bytes_per_op,359906744,326412571
+512 Byte,sonic/fast go1.23,marshal,flat,allocs_per_op,2,2
+8 KiB,sonic/fast go1.23,marshal,flat,allocs_per_op,2,2
+64 KiB,sonic/fast go1.23,marshal,flat,allocs_per_op,2,2
+512 KiB,sonic/fast go1.23,marshal,flat,allocs_per_op,2,2
+2 MiB,sonic/fast go1.23,marshal,flat,allocs_per_op,23,21
+8 MiB,sonic/fast go1.23,marshal,flat,allocs_per_op,28,25
+64 MiB,sonic/fast go1.23,marshal,flat,allocs_per_op,33,34
+512 Byte,sonic/fast go1.23,marshal,nested,ns_per_op,3674,7057
+8 KiB,sonic/fast go1.23,marshal,nested,ns_per_op,39889,78601
+64 KiB,sonic/fast go1.23,marshal,nested,ns_per_op,259940,525068
+512 KiB,sonic/fast go1.23,marshal,nested,ns_per_op,2068615,4334808
+2 MiB,sonic/fast go1.23,marshal,nested,ns_per_op,8764605,19622303
+8 MiB,sonic/fast go1.23,marshal,nested,ns_per_op,35508065,80452366
+64 MiB,sonic/fast go1.23,marshal,nested,ns_per_op,282711972,499844181
+512 Byte,sonic/fast go1.23,marshal,nested,bytes_per_op,720,720
+8 KiB,sonic/fast go1.23,marshal,nested,bytes_per_op,8208,8208
+64 KiB,sonic/fast go1.23,marshal,nested,bytes_per_op,57361,57362
+512 KiB,sonic/fast go1.23,marshal,nested,bytes_per_op,458781,458778
+2 MiB,sonic/fast go1.23,marshal,nested,bytes_per_op,6105910,6317477
+8 MiB,sonic/fast go1.23,marshal,nested,bytes_per_op,33356996,28887722
+64 MiB,sonic/fast go1.23,marshal,nested,bytes_per_op,232815168,233307987
+512 Byte,sonic/fast go1.23,marshal,nested,allocs_per_op,2,2
+8 KiB,sonic/fast go1.23,marshal,nested,allocs_per_op,2,2
+64 KiB,sonic/fast go1.23,marshal,nested,allocs_per_op,2,2
+512 KiB,sonic/fast go1.23,marshal,nested,allocs_per_op,2,2
+2 MiB,sonic/fast go1.23,marshal,nested,allocs_per_op,22,20
+8 MiB,sonic/fast go1.23,marshal,nested,allocs_per_op,28,25
+64 MiB,sonic/fast go1.23,marshal,nested,allocs_per_op,32,28
+512 Byte,sonic/fast go1.23,unmarshal,flat,ns_per_op,1757,2489
+8 KiB,sonic/fast go1.23,unmarshal,flat,ns_per_op,24830,35213
+64 KiB,sonic/fast go1.23,unmarshal,flat,ns_per_op,203803,267305
+512 KiB,sonic/fast go1.23,unmarshal,flat,ns_per_op,1650229,2287073
+2 MiB,sonic/fast go1.23,unmarshal,flat,ns_per_op,6968070,10453062
+8 MiB,sonic/fast go1.23,unmarshal,flat,ns_per_op,24965768,40171964
+64 MiB,sonic/fast go1.23,unmarshal,flat,ns_per_op,204854070,227069118
+512 Byte,sonic/fast go1.23,unmarshal,flat,bytes_per_op,1328,2904
+8 KiB,sonic/fast go1.23,unmarshal,flat,bytes_per_op,19776,43704
+64 KiB,sonic/fast go1.23,unmarshal,flat,bytes_per_op,165729,350393
+512 KiB,sonic/fast go1.23,unmarshal,flat,bytes_per_op,2331708,3840714
+2 MiB,sonic/fast go1.23,unmarshal,flat,bytes_per_op,23260675,29288317
+8 MiB,sonic/fast go1.23,unmarshal,flat,bytes_per_op,107254900,131308299
+64 MiB,sonic/fast go1.23,unmarshal,flat,bytes_per_op,897407684,1089793359
+512 Byte,sonic/fast go1.23,unmarshal,flat,allocs_per_op,11,21
+8 KiB,sonic/fast go1.23,unmarshal,flat,allocs_per_op,75,213
+64 KiB,sonic/fast go1.23,unmarshal,flat,allocs_per_op,553,1647
+512 KiB,sonic/fast go1.23,unmarshal,flat,allocs_per_op,4377,13117
+2 MiB,sonic/fast go1.23,unmarshal,flat,allocs_per_op,17484,52439
+8 MiB,sonic/fast go1.23,unmarshal,flat,allocs_per_op,69914,209726
+64 MiB,sonic/fast go1.23,unmarshal,flat,allocs_per_op,559249,1677730
+512 Byte,sonic/fast go1.23,unmarshal,nested,ns_per_op,3087,3944
+8 KiB,sonic/fast go1.23,unmarshal,nested,ns_per_op,31053,39573
+64 KiB,sonic/fast go1.23,unmarshal,nested,ns_per_op,197458,253952
+512 KiB,sonic/fast go1.23,unmarshal,nested,ns_per_op,1593131,2273556
+2 MiB,sonic/fast go1.23,unmarshal,nested,ns_per_op,7789393,10942189
+8 MiB,sonic/fast go1.23,unmarshal,nested,ns_per_op,27118058,37062927
+64 MiB,sonic/fast go1.23,unmarshal,nested,ns_per_op,200598736,186818681
+512 Byte,sonic/fast go1.23,unmarshal,nested,bytes_per_op,2792,5584
+8 KiB,sonic/fast go1.23,unmarshal,nested,bytes_per_op,26544,57336
+64 KiB,sonic/fast go1.23,unmarshal,nested,bytes_per_op,170337,384154
+512 KiB,sonic/fast go1.23,unmarshal,nested,bytes_per_op,1351217,3120046
+2 MiB,sonic/fast go1.23,unmarshal,nested,bytes_per_op,16761199,23568673
+8 MiB,sonic/fast go1.23,unmarshal,nested,bytes_per_op,76877504,105185062
+64 MiB,sonic/fast go1.23,unmarshal,nested,bytes_per_op,619437572,840842152
+512 Byte,sonic/fast go1.23,unmarshal,nested,allocs_per_op,29,33
+8 KiB,sonic/fast go1.23,unmarshal,nested,allocs_per_op,250,238
+64 KiB,sonic/fast go1.23,unmarshal,nested,allocs_per_op,1570,1478
+512 KiB,sonic/fast go1.23,unmarshal,nested,allocs_per_op,12247,11785
+2 MiB,sonic/fast go1.23,unmarshal,nested,allocs_per_op,46150,44557
+8 MiB,sonic/fast go1.23,unmarshal,nested,allocs_per_op,185175,180761
+64 MiB,sonic/fast go1.23,unmarshal,nested,allocs_per_op,1405276,1377319
+512 Byte,sonic/fast go1.27,marshal,flat,ns_per_op,1870,4895
+8 KiB,sonic/fast go1.27,marshal,flat,ns_per_op,28042,78518
+64 KiB,sonic/fast go1.27,marshal,flat,ns_per_op,209722,601312
+512 KiB,sonic/fast go1.27,marshal,flat,ns_per_op,1675800,4773465
+2 MiB,sonic/fast go1.27,marshal,flat,ns_per_op,7528337,21759047
+8 MiB,sonic/fast go1.27,marshal,flat,ns_per_op,30954726,88787028
+64 MiB,sonic/fast go1.27,marshal,flat,ns_per_op,226713041,808589278
+512 Byte,sonic/fast go1.27,marshal,flat,bytes_per_op,592,976
+8 KiB,sonic/fast go1.27,marshal,flat,bytes_per_op,9744,16272
+64 KiB,sonic/fast go1.27,marshal,flat,bytes_per_op,81937,134357
+512 KiB,sonic/fast go1.27,marshal,flat,bytes_per_op,647193,1066642
+2 MiB,sonic/fast go1.27,marshal,flat,bytes_per_op,9362473,10599860
+8 MiB,sonic/fast go1.27,marshal,flat,bytes_per_op,49388649,47958612
+64 MiB,sonic/fast go1.27,marshal,flat,bytes_per_op,359906744,354939888
+512 Byte,sonic/fast go1.27,marshal,flat,allocs_per_op,2,6
+8 KiB,sonic/fast go1.27,marshal,flat,allocs_per_op,2,70
+64 KiB,sonic/fast go1.27,marshal,flat,allocs_per_op,2,548
+512 KiB,sonic/fast go1.27,marshal,flat,allocs_per_op,2,4371
+2 MiB,sonic/fast go1.27,marshal,flat,allocs_per_op,22,17498
+8 MiB,sonic/fast go1.27,marshal,flat,allocs_per_op,28,69932
+64 MiB,sonic/fast go1.27,marshal,flat,allocs_per_op,33,559274
+512 Byte,sonic/fast go1.27,marshal,nested,ns_per_op,3915,7920
+8 KiB,sonic/fast go1.27,marshal,nested,ns_per_op,40939,88820
+64 KiB,sonic/fast go1.27,marshal,nested,ns_per_op,267094,612296
+512 KiB,sonic/fast go1.27,marshal,nested,ns_per_op,2077935,4797856
+2 MiB,sonic/fast go1.27,marshal,nested,ns_per_op,8570022,20700176
+8 MiB,sonic/fast go1.27,marshal,nested,ns_per_op,36265736,81148847
+64 MiB,sonic/fast go1.27,marshal,nested,ns_per_op,286622431,645239181
+512 Byte,sonic/fast go1.27,marshal,nested,bytes_per_op,1008,1680
+8 KiB,sonic/fast go1.27,marshal,nested,bytes_per_op,10320,18096
+64 KiB,sonic/fast go1.27,marshal,nested,bytes_per_op,67538,122740
+512 KiB,sonic/fast go1.27,marshal,nested,bytes_per_op,527998,989393
+2 MiB,sonic/fast go1.27,marshal,nested,bytes_per_op,6405161,8676927
+8 MiB,sonic/fast go1.27,marshal,nested,bytes_per_op,34208244,35052302
+64 MiB,sonic/fast go1.27,marshal,nested,bytes_per_op,238187904,263259256
+512 Byte,sonic/fast go1.27,marshal,nested,allocs_per_op,5,12
+8 KiB,sonic/fast go1.27,marshal,nested,allocs_per_op,24,105
+64 KiB,sonic/fast go1.27,marshal,nested,allocs_per_op,108,683
+512 KiB,sonic/fast go1.27,marshal,nested,allocs_per_op,723,5529
+2 MiB,sonic/fast go1.27,marshal,nested,allocs_per_op,2442,21083
+8 MiB,sonic/fast go1.27,marshal,nested,allocs_per_op,8895,85966
+64 MiB,sonic/fast go1.27,marshal,nested,allocs_per_op,55998,660702
+512 Byte,sonic/fast go1.27,unmarshal,flat,ns_per_op,1596,2351
+8 KiB,sonic/fast go1.27,unmarshal,flat,ns_per_op,22821,33398
+64 KiB,sonic/fast go1.27,unmarshal,flat,ns_per_op,185929,259956
+512 KiB,sonic/fast go1.27,unmarshal,flat,ns_per_op,1514882,2280606
+2 MiB,sonic/fast go1.27,unmarshal,flat,ns_per_op,6802749,10972833
+8 MiB,sonic/fast go1.27,unmarshal,flat,ns_per_op,23764449,40175879
+64 MiB,sonic/fast go1.27,unmarshal,flat,ns_per_op,194541174,251753798
+512 Byte,sonic/fast go1.27,unmarshal,flat,bytes_per_op,1328,2904
+8 KiB,sonic/fast go1.27,unmarshal,flat,bytes_per_op,19776,43704
+64 KiB,sonic/fast go1.27,unmarshal,flat,bytes_per_op,165729,350394
+512 KiB,sonic/fast go1.27,unmarshal,flat,bytes_per_op,2331708,3840715
+2 MiB,sonic/fast go1.27,unmarshal,flat,bytes_per_op,23260675,29288314
+8 MiB,sonic/fast go1.27,unmarshal,flat,bytes_per_op,107254900,131308302
+64 MiB,sonic/fast go1.27,unmarshal,flat,bytes_per_op,897407684,1089793404
+512 Byte,sonic/fast go1.27,unmarshal,flat,allocs_per_op,11,21
+8 KiB,sonic/fast go1.27,unmarshal,flat,allocs_per_op,75,213
+64 KiB,sonic/fast go1.27,unmarshal,flat,allocs_per_op,553,1647
+512 KiB,sonic/fast go1.27,unmarshal,flat,allocs_per_op,4377,13117
+2 MiB,sonic/fast go1.27,unmarshal,flat,allocs_per_op,17484,52438
+8 MiB,sonic/fast go1.27,unmarshal,flat,allocs_per_op,69914,209726
+64 MiB,sonic/fast go1.27,unmarshal,flat,allocs_per_op,559249,1677731
+512 Byte,sonic/fast go1.27,unmarshal,nested,ns_per_op,2917,4171
+8 KiB,sonic/fast go1.27,unmarshal,nested,ns_per_op,29172,40853
+64 KiB,sonic/fast go1.27,unmarshal,nested,ns_per_op,184881,257878
+512 KiB,sonic/fast go1.27,unmarshal,nested,ns_per_op,1507644,2213607
+2 MiB,sonic/fast go1.27,unmarshal,nested,ns_per_op,7492951,12099742
+8 MiB,sonic/fast go1.27,unmarshal,nested,ns_per_op,24730082,36744127
+64 MiB,sonic/fast go1.27,unmarshal,nested,ns_per_op,185368070,277279048
+512 Byte,sonic/fast go1.27,unmarshal,nested,bytes_per_op,2792,5584
+8 KiB,sonic/fast go1.27,unmarshal,nested,bytes_per_op,26544,57336
+64 KiB,sonic/fast go1.27,unmarshal,nested,bytes_per_op,170337,384154
+512 KiB,sonic/fast go1.27,unmarshal,nested,bytes_per_op,1351215,3120046
+2 MiB,sonic/fast go1.27,unmarshal,nested,bytes_per_op,16761195,23568672
+8 MiB,sonic/fast go1.27,unmarshal,nested,bytes_per_op,76877497,105185060
+64 MiB,sonic/fast go1.27,unmarshal,nested,bytes_per_op,619437572,840842220
+512 Byte,sonic/fast go1.27,unmarshal,nested,allocs_per_op,29,33
+8 KiB,sonic/fast go1.27,unmarshal,nested,allocs_per_op,250,238
+64 KiB,sonic/fast go1.27,unmarshal,nested,allocs_per_op,1570,1478
+512 KiB,sonic/fast go1.27,unmarshal,nested,allocs_per_op,12247,11785
+2 MiB,sonic/fast go1.27,unmarshal,nested,allocs_per_op,46150,44556
+8 MiB,sonic/fast go1.27,unmarshal,nested,allocs_per_op,185175,180761
+64 MiB,sonic/fast go1.27,unmarshal,nested,allocs_per_op,1405276,1377320
+512 Byte,segmentio/compat go1.23,marshal,flat,ns_per_op,964,2900
+8 KiB,segmentio/compat go1.23,marshal,flat,ns_per_op,17574,49442
+64 KiB,segmentio/compat go1.23,marshal,flat,ns_per_op,136135,385493
+512 KiB,segmentio/compat go1.23,marshal,flat,ns_per_op,1061042,2986621
+2 MiB,segmentio/compat go1.23,marshal,flat,ns_per_op,4298188,12249503
+8 MiB,segmentio/compat go1.23,marshal,flat,ns_per_op,15880899,39383051
+64 MiB,segmentio/compat go1.23,marshal,flat,ns_per_op,120526021,451263931
+512 Byte,segmentio/compat go1.23,marshal,flat,bytes_per_op,640,640
+8 KiB,segmentio/compat go1.23,marshal,flat,bytes_per_op,10880,10880
+64 KiB,segmentio/compat go1.23,marshal,flat,bytes_per_op,90112,90115
+512 KiB,segmentio/compat go1.23,marshal,flat,bytes_per_op,712709,712720
+2 MiB,segmentio/compat go1.23,marshal,flat,bytes_per_op,2850832,2850858
+8 MiB,segmentio/compat go1.23,marshal,flat,bytes_per_op,11436050,11436032
+64 MiB,segmentio/compat go1.23,marshal,flat,bytes_per_op,92274688,92274795
+512 Byte,segmentio/compat go1.23,marshal,flat,allocs_per_op,1,1
+8 KiB,segmentio/compat go1.23,marshal,flat,allocs_per_op,1,1
+64 KiB,segmentio/compat go1.23,marshal,flat,allocs_per_op,1,1
+512 KiB,segmentio/compat go1.23,marshal,flat,allocs_per_op,1,1
+2 MiB,segmentio/compat go1.23,marshal,flat,allocs_per_op,1,1
+8 MiB,segmentio/compat go1.23,marshal,flat,allocs_per_op,1,1
+64 MiB,segmentio/compat go1.23,marshal,flat,allocs_per_op,1,2
+512 Byte,segmentio/compat go1.23,marshal,nested,ns_per_op,1954,3843
+8 KiB,segmentio/compat go1.23,marshal,nested,ns_per_op,19736,40229
+64 KiB,segmentio/compat go1.23,marshal,nested,ns_per_op,121968,269816
+512 KiB,segmentio/compat go1.23,marshal,nested,ns_per_op,932492,2070106
+2 MiB,segmentio/compat go1.23,marshal,nested,ns_per_op,3462173,8376076
+8 MiB,segmentio/compat go1.23,marshal,nested,ns_per_op,13211233,27567582
+64 MiB,segmentio/compat go1.23,marshal,nested,ns_per_op,89689430,210083861
+512 Byte,segmentio/compat go1.23,marshal,nested,bytes_per_op,912,768
+8 KiB,segmentio/compat go1.23,marshal,nested,bytes_per_op,9248,8192
+64 KiB,segmentio/compat go1.23,marshal,nested,bytes_per_op,62433,57345
+512 KiB,segmentio/compat go1.23,marshal,nested,bytes_per_op,501560,466956
+2 MiB,segmentio/compat go1.23,marshal,nested,bytes_per_op,1926667,1810461
+8 MiB,segmentio/compat go1.23,marshal,nested,bytes_per_op,7814832,7389184
+64 MiB,segmentio/compat go1.23,marshal,nested,bytes_per_op,60898720,58212352
+512 Byte,segmentio/compat go1.23,marshal,nested,allocs_per_op,10,1
+8 KiB,segmentio/compat go1.23,marshal,nested,allocs_per_op,67,1
+64 KiB,segmentio/compat go1.23,marshal,nested,allocs_per_op,319,1
+512 KiB,segmentio/compat go1.23,marshal,nested,allocs_per_op,2164,1
+2 MiB,segmentio/compat go1.23,marshal,nested,allocs_per_op,7264,1
+8 MiB,segmentio/compat go1.23,marshal,nested,allocs_per_op,26602,1
+64 MiB,segmentio/compat go1.23,marshal,nested,allocs_per_op,167899,1
+512 Byte,segmentio/compat go1.23,unmarshal,flat,ns_per_op,2570,6026
+8 KiB,segmentio/compat go1.23,unmarshal,flat,ns_per_op,43112,113816
+64 KiB,segmentio/compat go1.23,unmarshal,flat,ns_per_op,342534,925310
+512 KiB,segmentio/compat go1.23,unmarshal,flat,ns_per_op,2736164,7620409
+2 MiB,segmentio/compat go1.23,unmarshal,flat,ns_per_op,10973104,30935919
+8 MiB,segmentio/compat go1.23,unmarshal,flat,ns_per_op,43635419,124325215
+64 MiB,segmentio/compat go1.23,unmarshal,flat,ns_per_op,318128833,961357333
+512 Byte,segmentio/compat go1.23,unmarshal,flat,bytes_per_op,1496,2592
+8 KiB,segmentio/compat go1.23,unmarshal,flat,bytes_per_op,18888,40864
+64 KiB,segmentio/compat go1.23,unmarshal,flat,bytes_per_op,159144,327488
+512 KiB,segmentio/compat go1.23,unmarshal,flat,bytes_per_op,1216457,2613009
+2 MiB,segmentio/compat go1.23,unmarshal,flat,bytes_per_op,4827466,10444449
+8 MiB,segmentio/compat go1.23,unmarshal,flat,bytes_per_op,19271625,41770725
+64 MiB,segmentio/compat go1.23,unmarshal,flat,bytes_per_op,154083517,334148016
+512 Byte,segmentio/compat go1.23,unmarshal,flat,allocs_per_op,17,90
+8 KiB,segmentio/compat go1.23,unmarshal,flat,allocs_per_op,212,1437
+64 KiB,segmentio/compat go1.23,unmarshal,flat,allocs_per_op,1649,11478
+512 KiB,segmentio/compat go1.23,unmarshal,flat,allocs_per_op,13121,91764
+2 MiB,segmentio/compat go1.23,unmarshal,flat,allocs_per_op,52444,367012
+8 MiB,segmentio/compat go1.23,unmarshal,flat,allocs_per_op,209733,1468018
+64 MiB,segmentio/compat go1.23,unmarshal,flat,allocs_per_op,1677741,11744007
+512 Byte,segmentio/compat go1.23,unmarshal,nested,ns_per_op,8442,11355
+8 KiB,segmentio/compat go1.23,unmarshal,nested,ns_per_op,72223,167049
+64 KiB,segmentio/compat go1.23,unmarshal,nested,ns_per_op,416337,1298209
+512 KiB,segmentio/compat go1.23,unmarshal,nested,ns_per_op,3149784,11259043
+2 MiB,segmentio/compat go1.23,unmarshal,nested,ns_per_op,11683930,49935745
+8 MiB,segmentio/compat go1.23,unmarshal,nested,ns_per_op,47577478,222826806
+64 MiB,segmentio/compat go1.23,unmarshal,nested,ns_per_op,409630153,1850510487
+512 Byte,segmentio/compat go1.23,unmarshal,nested,bytes_per_op,19536,6136
+8 KiB,segmentio/compat go1.23,unmarshal,nested,bytes_per_op,144456,65840
+64 KiB,segmentio/compat go1.23,unmarshal,nested,bytes_per_op,735928,440880
+512 KiB,segmentio/compat go1.23,unmarshal,nested,bytes_per_op,5082080,3598225
+2 MiB,segmentio/compat go1.23,unmarshal,nested,bytes_per_op,17578035,13745695
+8 MiB,segmentio/compat go1.23,unmarshal,nested,bytes_per_op,65386081,56126032
+64 MiB,segmentio/compat go1.23,unmarshal,nested,bytes_per_op,435758120,432036368
+512 Byte,segmentio/compat go1.23,unmarshal,nested,allocs_per_op,53,148
+8 KiB,segmentio/compat go1.23,unmarshal,nested,allocs_per_op,545,1670
+64 KiB,segmentio/compat go1.23,unmarshal,nested,allocs_per_op,3559,11402
+512 KiB,segmentio/compat go1.23,unmarshal,nested,allocs_per_op,28590,93711
+2 MiB,segmentio/compat go1.23,unmarshal,nested,allocs_per_op,108531,359741
+8 MiB,segmentio/compat go1.23,unmarshal,nested,allocs_per_op,440783,1475996
+64 MiB,segmentio/compat go1.23,unmarshal,nested,allocs_per_op,3373304,11444345
+512 Byte,segmentio/compat go1.27,marshal,flat,ns_per_op,867,2626
+8 KiB,segmentio/compat go1.27,marshal,flat,ns_per_op,15170,42461
+64 KiB,segmentio/compat go1.27,marshal,flat,ns_per_op,114489,338975
+512 KiB,segmentio/compat go1.27,marshal,flat,ns_per_op,902497,2743019
+2 MiB,segmentio/compat go1.27,marshal,flat,ns_per_op,3549573,11039947
+8 MiB,segmentio/compat go1.27,marshal,flat,ns_per_op,14248113,36549891
+64 MiB,segmentio/compat go1.27,marshal,flat,ns_per_op,106572278,403258514
+512 Byte,segmentio/compat go1.27,marshal,flat,bytes_per_op,640,640
+8 KiB,segmentio/compat go1.27,marshal,flat,bytes_per_op,10880,10880
+64 KiB,segmentio/compat go1.27,marshal,flat,bytes_per_op,90112,90114
+512 KiB,segmentio/compat go1.27,marshal,flat,bytes_per_op,712709,712722
+2 MiB,segmentio/compat go1.27,marshal,flat,bytes_per_op,2850832,2850856
+8 MiB,segmentio/compat go1.27,marshal,flat,bytes_per_op,11436050,11436032
+64 MiB,segmentio/compat go1.27,marshal,flat,bytes_per_op,92274688,92274795
+512 Byte,segmentio/compat go1.27,marshal,flat,allocs_per_op,1,1
+8 KiB,segmentio/compat go1.27,marshal,flat,allocs_per_op,1,1
+64 KiB,segmentio/compat go1.27,marshal,flat,allocs_per_op,1,1
+512 KiB,segmentio/compat go1.27,marshal,flat,allocs_per_op,1,1
+2 MiB,segmentio/compat go1.27,marshal,flat,allocs_per_op,1,1
+8 MiB,segmentio/compat go1.27,marshal,flat,allocs_per_op,1,1
+64 MiB,segmentio/compat go1.27,marshal,flat,allocs_per_op,1,2
+512 Byte,segmentio/compat go1.27,marshal,nested,ns_per_op,1676,3141
+8 KiB,segmentio/compat go1.27,marshal,nested,ns_per_op,17031,34066
+64 KiB,segmentio/compat go1.27,marshal,nested,ns_per_op,104351,230526
+512 KiB,segmentio/compat go1.27,marshal,nested,ns_per_op,798665,1947434
+2 MiB,segmentio/compat go1.27,marshal,nested,ns_per_op,2956218,6887521
+8 MiB,segmentio/compat go1.27,marshal,nested,ns_per_op,11700444,25408775
+64 MiB,segmentio/compat go1.27,marshal,nested,ns_per_op,79428421,191003041
+512 Byte,segmentio/compat go1.27,marshal,nested,bytes_per_op,912,768
+8 KiB,segmentio/compat go1.27,marshal,nested,bytes_per_op,9248,8192
+64 KiB,segmentio/compat go1.27,marshal,nested,bytes_per_op,62433,57345
+512 KiB,segmentio/compat go1.27,marshal,nested,bytes_per_op,501560,466955
+2 MiB,segmentio/compat go1.27,marshal,nested,bytes_per_op,1926666,1810455
+8 MiB,segmentio/compat go1.27,marshal,nested,bytes_per_op,7814834,7389184
+64 MiB,segmentio/compat go1.27,marshal,nested,bytes_per_op,60898720,58212352
+512 Byte,segmentio/compat go1.27,marshal,nested,allocs_per_op,10,1
+8 KiB,segmentio/compat go1.27,marshal,nested,allocs_per_op,67,1
+64 KiB,segmentio/compat go1.27,marshal,nested,allocs_per_op,319,1
+512 KiB,segmentio/compat go1.27,marshal,nested,allocs_per_op,2164,1
+2 MiB,segmentio/compat go1.27,marshal,nested,allocs_per_op,7264,1
+8 MiB,segmentio/compat go1.27,marshal,nested,allocs_per_op,26602,1
+64 MiB,segmentio/compat go1.27,marshal,nested,allocs_per_op,167899,1
+512 Byte,segmentio/compat go1.27,unmarshal,flat,ns_per_op,2474,5332
+8 KiB,segmentio/compat go1.27,unmarshal,flat,ns_per_op,40649,113551
+64 KiB,segmentio/compat go1.27,unmarshal,flat,ns_per_op,329091,838228
+512 KiB,segmentio/compat go1.27,unmarshal,flat,ns_per_op,2619944,6799904
+2 MiB,segmentio/compat go1.27,unmarshal,flat,ns_per_op,10619351,27478031
+8 MiB,segmentio/compat go1.27,unmarshal,flat,ns_per_op,41425685,110670007
+64 MiB,segmentio/compat go1.27,unmarshal,flat,ns_per_op,305365639,929161708
+512 Byte,segmentio/compat go1.27,unmarshal,flat,bytes_per_op,1496,2496
+8 KiB,segmentio/compat go1.27,unmarshal,flat,bytes_per_op,18888,39232
+64 KiB,segmentio/compat go1.27,unmarshal,flat,bytes_per_op,159144,314384
+512 KiB,segmentio/compat go1.27,unmarshal,flat,bytes_per_op,1216456,2508160
+2 MiB,segmentio/compat go1.27,unmarshal,flat,bytes_per_op,4827466,10025010
+8 MiB,segmentio/compat go1.27,unmarshal,flat,bytes_per_op,19271625,40092960
+64 MiB,segmentio/compat go1.27,unmarshal,flat,bytes_per_op,154083512,320725808
+512 Byte,segmentio/compat go1.27,unmarshal,flat,allocs_per_op,17,79
+8 KiB,segmentio/compat go1.27,unmarshal,flat,allocs_per_op,212,1234
+64 KiB,segmentio/compat go1.27,unmarshal,flat,allocs_per_op,1649,9841
+512 KiB,segmentio/compat go1.27,unmarshal,flat,allocs_per_op,13121,78658
+2 MiB,segmentio/compat go1.27,unmarshal,flat,allocs_per_op,52444,314585
+8 MiB,segmentio/compat go1.27,unmarshal,flat,allocs_per_op,209733,1258304
+64 MiB,segmentio/compat go1.27,unmarshal,flat,allocs_per_op,1677741,10066288
+512 Byte,segmentio/compat go1.27,unmarshal,nested,ns_per_op,7623,10824
+8 KiB,segmentio/compat go1.27,unmarshal,nested,ns_per_op,65994,151891
+64 KiB,segmentio/compat go1.27,unmarshal,nested,ns_per_op,387836,1178153
+512 KiB,segmentio/compat go1.27,unmarshal,nested,ns_per_op,2957300,10086820
+2 MiB,segmentio/compat go1.27,unmarshal,nested,ns_per_op,11122478,46144914
+8 MiB,segmentio/compat go1.27,unmarshal,nested,ns_per_op,42475039,177223667
+64 MiB,segmentio/compat go1.27,unmarshal,nested,ns_per_op,406280722,1660432055
+512 Byte,segmentio/compat go1.27,unmarshal,nested,bytes_per_op,19584,6088
+8 KiB,segmentio/compat go1.27,unmarshal,nested,bytes_per_op,144808,65120
+64 KiB,segmentio/compat go1.27,unmarshal,nested,bytes_per_op,737624,436080
+512 KiB,segmentio/compat go1.27,unmarshal,nested,bytes_per_op,5093616,3558225
+2 MiB,segmentio/compat go1.27,unmarshal,nested,bytes_per_op,17616771,13594185
+8 MiB,segmentio/compat go1.27,unmarshal,nested,bytes_per_op,65527953,55500400
+64 MiB,segmentio/compat go1.27,unmarshal,nested,bytes_per_op,436653571,427184475
+512 Byte,segmentio/compat go1.27,unmarshal,nested,allocs_per_op,56,142
+8 KiB,segmentio/compat go1.27,unmarshal,nested,allocs_per_op,567,1590
+64 KiB,segmentio/compat go1.27,unmarshal,nested,allocs_per_op,3665,10828
+512 KiB,segmentio/compat go1.27,unmarshal,nested,allocs_per_op,29311,88906
+2 MiB,segmentio/compat go1.27,unmarshal,nested,allocs_per_op,110952,341101
+8 MiB,segmentio/compat go1.27,unmarshal,nested,allocs_per_op,449650,1398923
+64 MiB,segmentio/compat go1.27,unmarshal,nested,allocs_per_op,3429270,10839641
+512 Byte,segmentio/fast go1.23,marshal,flat,ns_per_op,1117,2458
+8 KiB,segmentio/fast go1.23,marshal,flat,ns_per_op,20940,43754
+64 KiB,segmentio/fast go1.23,marshal,flat,ns_per_op,154310,335359
+512 KiB,segmentio/fast go1.23,marshal,flat,ns_per_op,1188237,2544273
+2 MiB,segmentio/fast go1.23,marshal,flat,ns_per_op,4729561,11156842
+8 MiB,segmentio/fast go1.23,marshal,flat,ns_per_op,17081344,41652569
+64 MiB,segmentio/fast go1.23,marshal,flat,ns_per_op,145110555,429031875
+512 Byte,segmentio/fast go1.23,marshal,flat,bytes_per_op,1912,1901
+8 KiB,segmentio/fast go1.23,marshal,flat,bytes_per_op,46584,46595
+64 KiB,segmentio/fast go1.23,marshal,flat,bytes_per_op,383736,383747
+512 KiB,segmentio/fast go1.23,marshal,flat,bytes_per_op,3241392,3242400
+2 MiB,segmentio/fast go1.23,marshal,flat,bytes_per_op,13343483,13343506
+8 MiB,segmentio/fast go1.23,marshal,flat,bytes_per_op,52263677,52263674
+64 MiB,segmentio/fast go1.23,marshal,flat,bytes_per_op,492026624,492026624
+512 Byte,segmentio/fast go1.23,marshal,flat,allocs_per_op,8,7
+8 KiB,segmentio/fast go1.23,marshal,flat,allocs_per_op,16,16
+64 KiB,segmentio/fast go1.23,marshal,flat,allocs_per_op,23,23
+512 KiB,segmentio/fast go1.23,marshal,flat,allocs_per_op,30,30
+2 MiB,segmentio/fast go1.23,marshal,flat,allocs_per_op,37,37
+8 MiB,segmentio/fast go1.23,marshal,flat,allocs_per_op,43,43
+64 MiB,segmentio/fast go1.23,marshal,flat,allocs_per_op,53,53
+512 Byte,segmentio/fast go1.23,marshal,nested,ns_per_op,1656,2950
+8 KiB,segmentio/fast go1.23,marshal,nested,ns_per_op,21434,37588
+64 KiB,segmentio/fast go1.23,marshal,nested,ns_per_op,135488,241542
+512 KiB,segmentio/fast go1.23,marshal,nested,ns_per_op,1161092,2140320
+2 MiB,segmentio/fast go1.23,marshal,nested,ns_per_op,4285542,9168515
+8 MiB,segmentio/fast go1.23,marshal,nested,ns_per_op,16433458,35613458
+64 MiB,segmentio/fast go1.23,marshal,nested,ns_per_op,134334125,292460264
+512 Byte,segmentio/fast go1.23,marshal,nested,bytes_per_op,1456,1570
+8 KiB,segmentio/fast go1.23,marshal,nested,bytes_per_op,32944,33276
+64 KiB,segmentio/fast go1.23,marshal,nested,bytes_per_op,210352,210685
+512 KiB,segmentio/fast go1.23,marshal,nested,bytes_per_op,2536880,2537232
+2 MiB,segmentio/fast go1.23,marshal,nested,bytes_per_op,10589616,10589848
+8 MiB,segmentio/fast go1.23,marshal,nested,bytes_per_op,41702835,41702965
+64 MiB,segmentio/fast go1.23,marshal,nested,bytes_per_op,314627512,314628413
+512 Byte,segmentio/fast go1.23,marshal,nested,allocs_per_op,7,7
+8 KiB,segmentio/fast go1.23,marshal,nested,allocs_per_op,14,14
+64 KiB,segmentio/fast go1.23,marshal,nested,allocs_per_op,20,20
+512 KiB,segmentio/fast go1.23,marshal,nested,allocs_per_op,29,29
+2 MiB,segmentio/fast go1.23,marshal,nested,allocs_per_op,35,35
+8 MiB,segmentio/fast go1.23,marshal,nested,allocs_per_op,41,41
+64 MiB,segmentio/fast go1.23,marshal,nested,allocs_per_op,50,51
+512 Byte,segmentio/fast go1.23,unmarshal,flat,ns_per_op,2376,5637
+8 KiB,segmentio/fast go1.23,unmarshal,flat,ns_per_op,40519,108142
+64 KiB,segmentio/fast go1.23,unmarshal,flat,ns_per_op,323072,848890
+512 KiB,segmentio/fast go1.23,unmarshal,flat,ns_per_op,2578809,7009769
+2 MiB,segmentio/fast go1.23,unmarshal,flat,ns_per_op,10343210,28953338
+8 MiB,segmentio/fast go1.23,unmarshal,flat,ns_per_op,41456454,117593687
+64 MiB,segmentio/fast go1.23,unmarshal,flat,ns_per_op,294286834,874316180
+512 Byte,segmentio/fast go1.23,unmarshal,flat,bytes_per_op,1360,2304
+8 KiB,segmentio/fast go1.23,unmarshal,flat,bytes_per_op,17232,36480
+64 KiB,segmentio/fast go1.23,unmarshal,flat,bytes_per_op,146000,292512
+512 KiB,segmentio/fast go1.23,unmarshal,flat,bytes_per_op,1111568,2333360
+2 MiB,segmentio/fast go1.23,unmarshal,flat,bytes_per_op,4408016,9325947
+8 MiB,segmentio/fast go1.23,unmarshal,flat,bytes_per_op,17593872,37296771
+64 MiB,segmentio/fast go1.23,unmarshal,flat,bytes_per_op,140661712,298356616
+512 Byte,segmentio/fast go1.23,unmarshal,flat,allocs_per_op,6,51
+8 KiB,segmentio/fast go1.23,unmarshal,flat,allocs_per_op,73,822
+64 KiB,segmentio/fast go1.23,unmarshal,flat,allocs_per_op,554,6561
+512 KiB,segmentio/fast go1.23,unmarshal,flat,allocs_per_op,4380,52440
+2 MiB,segmentio/fast go1.23,unmarshal,flat,allocs_per_op,17489,209725
+8 MiB,segmentio/fast go1.23,unmarshal,flat,allocs_per_op,69920,838870
+64 MiB,segmentio/fast go1.23,unmarshal,flat,allocs_per_op,559258,6710844
+512 Byte,segmentio/fast go1.23,unmarshal,nested,ns_per_op,8171,10377
+8 KiB,segmentio/fast go1.23,unmarshal,nested,ns_per_op,65380,154726
+64 KiB,segmentio/fast go1.23,unmarshal,nested,ns_per_op,377611,1227325
+512 KiB,segmentio/fast go1.23,unmarshal,nested,ns_per_op,2814074,10656008
+2 MiB,segmentio/fast go1.23,unmarshal,nested,ns_per_op,10466355,46331183
+8 MiB,segmentio/fast go1.23,unmarshal,nested,ns_per_op,43299116,213609084
+64 MiB,segmentio/fast go1.23,unmarshal,nested,ns_per_op,373914208,1805944583
+512 Byte,segmentio/fast go1.23,unmarshal,nested,bytes_per_op,19336,5728
+8 KiB,segmentio/fast go1.23,unmarshal,nested,bytes_per_op,141968,61224
+64 KiB,segmentio/fast go1.23,unmarshal,nested,bytes_per_op,715568,406680
+512 KiB,segmentio/fast go1.23,unmarshal,nested,bytes_per_op,4905016,3304760
+2 MiB,segmentio/fast go1.23,unmarshal,nested,bytes_per_op,16878200,12598560
+8 MiB,segmentio/fast go1.23,unmarshal,nested,bytes_per_op,62483816,51423528
+64 MiB,segmentio/fast go1.23,unmarshal,nested,bytes_per_op,413301077,395509352
+512 Byte,segmentio/fast go1.23,unmarshal,nested,allocs_per_op,21,83
+8 KiB,segmentio/fast go1.23,unmarshal,nested,allocs_per_op,179,937
+64 KiB,segmentio/fast go1.23,unmarshal,nested,allocs_per_op,1049,6381
+512 KiB,segmentio/fast go1.23,unmarshal,nested,allocs_per_op,7926,52382
+2 MiB,segmentio/fast go1.23,unmarshal,nested,allocs_per_op,29127,200932
+8 MiB,segmentio/fast go1.23,unmarshal,nested,allocs_per_op,114755,823939
+64 MiB,segmentio/fast go1.23,unmarshal,nested,allocs_per_op,842554,6382844
+512 Byte,segmentio/fast go1.27,marshal,flat,ns_per_op,1007,2106
+8 KiB,segmentio/fast go1.27,marshal,flat,ns_per_op,19270,35518
+64 KiB,segmentio/fast go1.27,marshal,flat,ns_per_op,132464,275381
+512 KiB,segmentio/fast go1.27,marshal,flat,ns_per_op,1034696,2209802
+2 MiB,segmentio/fast go1.27,marshal,flat,ns_per_op,4109364,9122863
+8 MiB,segmentio/fast go1.27,marshal,flat,ns_per_op,15455562,36767766
+64 MiB,segmentio/fast go1.27,marshal,flat,ns_per_op,129624868,359895889
+512 Byte,segmentio/fast go1.27,marshal,flat,bytes_per_op,1912,1901
+8 KiB,segmentio/fast go1.27,marshal,flat,bytes_per_op,46584,46595
+64 KiB,segmentio/fast go1.27,marshal,flat,bytes_per_op,383736,383747
+512 KiB,segmentio/fast go1.27,marshal,flat,bytes_per_op,3241392,3242448
+2 MiB,segmentio/fast go1.27,marshal,flat,bytes_per_op,13343482,13343480
+8 MiB,segmentio/fast go1.27,marshal,flat,bytes_per_op,52263677,52263674
+64 MiB,segmentio/fast go1.27,marshal,flat,bytes_per_op,492026624,492026624
+512 Byte,segmentio/fast go1.27,marshal,flat,allocs_per_op,8,7
+8 KiB,segmentio/fast go1.27,marshal,flat,allocs_per_op,16,16
+64 KiB,segmentio/fast go1.27,marshal,flat,allocs_per_op,23,23
+512 KiB,segmentio/fast go1.27,marshal,flat,allocs_per_op,30,30
+2 MiB,segmentio/fast go1.27,marshal,flat,allocs_per_op,37,37
+8 MiB,segmentio/fast go1.27,marshal,flat,allocs_per_op,43,43
+64 MiB,segmentio/fast go1.27,marshal,flat,allocs_per_op,53,53
+512 Byte,segmentio/fast go1.27,marshal,nested,ns_per_op,1479,2664
+8 KiB,segmentio/fast go1.27,marshal,nested,ns_per_op,20127,32964
+64 KiB,segmentio/fast go1.27,marshal,nested,ns_per_op,115100,223570
+512 KiB,segmentio/fast go1.27,marshal,nested,ns_per_op,979982,1927368
+2 MiB,segmentio/fast go1.27,marshal,nested,ns_per_op,3791383,7653790
+8 MiB,segmentio/fast go1.27,marshal,nested,ns_per_op,15141651,33253786
+64 MiB,segmentio/fast go1.27,marshal,nested,ns_per_op,128829993,268701403
+512 Byte,segmentio/fast go1.27,marshal,nested,bytes_per_op,1456,1570
+8 KiB,segmentio/fast go1.27,marshal,nested,bytes_per_op,32944,33281
+64 KiB,segmentio/fast go1.27,marshal,nested,bytes_per_op,210352,210686
+512 KiB,segmentio/fast go1.27,marshal,nested,bytes_per_op,2536880,2537199
+2 MiB,segmentio/fast go1.27,marshal,nested,bytes_per_op,10589616,10589872
+8 MiB,segmentio/fast go1.27,marshal,nested,bytes_per_op,41702835,41703251
+64 MiB,segmentio/fast go1.27,marshal,nested,bytes_per_op,314627512,314627512
+512 Byte,segmentio/fast go1.27,marshal,nested,allocs_per_op,7,7
+8 KiB,segmentio/fast go1.27,marshal,nested,allocs_per_op,14,14
+64 KiB,segmentio/fast go1.27,marshal,nested,allocs_per_op,20,20
+512 KiB,segmentio/fast go1.27,marshal,nested,allocs_per_op,29,29
+2 MiB,segmentio/fast go1.27,marshal,nested,allocs_per_op,35,35
+8 MiB,segmentio/fast go1.27,marshal,nested,allocs_per_op,41,41
+64 MiB,segmentio/fast go1.27,marshal,nested,allocs_per_op,50,50
+512 Byte,segmentio/fast go1.27,unmarshal,flat,ns_per_op,2213,4987
+8 KiB,segmentio/fast go1.27,unmarshal,flat,ns_per_op,38209,96186
+64 KiB,segmentio/fast go1.27,unmarshal,flat,ns_per_op,312434,780728
+512 KiB,segmentio/fast go1.27,unmarshal,flat,ns_per_op,2484667,6253566
+2 MiB,segmentio/fast go1.27,unmarshal,flat,ns_per_op,10074124,26383709
+8 MiB,segmentio/fast go1.27,unmarshal,flat,ns_per_op,38615516,108065750
+64 MiB,segmentio/fast go1.27,unmarshal,flat,ns_per_op,299501778,843224069
+512 Byte,segmentio/fast go1.27,unmarshal,flat,bytes_per_op,1360,2216
+8 KiB,segmentio/fast go1.27,unmarshal,flat,bytes_per_op,17232,34856
+64 KiB,segmentio/fast go1.27,unmarshal,flat,bytes_per_op,146000,279416
+512 KiB,segmentio/fast go1.27,unmarshal,flat,bytes_per_op,1111568,2228512
+2 MiB,segmentio/fast go1.27,unmarshal,flat,bytes_per_op,4408016,8906530
+8 MiB,segmentio/fast go1.27,unmarshal,flat,bytes_per_op,17593872,35619061
+64 MiB,segmentio/fast go1.27,unmarshal,flat,bytes_per_op,140661712,284934872
+512 Byte,segmentio/fast go1.27,unmarshal,flat,allocs_per_op,6,40
+8 KiB,segmentio/fast go1.27,unmarshal,flat,allocs_per_op,73,619
+64 KiB,segmentio/fast go1.27,unmarshal,flat,allocs_per_op,554,4924
+512 KiB,segmentio/fast go1.27,unmarshal,flat,allocs_per_op,4380,39334
+2 MiB,segmentio/fast go1.27,unmarshal,flat,allocs_per_op,17489,157298
+8 MiB,segmentio/fast go1.27,unmarshal,flat,allocs_per_op,69920,629156
+64 MiB,segmentio/fast go1.27,unmarshal,flat,allocs_per_op,559258,5033125
+512 Byte,segmentio/fast go1.27,unmarshal,nested,ns_per_op,7416,9597
+8 KiB,segmentio/fast go1.27,unmarshal,nested,ns_per_op,60168,143486
+64 KiB,segmentio/fast go1.27,unmarshal,nested,ns_per_op,347186,1112920
+512 KiB,segmentio/fast go1.27,unmarshal,nested,ns_per_op,2685699,9560677
+2 MiB,segmentio/fast go1.27,unmarshal,nested,ns_per_op,10115209,42131600
+8 MiB,segmentio/fast go1.27,unmarshal,nested,ns_per_op,39167528,180281937
+64 MiB,segmentio/fast go1.27,unmarshal,nested,ns_per_op,382493098,1647006277
+512 Byte,segmentio/fast go1.27,unmarshal,nested,bytes_per_op,19384,5680
+8 KiB,segmentio/fast go1.27,unmarshal,nested,bytes_per_op,142320,60584
+64 KiB,segmentio/fast go1.27,unmarshal,nested,bytes_per_op,717264,402088
+512 KiB,segmentio/fast go1.27,unmarshal,nested,bytes_per_op,4916552,3266320
+2 MiB,segmentio/fast go1.27,unmarshal,nested,bytes_per_op,16916936,12449440
+8 MiB,segmentio/fast go1.27,unmarshal,nested,bytes_per_op,62625688,50806947
+64 MiB,segmentio/fast go1.27,unmarshal,nested,bytes_per_op,414196528,390671731
+512 Byte,segmentio/fast go1.27,unmarshal,nested,allocs_per_op,24,77
+8 KiB,segmentio/fast go1.27,unmarshal,nested,allocs_per_op,201,857
+64 KiB,segmentio/fast go1.27,unmarshal,nested,allocs_per_op,1155,5807
+512 KiB,segmentio/fast go1.27,unmarshal,nested,allocs_per_op,8647,47577
+2 MiB,segmentio/fast go1.27,unmarshal,nested,allocs_per_op,31548,182292
+8 MiB,segmentio/fast go1.27,unmarshal,nested,allocs_per_op,123622,746866
+64 MiB,segmentio/fast go1.27,unmarshal,nested,allocs_per_op,898520,5778140
+512 Byte,jsoniter/compat go1.23,marshal,flat,ns_per_op,1314,6822
+8 KiB,jsoniter/compat go1.23,marshal,flat,ns_per_op,22566,112956
+64 KiB,jsoniter/compat go1.23,marshal,flat,ns_per_op,171821,906842
+512 KiB,jsoniter/compat go1.23,marshal,flat,ns_per_op,1369240,7373738
+2 MiB,jsoniter/compat go1.23,marshal,flat,ns_per_op,5526777,28616564
+8 MiB,jsoniter/compat go1.23,marshal,flat,ns_per_op,20380601,109516563
+64 MiB,jsoniter/compat go1.23,marshal,flat,ns_per_op,169109833,1037395833
+512 Byte,jsoniter/compat go1.23,marshal,flat,bytes_per_op,648,3809
+8 KiB,jsoniter/compat go1.23,marshal,flat,bytes_per_op,10888,64525
+64 KiB,jsoniter/compat go1.23,marshal,flat,bytes_per_op,90120,520753
+512 KiB,jsoniter/compat go1.23,marshal,flat,bytes_per_op,712717,4158468
+2 MiB,jsoniter/compat go1.23,marshal,flat,bytes_per_op,2850839,16739200
+8 MiB,jsoniter/compat go1.23,marshal,flat,bytes_per_op,11436061,68473256
+64 MiB,jsoniter/compat go1.23,marshal,flat,bytes_per_op,92274701,564079603
+512 Byte,jsoniter/compat go1.23,marshal,flat,allocs_per_op,2,61
+8 KiB,jsoniter/compat go1.23,marshal,flat,allocs_per_op,2,1021
+64 KiB,jsoniter/compat go1.23,marshal,flat,allocs_per_op,2,8191
+512 KiB,jsoniter/compat go1.23,marshal,flat,allocs_per_op,2,65537
+2 MiB,jsoniter/compat go1.23,marshal,flat,allocs_per_op,2,262145
+8 MiB,jsoniter/compat go1.23,marshal,flat,allocs_per_op,2,1048582
+64 MiB,jsoniter/compat go1.23,marshal,flat,allocs_per_op,2,8388609
+512 Byte,jsoniter/compat go1.23,marshal,nested,ns_per_op,3360,10525
+8 KiB,jsoniter/compat go1.23,marshal,nested,ns_per_op,30453,107816
+64 KiB,jsoniter/compat go1.23,marshal,nested,ns_per_op,178063,689518
+512 KiB,jsoniter/compat go1.23,marshal,nested,ns_per_op,1377891,5856849
+2 MiB,jsoniter/compat go1.23,marshal,nested,ns_per_op,5104967,22691777
+8 MiB,jsoniter/compat go1.23,marshal,nested,ns_per_op,19587573,85562977
+64 MiB,jsoniter/compat go1.23,marshal,nested,ns_per_op,139616979,755179514
+512 Byte,jsoniter/compat go1.23,marshal,nested,bytes_per_op,2120,6357
+8 KiB,jsoniter/compat go1.23,marshal,nested,bytes_per_op,18056,62774
+64 KiB,jsoniter/compat go1.23,marshal,nested,bytes_per_op,104843,404790
+512 KiB,jsoniter/compat go1.23,marshal,nested,bytes_per_op,789981,3244807
+2 MiB,jsoniter/compat go1.23,marshal,nested,bytes_per_op,2895101,12572781
+8 MiB,jsoniter/compat go1.23,marshal,nested,bytes_per_op,11361684,49691393
+64 MiB,jsoniter/compat go1.23,marshal,nested,bytes_per_op,83285181,398635371
+512 Byte,jsoniter/compat go1.23,marshal,nested,allocs_per_op,29,116
+8 KiB,jsoniter/compat go1.23,marshal,nested,allocs_per_op,200,1177
+64 KiB,jsoniter/compat go1.23,marshal,nested,allocs_per_op,956,7703
+512 KiB,jsoniter/compat go1.23,marshal,nested,allocs_per_op,6491,62240
+2 MiB,jsoniter/compat go1.23,marshal,nested,allocs_per_op,21791,236526
+8 MiB,jsoniter/compat go1.23,marshal,nested,allocs_per_op,79806,963087
+64 MiB,jsoniter/compat go1.23,marshal,nested,allocs_per_op,503697,7379317
+512 Byte,jsoniter/compat go1.23,unmarshal,flat,ns_per_op,2330,5693
+8 KiB,jsoniter/compat go1.23,unmarshal,flat,ns_per_op,44852,98005
+64 KiB,jsoniter/compat go1.23,unmarshal,flat,ns_per_op,350853,759311
+512 KiB,jsoniter/compat go1.23,unmarshal,flat,ns_per_op,2937657,6351071
+2 MiB,jsoniter/compat go1.23,unmarshal,flat,ns_per_op,12578075,26439418
+8 MiB,jsoniter/compat go1.23,unmarshal,flat,ns_per_op,45581197,108433701
+64 MiB,jsoniter/compat go1.23,unmarshal,flat,ns_per_op,399123402,1047637402
+512 Byte,jsoniter/compat go1.23,unmarshal,flat,bytes_per_op,1424,3376
+8 KiB,jsoniter/compat go1.23,unmarshal,flat,bytes_per_op,36728,56544
+64 KiB,jsoniter/compat go1.23,unmarshal,flat,bytes_per_op,288322,455459
+512 KiB,jsoniter/compat go1.23,unmarshal,flat,bytes_per_op,2714505,3732008
+2 MiB,jsoniter/compat go1.23,unmarshal,flat,bytes_per_op,11160685,15156698
+8 MiB,jsoniter/compat go1.23,unmarshal,flat,bytes_per_op,43846480,61403528
+64 MiB,jsoniter/compat go1.23,unmarshal,flat,bytes_per_op,389208091,491612304
+512 Byte,jsoniter/compat go1.23,unmarshal,flat,allocs_per_op,33,136
+8 KiB,jsoniter/compat go1.23,unmarshal,flat,allocs_per_op,568,2142
+64 KiB,jsoniter/compat go1.23,unmarshal,flat,allocs_per_op,4549,17117
+512 KiB,jsoniter/compat go1.23,unmarshal,flat,allocs_per_op,36287,136782
+2 MiB,jsoniter/compat go1.23,unmarshal,flat,allocs_per_op,145051,547005
+8 MiB,jsoniter/compat go1.23,unmarshal,flat,allocs_per_op,580040,2187855
+64 MiB,jsoniter/compat go1.23,unmarshal,flat,allocs_per_op,4639801,17502271
+512 Byte,jsoniter/compat go1.23,unmarshal,nested,ns_per_op,4125,9248
+8 KiB,jsoniter/compat go1.23,unmarshal,nested,ns_per_op,46049,105640
+64 KiB,jsoniter/compat go1.23,unmarshal,nested,ns_per_op,310225,745743
+512 KiB,jsoniter/compat go1.23,unmarshal,nested,ns_per_op,2493692,6295374
+2 MiB,jsoniter/compat go1.23,unmarshal,nested,ns_per_op,9606024,26750014
+8 MiB,jsoniter/compat go1.23,unmarshal,nested,ns_per_op,38172121,107876813
+64 MiB,jsoniter/compat go1.23,unmarshal,nested,ns_per_op,229580903,914064139
+512 Byte,jsoniter/compat go1.23,unmarshal,nested,bytes_per_op,2616,6128
+8 KiB,jsoniter/compat go1.23,unmarshal,nested,bytes_per_op,29400,69184
+64 KiB,jsoniter/compat go1.23,unmarshal,nested,bytes_per_op,219833,484947
+512 KiB,jsoniter/compat go1.23,unmarshal,nested,bytes_per_op,1731717,3978272
+2 MiB,jsoniter/compat go1.23,unmarshal,nested,bytes_per_op,6388941,15272660
+8 MiB,jsoniter/compat go1.23,unmarshal,nested,bytes_per_op,24174154,62200467
+64 MiB,jsoniter/compat go1.23,unmarshal,nested,bytes_per_op,222009448,491849571
+512 Byte,jsoniter/compat go1.23,unmarshal,nested,allocs_per_op,86,215
+8 KiB,jsoniter/compat go1.23,unmarshal,nested,allocs_per_op,899,2489
+64 KiB,jsoniter/compat go1.23,unmarshal,nested,allocs_per_op,5788,17174
+512 KiB,jsoniter/compat go1.23,unmarshal,nested,allocs_per_op,45761,141152
+2 MiB,jsoniter/compat go1.23,unmarshal,nested,allocs_per_op,171625,542017
+8 MiB,jsoniter/compat go1.23,unmarshal,nested,allocs_per_op,688022,2220629
+64 MiB,jsoniter/compat go1.23,unmarshal,nested,allocs_per_op,5220842,17258970
+512 Byte,jsoniter/compat go1.27,marshal,flat,ns_per_op,1415,6937
+8 KiB,jsoniter/compat go1.27,marshal,flat,ns_per_op,23303,115288
+64 KiB,jsoniter/compat go1.27,marshal,flat,ns_per_op,193345,888539
+512 KiB,jsoniter/compat go1.27,marshal,flat,ns_per_op,1419111,6652259
+2 MiB,jsoniter/compat go1.27,marshal,flat,ns_per_op,5500931,27777238
+8 MiB,jsoniter/compat go1.27,marshal,flat,ns_per_op,21060016,108588405
+64 MiB,jsoniter/compat go1.27,marshal,flat,ns_per_op,151958368,936181514
+512 Byte,jsoniter/compat go1.27,marshal,flat,bytes_per_op,648,4193
+8 KiB,jsoniter/compat go1.27,marshal,flat,bytes_per_op,10888,71053
+64 KiB,jsoniter/compat go1.27,marshal,flat,bytes_per_op,90120,573168
+512 KiB,jsoniter/compat go1.27,marshal,flat,bytes_per_op,712717,4577925
+2 MiB,jsoniter/compat go1.27,marshal,flat,bytes_per_op,2850841,18311363
+8 MiB,jsoniter/compat go1.27,marshal,flat,bytes_per_op,11436062,74549035
+64 MiB,jsoniter/compat go1.27,marshal,flat,bytes_per_op,92274696,617765571
+512 Byte,jsoniter/compat go1.27,marshal,flat,allocs_per_op,2,65
+8 KiB,jsoniter/compat go1.27,marshal,flat,allocs_per_op,2,1089
+64 KiB,jsoniter/compat go1.27,marshal,flat,allocs_per_op,2,8737
+512 KiB,jsoniter/compat go1.27,marshal,flat,allocs_per_op,2,69907
+2 MiB,jsoniter/compat go1.27,marshal,flat,allocs_per_op,2,279622
+8 MiB,jsoniter/compat go1.27,marshal,flat,allocs_per_op,2,1118488
+64 MiB,jsoniter/compat go1.27,marshal,flat,allocs_per_op,2,8947849
+512 Byte,jsoniter/compat go1.27,marshal,nested,ns_per_op,3490,10956
+8 KiB,jsoniter/compat go1.27,marshal,nested,ns_per_op,34263,110223
+64 KiB,jsoniter/compat go1.27,marshal,nested,ns_per_op,195516,711984
+512 KiB,jsoniter/compat go1.27,marshal,nested,ns_per_op,1562633,5825853
+2 MiB,jsoniter/compat go1.27,marshal,nested,ns_per_op,5677922,22551374
+8 MiB,jsoniter/compat go1.27,marshal,nested,ns_per_op,21578286,81616625
+64 MiB,jsoniter/compat go1.27,marshal,nested,ns_per_op,186630854,592263514
+512 Byte,jsoniter/compat go1.27,marshal,nested,bytes_per_op,2408,7317
+8 KiB,jsoniter/compat go1.27,marshal,nested,bytes_per_op,20168,72662
+64 KiB,jsoniter/compat go1.27,marshal,nested,bytes_per_op,115019,470165
+512 KiB,jsoniter/compat go1.27,marshal,nested,bytes_per_op,859198,3772641
+2 MiB,jsoniter/compat go1.27,marshal,nested,bytes_per_op,3127525,14728970
+8 MiB,jsoniter/compat go1.27,marshal,nested,bytes_per_op,12212926,58763070
+64 MiB,jsoniter/compat go1.27,marshal,nested,bytes_per_op,88658083,481462357
+512 Byte,jsoniter/compat go1.27,marshal,nested,allocs_per_op,32,126
+8 KiB,jsoniter/compat go1.27,marshal,nested,allocs_per_op,222,1280
+64 KiB,jsoniter/compat go1.27,marshal,nested,allocs_per_op,1062,8384
+512 KiB,jsoniter/compat go1.27,marshal,nested,allocs_per_op,7212,67767
+2 MiB,jsoniter/compat go1.27,marshal,nested,allocs_per_op,24212,257589
+8 MiB,jsoniter/compat go1.27,marshal,nested,allocs_per_op,88673,1049028
+64 MiB,jsoniter/compat go1.27,marshal,nested,allocs_per_op,559665,8039988
+512 Byte,jsoniter/compat go1.27,unmarshal,flat,ns_per_op,1984,4508
+8 KiB,jsoniter/compat go1.27,unmarshal,flat,ns_per_op,40302,75598
+64 KiB,jsoniter/compat go1.27,unmarshal,flat,ns_per_op,309874,604346
+512 KiB,jsoniter/compat go1.27,unmarshal,flat,ns_per_op,2560702,4996284
+2 MiB,jsoniter/compat go1.27,unmarshal,flat,ns_per_op,10587833,21268157
+8 MiB,jsoniter/compat go1.27,unmarshal,flat,ns_per_op,40947494,82500593
+64 MiB,jsoniter/compat go1.27,unmarshal,flat,ns_per_op,382348333,863302139
+512 Byte,jsoniter/compat go1.27,unmarshal,flat,bytes_per_op,1256,3200
+8 KiB,jsoniter/compat go1.27,unmarshal,flat,bytes_per_op,32968,52784
+64 KiB,jsoniter/compat go1.27,unmarshal,flat,bytes_per_op,257801,424931
+512 KiB,jsoniter/compat go1.27,unmarshal,flat,bytes_per_op,2469880,3487399
+2 MiB,jsoniter/compat go1.27,unmarshal,flat,bytes_per_op,10182073,14178071
+8 MiB,jsoniter/compat go1.27,unmarshal,flat,bytes_per_op,39931865,57488938
+64 MiB,jsoniter/compat go1.27,unmarshal,flat,bytes_per_op,357890653,460294475
+512 Byte,jsoniter/compat go1.27,unmarshal,flat,allocs_per_op,24,127
+8 KiB,jsoniter/compat go1.27,unmarshal,flat,allocs_per_op,367,1941
+64 KiB,jsoniter/compat go1.27,unmarshal,flat,allocs_per_op,2914,15482
+512 KiB,jsoniter/compat go1.27,unmarshal,flat,allocs_per_op,23183,123678
+2 MiB,jsoniter/compat go1.27,unmarshal,flat,allocs_per_op,92625,494580
+8 MiB,jsoniter/compat go1.27,unmarshal,flat,allocs_per_op,370328,1978144
+64 MiB,jsoniter/compat go1.27,unmarshal,flat,allocs_per_op,2962083,15824554
+512 Byte,jsoniter/compat go1.27,unmarshal,nested,ns_per_op,3560,7539
+8 KiB,jsoniter/compat go1.27,unmarshal,nested,ns_per_op,40920,86109
+64 KiB,jsoniter/compat go1.27,unmarshal,nested,ns_per_op,275735,585677
+512 KiB,jsoniter/compat go1.27,unmarshal,nested,ns_per_op,2283285,4999091
+2 MiB,jsoniter/compat go1.27,unmarshal,nested,ns_per_op,8765832,20591163
+8 MiB,jsoniter/compat go1.27,unmarshal,nested,ns_per_op,33878490,95946963
+64 MiB,jsoniter/compat go1.27,unmarshal,nested,ns_per_op,245542375,853072278
+512 Byte,jsoniter/compat go1.27,unmarshal,nested,bytes_per_op,2440,5936
+8 KiB,jsoniter/compat go1.27,unmarshal,nested,bytes_per_op,28024,67840
+64 KiB,jsoniter/compat go1.27,unmarshal,nested,bytes_per_op,213769,478163
+512 KiB,jsoniter/compat go1.27,unmarshal,nested,bytes_per_op,1690164,3936835
+2 MiB,jsoniter/compat go1.27,unmarshal,nested,bytes_per_op,6237033,15117703
+8 MiB,jsoniter/compat go1.27,unmarshal,nested,bytes_per_op,23666704,61701106
+64 MiB,jsoniter/compat go1.27,unmarshal,nested,bytes_per_op,218468716,488712651
+512 Byte,jsoniter/compat go1.27,unmarshal,nested,allocs_per_op,77,206
+8 KiB,jsoniter/compat go1.27,unmarshal,nested,allocs_per_op,833,2423
+64 KiB,jsoniter/compat go1.27,unmarshal,nested,allocs_per_op,5470,16856
+512 KiB,jsoniter/compat go1.27,unmarshal,nested,allocs_per_op,43598,138989
+2 MiB,jsoniter/compat go1.27,unmarshal,nested,allocs_per_op,164362,534753
+8 MiB,jsoniter/compat go1.27,unmarshal,nested,allocs_per_op,661421,2194027
+64 MiB,jsoniter/compat go1.27,unmarshal,nested,allocs_per_op,5052945,17091071
+512 Byte,jsoniter/fast go1.23,marshal,flat,ns_per_op,1084,2403
+8 KiB,jsoniter/fast go1.23,marshal,flat,ns_per_op,16369,39169
+64 KiB,jsoniter/fast go1.23,marshal,flat,ns_per_op,128529,311754
+512 KiB,jsoniter/fast go1.23,marshal,flat,ns_per_op,1035963,2526703
+2 MiB,jsoniter/fast go1.23,marshal,flat,ns_per_op,4310586,10299650
+8 MiB,jsoniter/fast go1.23,marshal,flat,ns_per_op,15484372,37222436
+64 MiB,jsoniter/fast go1.23,marshal,flat,ns_per_op,111071514,276878583
+512 Byte,jsoniter/fast go1.23,marshal,flat,bytes_per_op,584,1088
+8 KiB,jsoniter/fast go1.23,marshal,flat,bytes_per_op,9480,18176
+64 KiB,jsoniter/fast go1.23,marshal,flat,bytes_per_op,81928,151809
+512 KiB,jsoniter/fast go1.23,marshal,flat,bytes_per_op,614413,1173638
+2 MiB,jsoniter/fast go1.23,marshal,flat,bytes_per_op,2482198,4719124
+8 MiB,jsoniter/fast go1.23,marshal,flat,bytes_per_op,9986074,18933908
+64 MiB,jsoniter/fast go1.23,marshal,flat,bytes_per_op,80936968,152519725
+512 Byte,jsoniter/fast go1.23,marshal,flat,allocs_per_op,2,13
+8 KiB,jsoniter/fast go1.23,marshal,flat,allocs_per_op,2,205
+64 KiB,jsoniter/fast go1.23,marshal,flat,allocs_per_op,2,1639
+512 KiB,jsoniter/fast go1.23,marshal,flat,allocs_per_op,2,13108
+2 MiB,jsoniter/fast go1.23,marshal,flat,allocs_per_op,2,52429
+8 MiB,jsoniter/fast go1.23,marshal,flat,allocs_per_op,2,209716
+64 MiB,jsoniter/fast go1.23,marshal,flat,allocs_per_op,2,1677722
+512 Byte,jsoniter/fast go1.23,marshal,nested,ns_per_op,1875,4421
+8 KiB,jsoniter/fast go1.23,marshal,nested,ns_per_op,18811,46865
+64 KiB,jsoniter/fast go1.23,marshal,nested,ns_per_op,120277,313033
+512 KiB,jsoniter/fast go1.23,marshal,nested,ns_per_op,940013,2759043
+2 MiB,jsoniter/fast go1.23,marshal,nested,ns_per_op,3499042,10383357
+8 MiB,jsoniter/fast go1.23,marshal,nested,ns_per_op,13308460,39760135
+64 MiB,jsoniter/fast go1.23,marshal,nested,ns_per_op,93789709,253224375
+512 Byte,jsoniter/fast go1.23,marshal,nested,bytes_per_op,1072,1984
+8 KiB,jsoniter/fast go1.23,marshal,nested,bytes_per_op,10840,21376
+64 KiB,jsoniter/fast go1.23,marshal,nested,bytes_per_op,70072,144513
+512 KiB,jsoniter/fast go1.23,marshal,nested,bytes_per_op,545284,1166216
+2 MiB,jsoniter/fast go1.23,marshal,nested,bytes_per_op,2060012,4465427
+8 MiB,jsoniter/fast go1.23,marshal,nested,bytes_per_op,8322181,18258579
+64 MiB,jsoniter/fast go1.23,marshal,nested,bytes_per_op,64084504,141934464
+512 Byte,jsoniter/fast go1.23,marshal,nested,allocs_per_op,8,31
+8 KiB,jsoniter/fast go1.23,marshal,nested,allocs_per_op,46,310
+64 KiB,jsoniter/fast go1.23,marshal,nested,allocs_per_op,214,2044
+512 KiB,jsoniter/fast go1.23,marshal,nested,allocs_per_op,1444,16582
+2 MiB,jsoniter/fast go1.23,marshal,nested,allocs_per_op,4844,63187
+8 MiB,jsoniter/fast go1.23,marshal,nested,allocs_per_op,17736,257824
+64 MiB,jsoniter/fast go1.23,marshal,nested,allocs_per_op,111934,1982014
+512 Byte,jsoniter/fast go1.23,unmarshal,flat,ns_per_op,2476,5731
+8 KiB,jsoniter/fast go1.23,unmarshal,flat,ns_per_op,45243,95488
+64 KiB,jsoniter/fast go1.23,unmarshal,flat,ns_per_op,351016,772280
+512 KiB,jsoniter/fast go1.23,unmarshal,flat,ns_per_op,2914480,6292067
+2 MiB,jsoniter/fast go1.23,unmarshal,flat,ns_per_op,12049747,26326531
+8 MiB,jsoniter/fast go1.23,unmarshal,flat,ns_per_op,45695433,108714736
+64 MiB,jsoniter/fast go1.23,unmarshal,flat,ns_per_op,407002639,1033425305
+512 Byte,jsoniter/fast go1.23,unmarshal,flat,bytes_per_op,1424,3376
+8 KiB,jsoniter/fast go1.23,unmarshal,flat,bytes_per_op,36728,56544
+64 KiB,jsoniter/fast go1.23,unmarshal,flat,bytes_per_op,288322,455460
+512 KiB,jsoniter/fast go1.23,unmarshal,flat,bytes_per_op,2714504,3732007
+2 MiB,jsoniter/fast go1.23,unmarshal,flat,bytes_per_op,11160685,15156693
+8 MiB,jsoniter/fast go1.23,unmarshal,flat,bytes_per_op,43846480,61403525
+64 MiB,jsoniter/fast go1.23,unmarshal,flat,bytes_per_op,389208045,491612304
+512 Byte,jsoniter/fast go1.23,unmarshal,flat,allocs_per_op,33,136
+8 KiB,jsoniter/fast go1.23,unmarshal,flat,allocs_per_op,568,2142
+64 KiB,jsoniter/fast go1.23,unmarshal,flat,allocs_per_op,4549,17117
+512 KiB,jsoniter/fast go1.23,unmarshal,flat,allocs_per_op,36287,136782
+2 MiB,jsoniter/fast go1.23,unmarshal,flat,allocs_per_op,145051,547005
+8 MiB,jsoniter/fast go1.23,unmarshal,flat,allocs_per_op,580040,2187855
+64 MiB,jsoniter/fast go1.23,unmarshal,flat,allocs_per_op,4639800,17502271
+512 Byte,jsoniter/fast go1.23,unmarshal,nested,ns_per_op,4156,9238
+8 KiB,jsoniter/fast go1.23,unmarshal,nested,ns_per_op,48564,107325
+64 KiB,jsoniter/fast go1.23,unmarshal,nested,ns_per_op,328783,740387
+512 KiB,jsoniter/fast go1.23,unmarshal,nested,ns_per_op,2506934,6241829
+2 MiB,jsoniter/fast go1.23,unmarshal,nested,ns_per_op,9685361,26166411
+8 MiB,jsoniter/fast go1.23,unmarshal,nested,ns_per_op,38005403,104842132
+64 MiB,jsoniter/fast go1.23,unmarshal,nested,ns_per_op,229256306,922724083
+512 Byte,jsoniter/fast go1.23,unmarshal,nested,bytes_per_op,2616,6128
+8 KiB,jsoniter/fast go1.23,unmarshal,nested,bytes_per_op,29400,69184
+64 KiB,jsoniter/fast go1.23,unmarshal,nested,bytes_per_op,219833,484947
+512 KiB,jsoniter/fast go1.23,unmarshal,nested,bytes_per_op,1731718,3978272
+2 MiB,jsoniter/fast go1.23,unmarshal,nested,bytes_per_op,6388940,15272666
+8 MiB,jsoniter/fast go1.23,unmarshal,nested,bytes_per_op,24174149,62200469
+64 MiB,jsoniter/fast go1.23,unmarshal,nested,bytes_per_op,222009448,491849565
+512 Byte,jsoniter/fast go1.23,unmarshal,nested,allocs_per_op,86,215
+8 KiB,jsoniter/fast go1.23,unmarshal,nested,allocs_per_op,899,2489
+64 KiB,jsoniter/fast go1.23,unmarshal,nested,allocs_per_op,5788,17174
+512 KiB,jsoniter/fast go1.23,unmarshal,nested,allocs_per_op,45761,141152
+2 MiB,jsoniter/fast go1.23,unmarshal,nested,allocs_per_op,171625,542017
+8 MiB,jsoniter/fast go1.23,unmarshal,nested,allocs_per_op,688022,2220629
+64 MiB,jsoniter/fast go1.23,unmarshal,nested,allocs_per_op,5220842,17258970
+512 Byte,jsoniter/fast go1.27,marshal,flat,ns_per_op,1596,2529
+8 KiB,jsoniter/fast go1.27,marshal,flat,ns_per_op,25055,41529
+64 KiB,jsoniter/fast go1.27,marshal,flat,ns_per_op,198996,337978
+512 KiB,jsoniter/fast go1.27,marshal,flat,ns_per_op,1572793,2622841
+2 MiB,jsoniter/fast go1.27,marshal,flat,ns_per_op,5970711,11092707
+8 MiB,jsoniter/fast go1.27,marshal,flat,ns_per_op,23832228,40809395
+64 MiB,jsoniter/fast go1.27,marshal,flat,ns_per_op,181465680,346030320
+512 Byte,jsoniter/fast go1.27,marshal,flat,bytes_per_op,584,1472
+8 KiB,jsoniter/fast go1.27,marshal,flat,bytes_per_op,9480,24704
+64 KiB,jsoniter/fast go1.27,marshal,flat,bytes_per_op,81928,204225
+512 KiB,jsoniter/fast go1.27,marshal,flat,bytes_per_op,614412,1593068
+2 MiB,jsoniter/fast go1.27,marshal,flat,bytes_per_op,2482197,6396831
+8 MiB,jsoniter/fast go1.27,marshal,flat,bytes_per_op,9986071,25644806
+64 MiB,jsoniter/fast go1.27,marshal,flat,bytes_per_op,80936968,206206765
+512 Byte,jsoniter/fast go1.27,marshal,flat,allocs_per_op,2,17
+8 KiB,jsoniter/fast go1.27,marshal,flat,allocs_per_op,2,273
+64 KiB,jsoniter/fast go1.27,marshal,flat,allocs_per_op,2,2185
+512 KiB,jsoniter/fast go1.27,marshal,flat,allocs_per_op,2,17477
+2 MiB,jsoniter/fast go1.27,marshal,flat,allocs_per_op,2,69905
+8 MiB,jsoniter/fast go1.27,marshal,flat,allocs_per_op,2,279621
+64 MiB,jsoniter/fast go1.27,marshal,flat,allocs_per_op,2,2236962
+512 Byte,jsoniter/fast go1.27,marshal,nested,ns_per_op,2346,4586
+8 KiB,jsoniter/fast go1.27,marshal,nested,ns_per_op,26484,47757
+64 KiB,jsoniter/fast go1.27,marshal,nested,ns_per_op,168010,320667
+512 KiB,jsoniter/fast go1.27,marshal,nested,ns_per_op,1360758,2657246
+2 MiB,jsoniter/fast go1.27,marshal,nested,ns_per_op,5256896,10274651
+8 MiB,jsoniter/fast go1.27,marshal,nested,ns_per_op,18892931,43481808
+64 MiB,jsoniter/fast go1.27,marshal,nested,ns_per_op,133927729,241677736
+512 Byte,jsoniter/fast go1.27,marshal,nested,bytes_per_op,1360,2944
+8 KiB,jsoniter/fast go1.27,marshal,nested,bytes_per_op,12952,31264
+64 KiB,jsoniter/fast go1.27,marshal,nested,bytes_per_op,80248,209889
+512 KiB,jsoniter/fast go1.27,marshal,nested,bytes_per_op,614500,1696813
+2 MiB,jsoniter/fast go1.27,marshal,nested,bytes_per_op,2292430,6487388
+8 MiB,jsoniter/fast go1.27,marshal,nested,bytes_per_op,9173413,26508934
+64 MiB,jsoniter/fast go1.27,marshal,nested,bytes_per_op,69457240,205358880
+512 Byte,jsoniter/fast go1.27,marshal,nested,allocs_per_op,11,41
+8 KiB,jsoniter/fast go1.27,marshal,nested,allocs_per_op,68,413
+64 KiB,jsoniter/fast go1.27,marshal,nested,allocs_per_op,320,2725
+512 KiB,jsoniter/fast go1.27,marshal,nested,allocs_per_op,2165,22109
+2 MiB,jsoniter/fast go1.27,marshal,nested,allocs_per_op,7265,84249
+8 MiB,jsoniter/fast go1.27,marshal,nested,allocs_per_op,26603,343765
+64 MiB,jsoniter/fast go1.27,marshal,nested,allocs_per_op,167900,2642685
+512 Byte,jsoniter/fast go1.27,unmarshal,flat,ns_per_op,1975,4467
+8 KiB,jsoniter/fast go1.27,unmarshal,flat,ns_per_op,39781,76297
+64 KiB,jsoniter/fast go1.27,unmarshal,flat,ns_per_op,309093,609623
+512 KiB,jsoniter/fast go1.27,unmarshal,flat,ns_per_op,2598302,4967972
+2 MiB,jsoniter/fast go1.27,unmarshal,flat,ns_per_op,10624588,20952428
+8 MiB,jsoniter/fast go1.27,unmarshal,flat,ns_per_op,41183195,83376194
+64 MiB,jsoniter/fast go1.27,unmarshal,flat,ns_per_op,387278334,866322694
+512 Byte,jsoniter/fast go1.27,unmarshal,flat,bytes_per_op,1256,3200
+8 KiB,jsoniter/fast go1.27,unmarshal,flat,bytes_per_op,32968,52784
+64 KiB,jsoniter/fast go1.27,unmarshal,flat,bytes_per_op,257801,424931
+512 KiB,jsoniter/fast go1.27,unmarshal,flat,bytes_per_op,2469880,3487400
+2 MiB,jsoniter/fast go1.27,unmarshal,flat,bytes_per_op,10182075,14178066
+8 MiB,jsoniter/fast go1.27,unmarshal,flat,bytes_per_op,39931865,57488938
+64 MiB,jsoniter/fast go1.27,unmarshal,flat,bytes_per_op,357890664,460294464
+512 Byte,jsoniter/fast go1.27,unmarshal,flat,allocs_per_op,24,127
+8 KiB,jsoniter/fast go1.27,unmarshal,flat,allocs_per_op,367,1941
+64 KiB,jsoniter/fast go1.27,unmarshal,flat,allocs_per_op,2914,15482
+512 KiB,jsoniter/fast go1.27,unmarshal,flat,allocs_per_op,23183,123678
+2 MiB,jsoniter/fast go1.27,unmarshal,flat,allocs_per_op,92625,494580
+8 MiB,jsoniter/fast go1.27,unmarshal,flat,allocs_per_op,370328,1978144
+64 MiB,jsoniter/fast go1.27,unmarshal,flat,allocs_per_op,2962083,15824554
+512 Byte,jsoniter/fast go1.27,unmarshal,nested,ns_per_op,3572,7543
+8 KiB,jsoniter/fast go1.27,unmarshal,nested,ns_per_op,41124,86382
+64 KiB,jsoniter/fast go1.27,unmarshal,nested,ns_per_op,278599,628408
+512 KiB,jsoniter/fast go1.27,unmarshal,nested,ns_per_op,2258490,5035882
+2 MiB,jsoniter/fast go1.27,unmarshal,nested,ns_per_op,8731923,20894977
+8 MiB,jsoniter/fast go1.27,unmarshal,nested,ns_per_op,35668889,96217102
+64 MiB,jsoniter/fast go1.27,unmarshal,nested,ns_per_op,279098181,767595792
+512 Byte,jsoniter/fast go1.27,unmarshal,nested,bytes_per_op,2440,5936
+8 KiB,jsoniter/fast go1.27,unmarshal,nested,bytes_per_op,28024,67840
+64 KiB,jsoniter/fast go1.27,unmarshal,nested,bytes_per_op,213769,478163
+512 KiB,jsoniter/fast go1.27,unmarshal,nested,bytes_per_op,1690164,3936834
+2 MiB,jsoniter/fast go1.27,unmarshal,nested,bytes_per_op,6237036,15117707
+8 MiB,jsoniter/fast go1.27,unmarshal,nested,bytes_per_op,23666700,61701106
+64 MiB,jsoniter/fast go1.27,unmarshal,nested,bytes_per_op,218468784,488712712
+512 Byte,jsoniter/fast go1.27,unmarshal,nested,allocs_per_op,77,206
+8 KiB,jsoniter/fast go1.27,unmarshal,nested,allocs_per_op,833,2423
+64 KiB,jsoniter/fast go1.27,unmarshal,nested,allocs_per_op,5470,16856
+512 KiB,jsoniter/fast go1.27,unmarshal,nested,allocs_per_op,43598,138989
+2 MiB,jsoniter/fast go1.27,unmarshal,nested,allocs_per_op,164362,534753
+8 MiB,jsoniter/fast go1.27,unmarshal,nested,allocs_per_op,661421,2194027
+64 MiB,jsoniter/fast go1.27,unmarshal,nested,allocs_per_op,5052946,17091072
+512 Byte,easyjson/compat go1.23,marshal,flat,ns_per_op,1419,
+8 KiB,easyjson/compat go1.23,marshal,flat,ns_per_op,19162,
+64 KiB,easyjson/compat go1.23,marshal,flat,ns_per_op,145436,
+512 KiB,easyjson/compat go1.23,marshal,flat,ns_per_op,1153738,
+2 MiB,easyjson/compat go1.23,marshal,flat,ns_per_op,4569849,
+8 MiB,easyjson/compat go1.23,marshal,flat,ns_per_op,15869583,
+64 MiB,easyjson/compat go1.23,marshal,flat,ns_per_op,111201153,
+512 Byte,easyjson/compat go1.23,marshal,flat,bytes_per_op,1352,
+8 KiB,easyjson/compat go1.23,marshal,flat,bytes_per_op,11688,
+64 KiB,easyjson/compat go1.23,marshal,flat,bytes_per_op,91383,
+512 KiB,easyjson/compat go1.23,marshal,flat,bytes_per_op,715412,
+2 MiB,easyjson/compat go1.23,marshal,flat,bytes_per_op,2861605,
+8 MiB,easyjson/compat go1.23,marshal,flat,bytes_per_op,11480674,
+64 MiB,easyjson/compat go1.23,marshal,flat,bytes_per_op,92615128,
+512 Byte,easyjson/compat go1.23,marshal,flat,allocs_per_op,6,
+8 KiB,easyjson/compat go1.23,marshal,flat,allocs_per_op,10,
+64 KiB,easyjson/compat go1.23,marshal,flat,allocs_per_op,14,
+512 KiB,easyjson/compat go1.23,marshal,flat,allocs_per_op,34,
+2 MiB,easyjson/compat go1.23,marshal,flat,allocs_per_op,103,
+8 MiB,easyjson/compat go1.23,marshal,flat,allocs_per_op,370,
+64 MiB,easyjson/compat go1.23,marshal,flat,allocs_per_op,2838,
+512 Byte,easyjson/compat go1.23,marshal,nested,ns_per_op,2090,
+8 KiB,easyjson/compat go1.23,marshal,nested,ns_per_op,18016,
+64 KiB,easyjson/compat go1.23,marshal,nested,ns_per_op,113244,
+512 KiB,easyjson/compat go1.23,marshal,nested,ns_per_op,933323,
+2 MiB,easyjson/compat go1.23,marshal,nested,ns_per_op,3609068,
+8 MiB,easyjson/compat go1.23,marshal,nested,ns_per_op,13401492,
+64 MiB,easyjson/compat go1.23,marshal,nested,ns_per_op,86564222,
+512 Byte,easyjson/compat go1.23,marshal,nested,bytes_per_op,1480,
+8 KiB,easyjson/compat go1.23,marshal,nested,bytes_per_op,9000,
+64 KiB,easyjson/compat go1.23,marshal,nested,bytes_per_op,58204,
+512 KiB,easyjson/compat go1.23,marshal,nested,bytes_per_op,469434,
+2 MiB,easyjson/compat go1.23,marshal,nested,bytes_per_op,1815929,
+8 MiB,easyjson/compat go1.23,marshal,nested,bytes_per_op,7412548,
+64 MiB,easyjson/compat go1.23,marshal,nested,bytes_per_op,58424058,
+512 Byte,easyjson/compat go1.23,marshal,nested,allocs_per_op,6,
+8 KiB,easyjson/compat go1.23,marshal,nested,allocs_per_op,10,
+64 KiB,easyjson/compat go1.23,marshal,nested,allocs_per_op,12,
+512 KiB,easyjson/compat go1.23,marshal,nested,allocs_per_op,27,
+2 MiB,easyjson/compat go1.23,marshal,nested,allocs_per_op,70,
+8 MiB,easyjson/compat go1.23,marshal,nested,allocs_per_op,244,
+64 MiB,easyjson/compat go1.23,marshal,nested,allocs_per_op,1796,
+512 Byte,easyjson/compat go1.23,unmarshal,flat,ns_per_op,2251,
+8 KiB,easyjson/compat go1.23,unmarshal,flat,ns_per_op,38529,
+64 KiB,easyjson/compat go1.23,unmarshal,flat,ns_per_op,307708,
+512 KiB,easyjson/compat go1.23,unmarshal,flat,ns_per_op,2617220,
+2 MiB,easyjson/compat go1.23,unmarshal,flat,ns_per_op,10688012,
+8 MiB,easyjson/compat go1.23,unmarshal,flat,ns_per_op,40555659,
+64 MiB,easyjson/compat go1.23,unmarshal,flat,ns_per_op,321376375,
+512 Byte,easyjson/compat go1.23,unmarshal,flat,bytes_per_op,1192,
+8 KiB,easyjson/compat go1.23,unmarshal,flat,bytes_per_op,18136,
+64 KiB,easyjson/compat go1.23,unmarshal,flat,bytes_per_op,146232,
+512 KiB,easyjson/compat go1.23,unmarshal,flat,bytes_per_op,1834328,
+2 MiB,easyjson/compat go1.23,unmarshal,flat,bytes_per_op,7698139,
+8 MiB,easyjson/compat go1.23,unmarshal,flat,bytes_per_op,33176921,
+64 MiB,easyjson/compat go1.23,unmarshal,flat,bytes_per_op,315436616,
+512 Byte,easyjson/compat go1.23,unmarshal,flat,allocs_per_op,20,
+8 KiB,easyjson/compat go1.23,unmarshal,flat,allocs_per_op,216,
+64 KiB,easyjson/compat go1.23,unmarshal,flat,allocs_per_op,1653,
+512 KiB,easyjson/compat go1.23,unmarshal,flat,allocs_per_op,13128,
+2 MiB,easyjson/compat go1.23,unmarshal,flat,allocs_per_op,52454,
+8 MiB,easyjson/compat go1.23,unmarshal,flat,allocs_per_op,209747,
+64 MiB,easyjson/compat go1.23,unmarshal,flat,allocs_per_op,1677762,
+512 Byte,easyjson/compat go1.23,unmarshal,nested,ns_per_op,3954,
+8 KiB,easyjson/compat go1.23,unmarshal,nested,ns_per_op,46623,
+64 KiB,easyjson/compat go1.23,unmarshal,nested,ns_per_op,319853,
+512 KiB,easyjson/compat go1.23,unmarshal,nested,ns_per_op,2628286,
+2 MiB,easyjson/compat go1.23,unmarshal,nested,ns_per_op,10093922,
+8 MiB,easyjson/compat go1.23,unmarshal,nested,ns_per_op,36831651,
+64 MiB,easyjson/compat go1.23,unmarshal,nested,ns_per_op,239187681,
+512 Byte,easyjson/compat go1.23,unmarshal,nested,bytes_per_op,2376,
+8 KiB,easyjson/compat go1.23,unmarshal,nested,bytes_per_op,25624,
+64 KiB,easyjson/compat go1.23,unmarshal,nested,bytes_per_op,193032,
+512 KiB,easyjson/compat go1.23,unmarshal,nested,bytes_per_op,1502488,
+2 MiB,easyjson/compat go1.23,unmarshal,nested,bytes_per_op,5498153,
+8 MiB,easyjson/compat go1.23,unmarshal,nested,bytes_per_op,20535560,
+64 MiB,easyjson/compat go1.23,unmarshal,nested,bytes_per_op,193019080,
+512 Byte,easyjson/compat go1.23,unmarshal,nested,allocs_per_op,53,
+8 KiB,easyjson/compat go1.23,unmarshal,nested,allocs_per_op,585,
+64 KiB,easyjson/compat go1.23,unmarshal,nested,allocs_per_op,3898,
+512 KiB,easyjson/compat go1.23,unmarshal,nested,allocs_per_op,31103,
+2 MiB,easyjson/compat go1.23,unmarshal,nested,allocs_per_op,117398,
+8 MiB,easyjson/compat go1.23,unmarshal,nested,allocs_per_op,471807,
+64 MiB,easyjson/compat go1.23,unmarshal,nested,allocs_per_op,3619671,
+512 Byte,easyjson/compat go1.27,marshal,flat,ns_per_op,1314,
+8 KiB,easyjson/compat go1.27,marshal,flat,ns_per_op,18405,
+64 KiB,easyjson/compat go1.27,marshal,flat,ns_per_op,140749,
+512 KiB,easyjson/compat go1.27,marshal,flat,ns_per_op,1061192,
+2 MiB,easyjson/compat go1.27,marshal,flat,ns_per_op,3998452,
+8 MiB,easyjson/compat go1.27,marshal,flat,ns_per_op,14158812,
+64 MiB,easyjson/compat go1.27,marshal,flat,ns_per_op,99389229,
+512 Byte,easyjson/compat go1.27,marshal,flat,bytes_per_op,1352,
+8 KiB,easyjson/compat go1.27,marshal,flat,bytes_per_op,11688,
+64 KiB,easyjson/compat go1.27,marshal,flat,bytes_per_op,91382,
+512 KiB,easyjson/compat go1.27,marshal,flat,bytes_per_op,715408,
+2 MiB,easyjson/compat go1.27,marshal,flat,bytes_per_op,2861646,
+8 MiB,easyjson/compat go1.27,marshal,flat,bytes_per_op,11480676,
+64 MiB,easyjson/compat go1.27,marshal,flat,bytes_per_op,92623693,
+512 Byte,easyjson/compat go1.27,marshal,flat,allocs_per_op,6,
+8 KiB,easyjson/compat go1.27,marshal,flat,allocs_per_op,10,
+64 KiB,easyjson/compat go1.27,marshal,flat,allocs_per_op,14,
+512 KiB,easyjson/compat go1.27,marshal,flat,allocs_per_op,34,
+2 MiB,easyjson/compat go1.27,marshal,flat,allocs_per_op,103,
+8 MiB,easyjson/compat go1.27,marshal,flat,allocs_per_op,370,
+64 MiB,easyjson/compat go1.27,marshal,flat,allocs_per_op,2844,
+512 Byte,easyjson/compat go1.27,marshal,nested,ns_per_op,1840,
+8 KiB,easyjson/compat go1.27,marshal,nested,ns_per_op,16402,
+64 KiB,easyjson/compat go1.27,marshal,nested,ns_per_op,104001,
+512 KiB,easyjson/compat go1.27,marshal,nested,ns_per_op,832217,
+2 MiB,easyjson/compat go1.27,marshal,nested,ns_per_op,3088044,
+8 MiB,easyjson/compat go1.27,marshal,nested,ns_per_op,12059976,
+64 MiB,easyjson/compat go1.27,marshal,nested,ns_per_op,78967801,
+512 Byte,easyjson/compat go1.27,marshal,nested,bytes_per_op,1480,
+8 KiB,easyjson/compat go1.27,marshal,nested,bytes_per_op,9000,
+64 KiB,easyjson/compat go1.27,marshal,nested,bytes_per_op,58204,
+512 KiB,easyjson/compat go1.27,marshal,nested,bytes_per_op,469438,
+2 MiB,easyjson/compat go1.27,marshal,nested,bytes_per_op,1815978,
+8 MiB,easyjson/compat go1.27,marshal,nested,bytes_per_op,7412147,
+64 MiB,easyjson/compat go1.27,marshal,nested,bytes_per_op,58424058,
+512 Byte,easyjson/compat go1.27,marshal,nested,allocs_per_op,6,
+8 KiB,easyjson/compat go1.27,marshal,nested,allocs_per_op,10,
+64 KiB,easyjson/compat go1.27,marshal,nested,allocs_per_op,12,
+512 KiB,easyjson/compat go1.27,marshal,nested,allocs_per_op,27,
+2 MiB,easyjson/compat go1.27,marshal,nested,allocs_per_op,70,
+8 MiB,easyjson/compat go1.27,marshal,nested,allocs_per_op,243,
+64 MiB,easyjson/compat go1.27,marshal,nested,allocs_per_op,1796,
+512 Byte,easyjson/compat go1.27,unmarshal,flat,ns_per_op,2199,
+8 KiB,easyjson/compat go1.27,unmarshal,flat,ns_per_op,37463,
+64 KiB,easyjson/compat go1.27,unmarshal,flat,ns_per_op,304195,
+512 KiB,easyjson/compat go1.27,unmarshal,flat,ns_per_op,2561171,
+2 MiB,easyjson/compat go1.27,unmarshal,flat,ns_per_op,10579137,
+8 MiB,easyjson/compat go1.27,unmarshal,flat,ns_per_op,38689712,
+64 MiB,easyjson/compat go1.27,unmarshal,flat,ns_per_op,353060473,
+512 Byte,easyjson/compat go1.27,unmarshal,flat,bytes_per_op,1192,
+8 KiB,easyjson/compat go1.27,unmarshal,flat,bytes_per_op,18136,
+64 KiB,easyjson/compat go1.27,unmarshal,flat,bytes_per_op,146232,
+512 KiB,easyjson/compat go1.27,unmarshal,flat,bytes_per_op,1834328,
+2 MiB,easyjson/compat go1.27,unmarshal,flat,bytes_per_op,7698138,
+8 MiB,easyjson/compat go1.27,unmarshal,flat,bytes_per_op,33176920,
+64 MiB,easyjson/compat go1.27,unmarshal,flat,bytes_per_op,315436621,
+512 Byte,easyjson/compat go1.27,unmarshal,flat,allocs_per_op,20,
+8 KiB,easyjson/compat go1.27,unmarshal,flat,allocs_per_op,216,
+64 KiB,easyjson/compat go1.27,unmarshal,flat,allocs_per_op,1653,
+512 KiB,easyjson/compat go1.27,unmarshal,flat,allocs_per_op,13128,
+2 MiB,easyjson/compat go1.27,unmarshal,flat,allocs_per_op,52454,
+8 MiB,easyjson/compat go1.27,unmarshal,flat,allocs_per_op,209747,
+64 MiB,easyjson/compat go1.27,unmarshal,flat,allocs_per_op,1677762,
+512 Byte,easyjson/compat go1.27,unmarshal,nested,ns_per_op,3846,
+8 KiB,easyjson/compat go1.27,unmarshal,nested,ns_per_op,44708,
+64 KiB,easyjson/compat go1.27,unmarshal,nested,ns_per_op,309632,
+512 KiB,easyjson/compat go1.27,unmarshal,nested,ns_per_op,2596513,
+2 MiB,easyjson/compat go1.27,unmarshal,nested,ns_per_op,9904947,
+8 MiB,easyjson/compat go1.27,unmarshal,nested,ns_per_op,36011974,
+64 MiB,easyjson/compat go1.27,unmarshal,nested,ns_per_op,232904833,
+512 Byte,easyjson/compat go1.27,unmarshal,nested,bytes_per_op,2376,
+8 KiB,easyjson/compat go1.27,unmarshal,nested,bytes_per_op,25624,
+64 KiB,easyjson/compat go1.27,unmarshal,nested,bytes_per_op,193032,
+512 KiB,easyjson/compat go1.27,unmarshal,nested,bytes_per_op,1502488,
+2 MiB,easyjson/compat go1.27,unmarshal,nested,bytes_per_op,5498152,
+8 MiB,easyjson/compat go1.27,unmarshal,nested,bytes_per_op,20535560,
+64 MiB,easyjson/compat go1.27,unmarshal,nested,bytes_per_op,193019080,
+512 Byte,easyjson/compat go1.27,unmarshal,nested,allocs_per_op,53,
+8 KiB,easyjson/compat go1.27,unmarshal,nested,allocs_per_op,585,
+64 KiB,easyjson/compat go1.27,unmarshal,nested,allocs_per_op,3898,
+512 KiB,easyjson/compat go1.27,unmarshal,nested,allocs_per_op,31103,
+2 MiB,easyjson/compat go1.27,unmarshal,nested,allocs_per_op,117398,
+8 MiB,easyjson/compat go1.27,unmarshal,nested,allocs_per_op,471807,
+64 MiB,easyjson/compat go1.27,unmarshal,nested,allocs_per_op,3619671,
+512 Byte,easyjson/fast go1.23,marshal,flat,ns_per_op,1293,
+8 KiB,easyjson/fast go1.23,marshal,flat,ns_per_op,16619,
+64 KiB,easyjson/fast go1.23,marshal,flat,ns_per_op,127149,
+512 KiB,easyjson/fast go1.23,marshal,flat,ns_per_op,993237,
+2 MiB,easyjson/fast go1.23,marshal,flat,ns_per_op,3946153,
+8 MiB,easyjson/fast go1.23,marshal,flat,ns_per_op,13740741,
+64 MiB,easyjson/fast go1.23,marshal,flat,ns_per_op,97113977,
+512 Byte,easyjson/fast go1.23,marshal,flat,bytes_per_op,1288,
+8 KiB,easyjson/fast go1.23,marshal,flat,bytes_per_op,10536,
+64 KiB,easyjson/fast go1.23,marshal,flat,bytes_per_op,83190,
+512 KiB,easyjson/fast go1.23,marshal,flat,bytes_per_op,649821,
+2 MiB,easyjson/fast go1.23,marshal,flat,bytes_per_op,2599259,
+8 MiB,easyjson/fast go1.23,marshal,flat,bytes_per_op,10414206,
+64 MiB,easyjson/fast go1.23,marshal,flat,bytes_per_op,84225298,
+512 Byte,easyjson/fast go1.23,marshal,flat,allocs_per_op,6,
+8 KiB,easyjson/fast go1.23,marshal,flat,allocs_per_op,10,
+64 KiB,easyjson/fast go1.23,marshal,flat,allocs_per_op,14,
+512 KiB,easyjson/fast go1.23,marshal,flat,allocs_per_op,32,
+2 MiB,easyjson/fast go1.23,marshal,flat,allocs_per_op,95,
+8 MiB,easyjson/fast go1.23,marshal,flat,allocs_per_op,336,
+64 MiB,easyjson/fast go1.23,marshal,flat,allocs_per_op,2588,
+512 Byte,easyjson/fast go1.23,marshal,nested,ns_per_op,1926,
+8 KiB,easyjson/fast go1.23,marshal,nested,ns_per_op,17569,
+64 KiB,easyjson/fast go1.23,marshal,nested,ns_per_op,111279,
+512 KiB,easyjson/fast go1.23,marshal,nested,ns_per_op,902367,
+2 MiB,easyjson/fast go1.23,marshal,nested,ns_per_op,3563166,
+8 MiB,easyjson/fast go1.23,marshal,nested,ns_per_op,12381747,
+64 MiB,easyjson/fast go1.23,marshal,nested,ns_per_op,85102592,
+512 Byte,easyjson/fast go1.23,marshal,nested,bytes_per_op,1416,
+8 KiB,easyjson/fast go1.23,marshal,nested,bytes_per_op,8976,
+64 KiB,easyjson/fast go1.23,marshal,nested,bytes_per_op,58204,
+512 KiB,easyjson/fast go1.23,marshal,nested,bytes_per_op,461219,
+2 MiB,easyjson/fast go1.23,marshal,nested,bytes_per_op,1774939,
+8 MiB,easyjson/fast go1.23,marshal,nested,bytes_per_op,7280953,
+64 MiB,easyjson/fast go1.23,marshal,nested,bytes_per_op,57579658,
+512 Byte,easyjson/fast go1.23,marshal,nested,allocs_per_op,6,
+8 KiB,easyjson/fast go1.23,marshal,nested,allocs_per_op,9,
+64 KiB,easyjson/fast go1.23,marshal,nested,allocs_per_op,12,
+512 KiB,easyjson/fast go1.23,marshal,nested,allocs_per_op,26,
+2 MiB,easyjson/fast go1.23,marshal,nested,allocs_per_op,68,
+8 MiB,easyjson/fast go1.23,marshal,nested,allocs_per_op,239,
+64 MiB,easyjson/fast go1.23,marshal,nested,allocs_per_op,1770,
+512 Byte,easyjson/fast go1.23,unmarshal,flat,ns_per_op,2297,
+8 KiB,easyjson/fast go1.23,unmarshal,flat,ns_per_op,38486,
+64 KiB,easyjson/fast go1.23,unmarshal,flat,ns_per_op,304394,
+512 KiB,easyjson/fast go1.23,unmarshal,flat,ns_per_op,2615763,
+2 MiB,easyjson/fast go1.23,unmarshal,flat,ns_per_op,10788622,
+8 MiB,easyjson/fast go1.23,unmarshal,flat,ns_per_op,42365546,
+64 MiB,easyjson/fast go1.23,unmarshal,flat,ns_per_op,352780430,
+512 Byte,easyjson/fast go1.23,unmarshal,flat,bytes_per_op,1192,
+8 KiB,easyjson/fast go1.23,unmarshal,flat,bytes_per_op,18136,
+64 KiB,easyjson/fast go1.23,unmarshal,flat,bytes_per_op,146232,
+512 KiB,easyjson/fast go1.23,unmarshal,flat,bytes_per_op,1834328,
+2 MiB,easyjson/fast go1.23,unmarshal,flat,bytes_per_op,7698139,
+8 MiB,easyjson/fast go1.23,unmarshal,flat,bytes_per_op,33176921,
+64 MiB,easyjson/fast go1.23,unmarshal,flat,bytes_per_op,315436616,
+512 Byte,easyjson/fast go1.23,unmarshal,flat,allocs_per_op,20,
+8 KiB,easyjson/fast go1.23,unmarshal,flat,allocs_per_op,216,
+64 KiB,easyjson/fast go1.23,unmarshal,flat,allocs_per_op,1653,
+512 KiB,easyjson/fast go1.23,unmarshal,flat,allocs_per_op,13128,
+2 MiB,easyjson/fast go1.23,unmarshal,flat,allocs_per_op,52454,
+8 MiB,easyjson/fast go1.23,unmarshal,flat,allocs_per_op,209747,
+64 MiB,easyjson/fast go1.23,unmarshal,flat,allocs_per_op,1677762,
+512 Byte,easyjson/fast go1.23,unmarshal,nested,ns_per_op,3932,
+8 KiB,easyjson/fast go1.23,unmarshal,nested,ns_per_op,47139,
+64 KiB,easyjson/fast go1.23,unmarshal,nested,ns_per_op,321359,
+512 KiB,easyjson/fast go1.23,unmarshal,nested,ns_per_op,2613159,
+2 MiB,easyjson/fast go1.23,unmarshal,nested,ns_per_op,10046301,
+8 MiB,easyjson/fast go1.23,unmarshal,nested,ns_per_op,37235361,
+64 MiB,easyjson/fast go1.23,unmarshal,nested,ns_per_op,238182722,
+512 Byte,easyjson/fast go1.23,unmarshal,nested,bytes_per_op,2376,
+8 KiB,easyjson/fast go1.23,unmarshal,nested,bytes_per_op,25624,
+64 KiB,easyjson/fast go1.23,unmarshal,nested,bytes_per_op,193032,
+512 KiB,easyjson/fast go1.23,unmarshal,nested,bytes_per_op,1502488,
+2 MiB,easyjson/fast go1.23,unmarshal,nested,bytes_per_op,5498152,
+8 MiB,easyjson/fast go1.23,unmarshal,nested,bytes_per_op,20535560,
+64 MiB,easyjson/fast go1.23,unmarshal,nested,bytes_per_op,193019080,
+512 Byte,easyjson/fast go1.23,unmarshal,nested,allocs_per_op,53,
+8 KiB,easyjson/fast go1.23,unmarshal,nested,allocs_per_op,585,
+64 KiB,easyjson/fast go1.23,unmarshal,nested,allocs_per_op,3898,
+512 KiB,easyjson/fast go1.23,unmarshal,nested,allocs_per_op,31103,
+2 MiB,easyjson/fast go1.23,unmarshal,nested,allocs_per_op,117398,
+8 MiB,easyjson/fast go1.23,unmarshal,nested,allocs_per_op,471807,
+64 MiB,easyjson/fast go1.23,unmarshal,nested,allocs_per_op,3619671,
+512 Byte,easyjson/fast go1.27,marshal,flat,ns_per_op,1172,
+8 KiB,easyjson/fast go1.27,marshal,flat,ns_per_op,15368,
+64 KiB,easyjson/fast go1.27,marshal,flat,ns_per_op,117955,
+512 KiB,easyjson/fast go1.27,marshal,flat,ns_per_op,964497,
+2 MiB,easyjson/fast go1.27,marshal,flat,ns_per_op,3226829,
+8 MiB,easyjson/fast go1.27,marshal,flat,ns_per_op,12545061,
+64 MiB,easyjson/fast go1.27,marshal,flat,ns_per_op,85060125,
+512 Byte,easyjson/fast go1.27,marshal,flat,bytes_per_op,1288,
+8 KiB,easyjson/fast go1.27,marshal,flat,bytes_per_op,10536,
+64 KiB,easyjson/fast go1.27,marshal,flat,bytes_per_op,83189,
+512 KiB,easyjson/fast go1.27,marshal,flat,bytes_per_op,649812,
+2 MiB,easyjson/fast go1.27,marshal,flat,bytes_per_op,2599250,
+8 MiB,easyjson/fast go1.27,marshal,flat,bytes_per_op,10414577,
+64 MiB,easyjson/fast go1.27,marshal,flat,bytes_per_op,84209445,
+512 Byte,easyjson/fast go1.27,marshal,flat,allocs_per_op,6,
+8 KiB,easyjson/fast go1.27,marshal,flat,allocs_per_op,10,
+64 KiB,easyjson/fast go1.27,marshal,flat,allocs_per_op,14,
+512 KiB,easyjson/fast go1.27,marshal,flat,allocs_per_op,32,
+2 MiB,easyjson/fast go1.27,marshal,flat,allocs_per_op,95,
+8 MiB,easyjson/fast go1.27,marshal,flat,allocs_per_op,336,
+64 MiB,easyjson/fast go1.27,marshal,flat,allocs_per_op,2581,
+512 Byte,easyjson/fast go1.27,marshal,nested,ns_per_op,1701,
+8 KiB,easyjson/fast go1.27,marshal,nested,ns_per_op,15931,
+64 KiB,easyjson/fast go1.27,marshal,nested,ns_per_op,101473,
+512 KiB,easyjson/fast go1.27,marshal,nested,ns_per_op,788082,
+2 MiB,easyjson/fast go1.27,marshal,nested,ns_per_op,3242369,
+8 MiB,easyjson/fast go1.27,marshal,nested,ns_per_op,11681200,
+64 MiB,easyjson/fast go1.27,marshal,nested,ns_per_op,76042227,
+512 Byte,easyjson/fast go1.27,marshal,nested,bytes_per_op,1416,
+8 KiB,easyjson/fast go1.27,marshal,nested,bytes_per_op,8976,
+64 KiB,easyjson/fast go1.27,marshal,nested,bytes_per_op,58204,
+512 KiB,easyjson/fast go1.27,marshal,nested,bytes_per_op,461222,
+2 MiB,easyjson/fast go1.27,marshal,nested,bytes_per_op,1774917,
+8 MiB,easyjson/fast go1.27,marshal,nested,bytes_per_op,7280919,
+64 MiB,easyjson/fast go1.27,marshal,nested,bytes_per_op,57579658,
+512 Byte,easyjson/fast go1.27,marshal,nested,allocs_per_op,6,
+8 KiB,easyjson/fast go1.27,marshal,nested,allocs_per_op,9,
+64 KiB,easyjson/fast go1.27,marshal,nested,allocs_per_op,12,
+512 KiB,easyjson/fast go1.27,marshal,nested,allocs_per_op,26,
+2 MiB,easyjson/fast go1.27,marshal,nested,allocs_per_op,68,
+8 MiB,easyjson/fast go1.27,marshal,nested,allocs_per_op,239,
+64 MiB,easyjson/fast go1.27,marshal,nested,allocs_per_op,1770,
+512 Byte,easyjson/fast go1.27,unmarshal,flat,ns_per_op,2126,
+8 KiB,easyjson/fast go1.27,unmarshal,flat,ns_per_op,38656,
+64 KiB,easyjson/fast go1.27,unmarshal,flat,ns_per_op,301895,
+512 KiB,easyjson/fast go1.27,unmarshal,flat,ns_per_op,2514254,
+2 MiB,easyjson/fast go1.27,unmarshal,flat,ns_per_op,10527339,
+8 MiB,easyjson/fast go1.27,unmarshal,flat,ns_per_op,40532428,
+64 MiB,easyjson/fast go1.27,unmarshal,flat,ns_per_op,339707097,
+512 Byte,easyjson/fast go1.27,unmarshal,flat,bytes_per_op,1192,
+8 KiB,easyjson/fast go1.27,unmarshal,flat,bytes_per_op,18136,
+64 KiB,easyjson/fast go1.27,unmarshal,flat,bytes_per_op,146232,
+512 KiB,easyjson/fast go1.27,unmarshal,flat,bytes_per_op,1834329,
+2 MiB,easyjson/fast go1.27,unmarshal,flat,bytes_per_op,7698138,
+8 MiB,easyjson/fast go1.27,unmarshal,flat,bytes_per_op,33176921,
+64 MiB,easyjson/fast go1.27,unmarshal,flat,bytes_per_op,315436627,
+512 Byte,easyjson/fast go1.27,unmarshal,flat,allocs_per_op,20,
+8 KiB,easyjson/fast go1.27,unmarshal,flat,allocs_per_op,216,
+64 KiB,easyjson/fast go1.27,unmarshal,flat,allocs_per_op,1653,
+512 KiB,easyjson/fast go1.27,unmarshal,flat,allocs_per_op,13128,
+2 MiB,easyjson/fast go1.27,unmarshal,flat,allocs_per_op,52454,
+8 MiB,easyjson/fast go1.27,unmarshal,flat,allocs_per_op,209747,
+64 MiB,easyjson/fast go1.27,unmarshal,flat,allocs_per_op,1677762,
+512 Byte,easyjson/fast go1.27,unmarshal,nested,ns_per_op,3897,
+8 KiB,easyjson/fast go1.27,unmarshal,nested,ns_per_op,44990,
+64 KiB,easyjson/fast go1.27,unmarshal,nested,ns_per_op,317212,
+512 KiB,easyjson/fast go1.27,unmarshal,nested,ns_per_op,2517810,
+2 MiB,easyjson/fast go1.27,unmarshal,nested,ns_per_op,10059127,
+8 MiB,easyjson/fast go1.27,unmarshal,nested,ns_per_op,35959804,
+64 MiB,easyjson/fast go1.27,unmarshal,nested,ns_per_op,231167250,
+512 Byte,easyjson/fast go1.27,unmarshal,nested,bytes_per_op,2376,
+8 KiB,easyjson/fast go1.27,unmarshal,nested,bytes_per_op,25624,
+64 KiB,easyjson/fast go1.27,unmarshal,nested,bytes_per_op,193032,
+512 KiB,easyjson/fast go1.27,unmarshal,nested,bytes_per_op,1502488,
+2 MiB,easyjson/fast go1.27,unmarshal,nested,bytes_per_op,5498153,
+8 MiB,easyjson/fast go1.27,unmarshal,nested,bytes_per_op,20535562,
+64 MiB,easyjson/fast go1.27,unmarshal,nested,bytes_per_op,193019080,
+512 Byte,easyjson/fast go1.27,unmarshal,nested,allocs_per_op,53,
+8 KiB,easyjson/fast go1.27,unmarshal,nested,allocs_per_op,585,
+64 KiB,easyjson/fast go1.27,unmarshal,nested,allocs_per_op,3898,
+512 KiB,easyjson/fast go1.27,unmarshal,nested,allocs_per_op,31103,
+2 MiB,easyjson/fast go1.27,unmarshal,nested,allocs_per_op,117398,
+8 MiB,easyjson/fast go1.27,unmarshal,nested,allocs_per_op,471807,
+64 MiB,easyjson/fast go1.27,unmarshal,nested,allocs_per_op,3619671,
