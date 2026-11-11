@@ -1,9 +1,0 @@
-go version go1.27.0 darwin/arm64
-darwin
-arm64
-
-v8.0
-GOMAXPROCS=1
-COUNT=3
-BENCHTIME=1s
-Apple M1 Pro
